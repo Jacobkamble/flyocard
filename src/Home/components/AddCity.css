@@ -1,0 +1,78 @@
+.searchBlockAddCity {
+  position: relative;
+  border: 1px solid #e7e7e7;
+  border-radius: 1rem;
+  display: flex;
+  height: 20.5vh;
+  width: 64vw;
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+  .searchBlockAddCity {
+    flex-direction: column;
+    height: 26rem;
+    width: max-content;
+    border: 1px solid #e7e7e7;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .searchBlockAddCity {
+    flex-direction: column;
+    height: 26rem;
+    width: max-content;
+    border: 1px solid #e7e7e7;
+  }
+}
+@media screen and (max-width: 840px) {
+  .searchBlockAddCity {
+    flex-direction: column;
+    height: 26rem;
+    width: max-content;
+    border: 1px solid #e7e7e7;
+  }
+}
+@media screen and (max-width: 770px) {
+  .searchBlockAddCity {
+    flex-direction: column;
+    height: 26rem;
+    width: max-content;
+    border: 1px solid #e7e7e7;
+  }
+}
+@media screen and (max-width: 480px) {
+  .searchBlockAddCity {
+    flex-direction: column;
+    height: 26rem;
+    width: max-content;
+    border: 1px solid #e7e7e7;
+  }
+}
+@media screen and (max-width: 420px) {
+  .searchBlockAddCity {
+    flex-direction: column;
+    height: 26rem;
+    width: max-content;
+  }
+}
+@media screen and (max-width: 380px) {
+  .searchBlockAddCity {
+    flex-direction: column;
+    height: 26rem;
+    width: max-content;
+  }
+}
+@media screen and (max-width: 360px) {
+  .searchBlockAddCity {
+    flex-direction: column;
+    height: 26rem;
+    width: max-content;
+  }
+}
+@media screen and (max-width: 320px) {
+  .searchBlockAddCity {
+    flex-direction: column;
+    height: 26rem;
+    width: max-content;
+  }
+}

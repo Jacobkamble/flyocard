@@ -1,0 +1,41 @@
+[
+    {
+    
+      "city": "Los Angeles",
+      "title": "Los Angeles International Airport",
+      "code": "LAX"
+    },
+    {
+      "city": "Dallas",
+      "title": "Dallas/Fort Worth International Airport",
+      "code": "DFW"
+    },
+    {
+        "city": "New York City",
+      "title": "John F. Kennedy International Airport",
+      "code": "JFK"
+    },
+    { "city": "Denver", "title": "Denver International Airport", "code": "DEN" },
+    {
+        "city": "Atlanta",
+      "title": "Hartsfield-Jackson International Airport",
+      "code": "ATL"
+    },
+    {
+        "city": "Seattle",
+      "title": "Seattle–Tacoma International Airport",
+      "code": "SEA"
+    },
+    { "city": "Miami", "title": "Miami International Airport", "code": "MIA" },
+    {
+        "city": "San Francisco",
+      "title": "San Francisco International Airport",
+      "code": "SFO"
+    },
+    { "city": "Detroit", "title": "Detroit Metropolitan Airport", "code": "DTW" },
+    {
+        "city": "Salt Lake City",
+        "title": "Salt Lake City International Airport",
+      "code": "SLC"
+    }
+  ]

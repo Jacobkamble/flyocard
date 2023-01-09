@@ -1,0 +1,270 @@
+.priceDetailHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 14% 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+.btn{
+  border: none;
+  font-size: 1rem;
+}
+.priceDetailCurrency {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.priceBreakDown {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  border-radius: 0.5rem;
+}
+.priceBreakDownHeaders {
+  display: flex;
+  justify-content: space-evenly;
+}
+.priceBreakDownHeader1 {
+  width: 40%;
+  font-size: 0.8rem;
+}
+.priceBreakDownHeader2 {
+  width: 40%;
+  font-size: 0.8rem;
+}
+
+.priceBreakDownHeader3 {
+  width: 20%;
+  font-size: 0.8rem;
+}
+.priceForAdult {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.priceForChildren {
+  display: flex;
+  justify-content: space-evenly;
+}
+.priceForInfant {
+  display: flex;
+  justify-content: space-evenly;
+}
+.travellerCount {
+  width: 40%;
+  font-size: 0.8rem;
+  text-align: left;
+}
+.pricePerPerson {
+  width: 40%;
+  font-size: 0.8rem;
+  text-align: left;
+}
+.totalPrice {
+  width: 20%;
+  font-size: 0.8rem;
+  text-align: left;
+}
+.totalAmount {
+  display: flex;
+  background-color: #a4d3e7;
+  padding: 0.3rem 0rem 0.3rem 0.3rem;
+  border-radius: 0.5rem;
+}
+.totalAmountHeader {
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 70%;
+  text-align: left;
+}
+.totalAmountText {
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 30%;
+  text-align: center;
+}
+.selectedPackage {
+  display: flex;
+  border-top: 1px dashed #bebdbd;
+  border-bottom: 1px dashed #bebdbd;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0.3rem 0 0.3rem 0;
+}
+.packageName {
+  width: 80%;
+  font-size: 0.8rem;
+  text-align: left;
+}
+.packagePrice {
+  width: 20%;
+  font-size: 0.8rem;
+  text-align: left;
+}
+@media screen and (max-width: 1370px) {
+  .priceDetailHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding: 0.5rem 1.8rem 0.5rem 0.5rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #fff;
+    border-radius: 0.5rem;
+  }
+  .priceBreakDown {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+  }
+  .priceBreakDownHeaders {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .priceBreakDownHeader1 {
+    width: 40%;
+    font-size: 0.8rem;
+  }
+  .priceBreakDownHeader2 {
+    width: 40%;
+    font-size: 0.8rem;
+  }
+
+  .priceBreakDownHeader3 {
+    width: 20%;
+    font-size: 0.8rem;
+  }
+  .priceForAdult {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .priceForChildren {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .priceForInfant {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .travellerCount {
+    width: 40%;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .pricePerPerson {
+    width: 40%;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .totalPrice {
+    width: 20%;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .totalAmount {
+    display: flex;
+    background-color: #a4d3e7;
+    padding: 0.3rem 0rem 0.3rem 0.3rem;
+    border-radius: 0.5rem;
+  }
+  .totalAmountHeader {
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 70%;
+    text-align: left;
+  }
+  .totalAmountText {
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 30%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .PriceDetailsContainer {
+  }
+
+  .priceDetailHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding: 0.5rem 1.8rem 0.5rem 0.5rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #fff;
+    border-radius: 0.5rem;
+  }
+  .priceBreakDown {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+  }
+  .priceBreakDownHeaders {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .priceBreakDownHeader1 {
+    width: 40%;
+    font-size: 0.8rem;
+  }
+  .priceBreakDownHeader2 {
+    width: 40%;
+    font-size: 0.8rem;
+  }
+
+  .priceBreakDownHeader3 {
+    width: 20%;
+    font-size: 0.8rem;
+  }
+  .priceForAdult {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .priceForChildren {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .priceForInfant {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .travellerCount {
+    width: 40%;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .pricePerPerson {
+    width: 40%;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .totalPrice {
+    width: 20%;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .totalAmount {
+    display: flex;
+    background-color: #a4d3e7;
+    padding: 0.3rem 0rem 0.3rem 0.3rem;
+    border-radius: 0.5rem;
+  }
+  .totalAmountHeader {
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 70%;
+    text-align: left;
+  }
+  .totalAmountText {
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 30%;
+    text-align: center;
+  }
+}

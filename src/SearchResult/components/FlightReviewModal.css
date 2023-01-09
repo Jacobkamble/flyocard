@@ -1,0 +1,392 @@
+.flightReviewModalWrapper {
+  position: fixed;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+.flightReviewModalHeader {
+  display: flex;
+  height: 2.8rem;
+}
+.flightReviewModalHeaderBackBtn {
+  padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+  margin: 0.2rem 0 0 0.4rem;
+  height: max-content;
+  align-self: center;
+}
+.flightReviewModalHeaderTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  width: 60%;
+  text-align: center;
+  align-self: center;
+  margin: 0 0 0 3rem;
+}
+
+.flightReviewModalFlightTitleContainer {
+  display: flex;
+  height: 2.6rem;
+  margin: 1rem 0 0 0;
+  background-color: #fff;
+}
+.flightReviewModalFlightTitle {
+  font-size: 1.2rem;
+  width: 45%;
+  margin: 0 0 0 0.88rem;
+  text-align: center;
+  align-self: center;
+  font-weight: 600;
+  transition: all 600ms ease;
+  border-bottom: 0.18rem solid transparent;
+  box-shadow: 0 8px 6px -8px rgb(0 0 0 / 20%);
+}
+.flightReviewModalFlightTitle.selected {
+  border-bottom: 0.18rem solid #60bde5;
+}
+
+.flightReviewModalCard {
+  width: 95%;
+  margin: 2rem 0 0 0.8rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.flightReviewModalCardHeader {
+  background-color: #60bde5;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+.flightReviewModalCardBody {
+  height: max-content;
+}
+.flightItenarayBlock {
+  display: flex;
+}
+.flightReviewModalDepartureDescription {
+  padding: 0.5rem;
+  width: 32%;
+}
+.flightReviewModalDuration {
+  flex: 2;
+}
+
+.flightReviewModalDestinationDescription {
+  padding: 0.5rem;
+  width: 32%;
+  text-align: end;
+}
+
+.flightTime {
+  font-size: 1.8rem;
+}
+.flightDate {
+  font-size: 0.66rem;
+  color: #4c4c4c;
+}
+.airportCity {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.flightAirportName {
+  font-size: 0.6rem;
+  color: #4c4c4c;
+}
+.airportTerminal {
+  font-size: 0.6rem;
+  color: #4c4c4c;
+}
+
+.flightReviewModalDuration {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 0.2rem;
+}
+.flightDuration {
+  margin-top: 1.2rem;
+}
+
+.flightAirlineDescription {
+  display: flex;
+
+  margin: 1rem 0 0 0;
+}
+.flightAirlineLogoImgTag {
+  margin: 0.4rem 0 0 0.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 0.3rem;
+}
+.flightAirlineName {
+  font-size: 1.1rem;
+  align-self: center;
+  margin: 0 0 0 0.6rem;
+  font-weight: 800;
+  color: #4c4c4c;
+}
+.offerPackage {
+  padding: 1rem;
+  width: 85%;
+  margin: 0 0 0.8rem 0.8rem;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.offerPackage1Header {
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.offerPackageService {
+  display: flex;
+  width: 100%;
+}
+.flightReviewModalPackagesTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+.flightReviewModalPackagesTitleParagraph {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: #4c4c4c;
+}
+.offerPackageServiceTitle {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 0.5rem;
+}
+.offerPackageServiceIcon {
+  padding: 0 1rem 0 0;
+}
+.fa-briefcase {
+  font-size: 1rem;
+  color: #60bde5;
+}
+.fa-suitcase-rolling {
+  font-size: 1rem;
+  color: #60bde5;
+  margin: 0 0 0 0.1rem;
+}
+.fa-undo {
+  font-size: 1rem;
+  color: #60bde5;
+}
+.fa-calendar {
+  font-size: 1rem;
+  color: #60bde5;
+}
+.offerPackageServiceIconSeatSvg {
+  height: 1.4rem;
+  color: #60bde5;
+}
+.offerPackageServiceLabel {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.offerPackageServiceDescription {
+  padding: 0.5rem;
+  text-align: left;
+  width: 50%;
+  font-size: 0.8rem;
+  color: #4c4c4c;
+}
+@media screen and (max-width: 420px) {
+  .flightReviewModalWrapper {
+    position: fixed;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+  }
+  .flightReviewModalHeader {
+    display: flex;
+    height: 2.8rem;
+  }
+  .flightReviewModalHeaderBackBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    margin: 0.2rem 0 0 0.4rem;
+    height: max-content;
+    align-self: center;
+  }
+  .flightReviewModalHeaderTitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 60%;
+    text-align: center;
+    align-self: center;
+    margin: 0 0 0 3rem;
+  }
+
+  .flightReviewModalFlightTitleContainer {
+    display: flex;
+    height: 2.6rem;
+    margin: 1rem 0 0 0;
+    background-color: #fff;
+  }
+  .flightReviewModalFlightTitle {
+    font-size: 1.2rem;
+    width: 45%;
+    margin: 0 0 0 0.88rem;
+    text-align: center;
+    align-self: center;
+    font-weight: 600;
+    transition: all 600ms ease;
+    border-bottom: 0.18rem solid transparent;
+    box-shadow: 0 8px 6px -8px rgb(0 0 0 / 20%);
+  }
+  .flightReviewModalFlightTitle.selected {
+    border-bottom: 0.18rem solid #60bde5;
+  }
+
+  .flightReviewModalCard {
+    width: 95%;
+    margin: 2rem 0 0 0.8rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .flightReviewModalCardHeader {
+    background-color: #60bde5;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.4rem 0.4rem 0 0;
+  }
+  .flightReviewModalCardBody {
+    height: max-content;
+  }
+  .flightItenarayBlock {
+    display: flex;
+  }
+  .flightReviewModalDepartureDescription {
+    padding: 0.5rem;
+    width: 32%;
+  }
+  .flightReviewModalDuration {
+    flex: 2;
+  }
+
+  .flightReviewModalDestinationDescription {
+    padding: 0.5rem;
+    width: 32%;
+    text-align: end;
+  }
+
+  .flightTime {
+    font-size: 1.8rem;
+  }
+  .flightDate {
+    font-size: 0.66rem;
+    color: #4c4c4c;
+  }
+  .airportCity {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .flightAirportName {
+    font-size: 0.6rem;
+    color: #4c4c4c;
+  }
+  .airportTerminal {
+    font-size: 0.6rem;
+    color: #4c4c4c;
+  }
+
+  .flightReviewModalDuration {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0.2rem;
+  }
+  .flightDuration {
+    margin-top: 1.2rem;
+  }
+
+  .flightAirlineDescription {
+    display: flex;
+
+    margin: 1rem 0 0 0;
+  }
+  .flightAirlineLogoImgTag {
+    margin: 0.4rem 0 0 0.4rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 0.3rem;
+  }
+  .flightAirlineName {
+    font-size: 1.1rem;
+    align-self: center;
+    margin: 0 0 0 0.6rem;
+    font-weight: 800;
+    color: #4c4c4c;
+  }
+  .offerPackage {
+    padding: 1rem;
+    width: 85%;
+    margin: 0 0 0.8rem 0.8rem;
+    border: 1px solid black;
+    border-radius: 6px;
+  }
+  .offerPackage1Header {
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .offerPackageService {
+    display: flex;
+    width: 100%;
+  }
+  .flightReviewModalPackagesTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  .flightReviewModalPackagesTitleParagraph {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #4c4c4c;
+  }
+  .offerPackageServiceTitle {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .offerPackageServiceIcon {
+    padding: 0 1rem 0 0;
+  }
+  .fa-briefcase {
+    font-size: 1rem;
+    color: #60bde5;
+  }
+  .fa-suitcase-rolling {
+    font-size: 1rem;
+    color: #60bde5;
+    margin: 0 0 0 0.1rem;
+  }
+  .fa-undo {
+    font-size: 1rem;
+    color: #60bde5;
+  }
+  .fa-calendar {
+    font-size: 1rem;
+    color: #60bde5;
+  }
+  .offerPackageServiceIconSeatSvg {
+    height: 1.4rem;
+    color: #60bde5;
+  }
+  .offerPackageServiceLabel {
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .offerPackageServiceDescription {
+    padding: 0.5rem;
+    text-align: left;
+    width: 50%;
+    font-size: 0.8rem;
+    color: #4c4c4c;
+  }
+}

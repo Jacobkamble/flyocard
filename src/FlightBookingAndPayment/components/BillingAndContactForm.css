@@ -1,0 +1,529 @@
+.mainContainer {
+  background-color: white;
+  margin: 1%;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  border-radius: 0.5rem;
+}
+
+.headingTextContainer {
+  padding: 1rem 1rem 0 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.formElement {
+  padding-left: 4rem;
+  margin-top: 1.5rem;
+}
+
+/*----------------------------------------------------country-------------------------------------------*/
+
+.countrySectionWrapper {
+  width: 50rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+.countrySection.Selected {
+  border-color: #46b2e0;
+}
+
+.countrySection.Selected.error {
+  border-color: red;
+}
+
+.countrySection.error {
+  border-color: red;
+}
+
+.countrySection {
+  width: 100%;
+  height: 2.4em;
+  border: 1.5px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  transition: all 400ms ease;
+}
+
+.countrySection select {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0.2rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 0.5rem;
+  font-size: 14px;
+}
+
+/*-----------------------------------------------Address--------------------------------------------*/
+
+.addressSectionWrapper {
+  width: 50rem;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.addressSection.Selected {
+  border-color: #46b2e0;
+}
+
+.addressSection.Selected.error {
+  border-color: red;
+}
+
+.addressSection.error {
+  border-color: red;
+}
+
+.addressSection {
+  width: 100%;
+  height: 2.4em;
+  border: 1.5px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  transition: all 400ms ease;
+}
+
+.addressSection input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0.2rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 0.5rem;
+  font-size: 14px;
+}
+
+/*------------------------------------------------------Zip------------------------------------------*/
+
+.zipSectionWrapper {
+  width: 50rem;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.zipSection.Selected {
+  border-color: #46b2e0;
+}
+
+.zipSection.Selected.error {
+  border-color: red;
+}
+
+.zipSection.error {
+  border-color: red;
+}
+
+.zipSection {
+  width: 100%;
+  height: 2.4em;
+  border: 1.5px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  transition: all 400ms ease;
+}
+
+.zipSection input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0.2rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 0.5rem;
+  font-size: 14px;
+}
+
+/*-------------------------------------------------------City------------------------------------------*/
+
+.citySectionWrapper {
+  width: 50rem;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.citySection.Selected {
+  border-color: #46b2e0;
+}
+
+.citySection.Selected.error {
+  border-color: red;
+}
+
+.citySection.error {
+  border-color: red;
+}
+
+.citySection {
+  width: 100%;
+  height: 2.4em;
+  border: 1.5px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  transition: all 400ms ease;
+}
+
+.citySection input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0.2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  border-radius: 0.5rem;
+}
+
+/*---------------------------------------------------------State--------------------------------------*/
+.stateSectionWrapper {
+  width: 50rem;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.stateSection.Selected {
+  border-color: rgb(171, 212, 224);
+}
+
+.stateSection.Selected.error {
+  border-color: red;
+}
+
+.stateSection.error {
+  border-color: red;
+}
+
+.stateSection {
+  width: 100%;
+  height: 2.4em;
+  border: 1.5px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  transition: all 400ms ease;
+}
+
+.stateSection input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0.2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  border-radius: 0.5rem;
+}
+
+/*---------------------------------------------------------Phone---------------------------------------*/
+
+.phoneSectionWrapper {
+  width: 50rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.phoneSection.Selected {
+  border-color: rgb(171, 212, 224);
+}
+
+.phoneSection.Selected.error {
+  border-color: red;
+}
+
+.phoneSection.error {
+  border-color: red;
+}
+
+.phoneSection {
+  width: 100%;
+  height: 2.4em;
+  border: 1.5px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  transition: all 400ms ease;
+}
+
+.phoneSection input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0.2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  border-radius: 0.5rem;
+}
+
+.errMessage {
+  color: red;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 420px) {
+  .mainContainer {
+    background-color: white;
+    margin: 1%;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+  }
+
+  .headingTextContainer {
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 0rem;
+  }
+
+  .formElement {
+    padding-left: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  /*---------------------------------------------------country---------------------------------*/
+
+  .countrySectionWrapper {
+    width: 20rem;
+    height: 3rem;
+    margin-top: 1rem;
+  }
+
+  .countrySection.Selected {
+    border-color: rgb(171, 212, 224);
+  }
+
+  .countrySection.Selected.error {
+    border-color: red;
+  }
+
+  .countrySection.error {
+    border-color: red;
+  }
+
+  .countrySection {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+
+  .countrySection input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0.2rem;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 0.5rem;
+  }
+
+  /*-------------------------------------------------------Address---------------------------------*/
+  .addressSectionWrapper {
+    width: 20rem;
+    height: 3rem;
+    margin-top: 2rem;
+  }
+
+  .addressSection.Selected {
+    border-color: rgb(171, 212, 224);
+  }
+
+  .addressSection.Selected.error {
+    border-color: red;
+  }
+
+  .addressSection.error {
+    border-color: red;
+  }
+
+  .addressSection {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+
+  .addressSection input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0.2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    border-radius: 0.5rem;
+  }
+  /*--------------------------------------------------------Zip-----------------------------------*/
+
+  .zipSectionWrapper {
+    width: 20rem;
+    height: 3rem;
+    margin-top: 3rem;
+  }
+
+  .zipSection.Selected {
+    border-color: rgb(171, 212, 224);
+  }
+
+  .zipSection.Selected.error {
+    border-color: red;
+  }
+
+  .zipSection.error {
+    border-color: red;
+  }
+
+  .zipSection {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+
+  .zipSection input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0.2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    border-radius: 0.5rem;
+  }
+
+  /*--------------------------------------city---------------------------------------*/
+
+  .citySectionWrapper {
+    width: 20rem;
+    height: 3rem;
+    margin-top: 2rem;
+  }
+
+  .citySection.Selected {
+    border-color: rgb(171, 212, 224);
+  }
+
+  .citySection.Selected.error {
+    border-color: red;
+  }
+
+  .citySection.error {
+    border-color: red;
+  }
+
+  .citySection {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+
+  .citySection input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0.2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    border-radius: 0.5rem;
+  }
+
+  /*------------------------------------------State---------------------------------*/
+
+  .stateSectionWrapper {
+    width: 20rem;
+    height: 3rem;
+    margin-top: 3rem;
+  }
+
+  .stateSection.Selected {
+    border-color: rgb(171, 212, 224);
+  }
+
+  .stateSection.Selected.error {
+    border-color: red;
+  }
+
+  .stateSection.error {
+    border-color: red;
+  }
+
+  .stateSection {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+
+  .stateSection input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0.2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    border-radius: 0.5rem;
+  }
+  /*------------------------------------------------Phone-----------------------------*/
+
+  .phoneSectionWrapper {
+    width: 20rem;
+    height: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .phoneSection.Selected {
+    border-color: rgb(171, 212, 224);
+  }
+
+  .phoneSection.Selected.error {
+    border-color: red;
+  }
+
+  .phoneSection.error {
+    border-color: red;
+  }
+
+  .phoneSection {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+
+  .phoneSection input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0.2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    border-radius: 0.5rem;
+  }
+}

@@ -1,0 +1,230 @@
+.userDashBoardWrapper {
+  margin: 5rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.userProfileNavSection {
+  position: fixed;
+  margin: 5rem 0 0 5rem;
+  padding: 6rem 0.5rem 2rem 0.5rem;
+  border-radius: 0.4rem;
+  width: 16%;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  height: max-content;
+}
+.userProfileWelcomeMsg {
+  display: none;
+  text-align: center;
+}
+.displayPicture {
+  position: absolute;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  width: 180px;
+  top: -30%;
+  left: -6.6%;
+  margin: 0 0 0 3rem;
+  border-radius: 0.5rem;
+  padding: 4rem 0 1.5rem 0;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    264deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 88%
+  );
+}
+.userProfileUserName {
+  text-align: center;
+  font-weight: 600;
+}
+.tierDisplay {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 1.8rem 0 0 0;
+}
+.userProfileInformation {
+  height: 15rem;
+}
+.userProfileNavBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  width: 100%;
+  height: max-content;
+}
+.navBtn {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin: 0 0 0.5rem 0;
+  color: black;
+  cursor: pointer;
+  transition: background-color 250ms ease-in;
+  user-select: none;
+}
+.navBtnDescription {
+  width: 80%;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navBtnDescription.selected {
+  color: #0d3c86;
+}
+.navBtn:hover {
+  background-color: #a4d3e7;
+}
+.navBtn.selected {
+  background-color: #a4d3e7;
+  color: #0d3c86;
+  margin: 0 0 1rem 0 0;
+}
+
+.navBtn .fa-briefcase {
+  width: 20%;
+  color: black;
+  font-size: 20px;
+}
+
+.navBtn.selected .fa-briefcase {
+  color: #0d3c86;
+}
+
+.navBtn .fa-user {
+  width: 20%;
+  font-size: 20px;
+}
+
+.navBtn .fa-gift {
+  width: 20%;
+  font-size: 20px;
+}
+.navBtn .fa-plane {
+  width: 20%;
+  font-size: 20px;
+}
+.navBtn .fa-sign-out-alt {
+  width: 20%;
+  font-size: 20px;
+}
+.userProfileInfoSection {
+  width: 65%;
+  margin: -1.9rem 0 0 25rem;
+  padding: 0.5rem;
+}
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .userDashBoardWrapper {
+    flex-direction: column;
+    margin: 4.4rem 0 0 0;
+  }
+  .displayPicture {
+    display: none;
+  }
+  .userProfileWrapper {
+    display: flex;
+    background-color: #eff3f8;
+  }
+  .userProfileInformation {
+    background-color: red;
+    height: 0rem;
+  }
+  .userProfileNavSection {
+    position: relative;
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 0rem;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    height: max-content;
+  }
+  .userProfileWelcomeMsg {
+    display: block;
+    text-align: center;
+    margin: -4.6rem 0 0 0;
+    background-color: #fff;
+  }
+  .userProfileUserName {
+    text-align: center;
+    background-color: #fff;
+    padding: 0.5rem;
+  }
+
+  .userProfileNavBar {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin: 0 0 0 0;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    width: 100%;
+  }
+  .userProfileNavBar:nth-child(1) {
+    margin: 0 0.3rem 0 0;
+  }
+  .navBtn {
+    margin: 0 0 0 0.3rem;
+    width: 25%;
+  }
+  .navBtnDescription {
+    display: none;
+  }
+  .navBtn.selected {
+    background-color: #a4d3e7;
+    color: black;
+  }
+
+  .navBtn .fa-briefcase {
+    margin: 0 0 0 1.9rem;
+    font-size: 20px;
+  }
+  .navBtn.selected .fa-briefcase {
+    color: black;
+  }
+
+  .navBtn .fa-user {
+    margin: 0 0 0 1.9rem;
+    font-size: 20px;
+  }
+
+  .navBtn .fa-gift {
+    margin: 0 0 0 1.9rem;
+    font-size: 20px;
+  }
+  .navBtn .fa-sign-out-alt {
+    margin: 0 0 0 1.9rem;
+    font-size: 20px;
+  }
+
+  .userProfileInfoSection {
+    width: 100%;
+    margin: 3.5rem 0 0 0;
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+}

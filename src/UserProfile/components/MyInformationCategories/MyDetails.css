@@ -1,0 +1,165 @@
+.myInfosWrapper {
+  margin: 1rem;
+}
+.display-inputRow {
+  display: flex;
+  width: 50%;
+  border: 1px solid #bebdbd;
+  border-radius: 0.4rem;
+  margin: 1rem 1rem 1rem 0;
+}
+.sigInInfoHeader {
+  font-size: 18px;
+  font-weight: 600;
+}
+.sigInInformationDisplay {
+  width: 70%;
+  padding: 0 0 0.5rem 0;
+  margin: 0 0 0.5rem 0;
+}
+.personalInfoHeader {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 1rem 0 0 0;
+  padding: 1rem 0 0 0;
+  border-top: 2px solid #bebdbd;
+}
+.personalInformationDisplay {
+  border-bottom: 2px solid #bebdbd;
+  padding: 1rem 10rem 1rem 0rem;
+}
+.firstAndMiddleNameDisplay {
+  display: flex;
+  padding: 0 0rem 0 0;
+  width: 100%;
+}
+
+.lastNameAndEmailDisplay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PhonenoDisplay {
+  display: flex;
+  justify-content: space-between;
+}
+.emailDisplay {
+  z-index: 100;
+}
+.contactInfoHeader {
+  margin: 1rem 0 0 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.contactInfoDisplay {
+  margin: 1rem 0 0 0;
+  border-bottom: 2px solid #bebdbd;
+}
+.contactInfoInputFieldRow {
+  display: flex;
+  padding: 0 0rem 0 0;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 0 1rem 0;
+}
+.myDetailsInputField {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  margin: 0rem 0 0 0rem;
+  border: none;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  padding: 0.2rem;
+}
+.label {
+  width: 35%;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  color: #565d63;
+  border-right: 1px solid #bebdbd;
+  font-size: 13px;
+  max-height: 3rem;
+}
+
+.text {
+  width: 80%;
+  padding: 0rem;
+  max-height: 3rem;
+}
+.myDetailsInfoDisplay {
+  padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+  font-size: 13px;
+}
+.CIcompulsouryMark {
+  color: red;
+}
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .sigInInformationDisplay {
+    width: 100%;
+    padding: 0 0 1rem 0;
+    margin: 0 0 1rem 0;
+  }
+
+  .personalInformationDisplay {
+    border-bottom: 2px solid #bebdbd;
+    padding: 1rem 0rem 1rem 0rem;
+  }
+  .firstAndMiddleNameDisplay {
+    flex-direction: column;
+  }
+  .display-inputRow {
+    width: 100%;
+    margin: 1rem 0 0rem 0;
+  }
+  .lastNameAndEmailDisplay {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .PhonenoDisplay {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contactInfoInputFieldRow {
+    flex-direction: column;
+  }
+  .label {
+    font-size: 12px;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    vertical-align: middle;
+    min-height: 2rem;
+  }
+  .text {
+    padding: 0 0 0 0.2rem;
+    font-size: 13px;
+    min-height: 2rem;
+  }
+  .myDetailsInfoDisplay {
+    padding: 0.9rem 0.5rem 0.5rem 0.5rem;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+}

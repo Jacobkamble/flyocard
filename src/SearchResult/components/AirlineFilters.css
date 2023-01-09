@@ -1,0 +1,95 @@
+.AirlinesFilterWrapper {
+  background-color: #fff;
+  display: flex;
+  margin: 0 0 1rem 0.6rem;
+  width: 93%;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.ScrollButtonWrapper {
+  position: absolute;
+  top: 245px;
+  left: 1370px;
+  display: flex;
+}
+.scrollPrev {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 0.3rem 0 0;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  transition: background-color 150ms ease-in;
+}
+.scrollPrev:hover {
+  background-color: #bbe3f5;
+}
+.scrollNext {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  transition: background-color 150ms ease-in;
+}
+.scrollNext:hover {
+  background-color: #bbe3f5;
+}
+
+.scrollNext.disabled {
+  opacity: 9;
+}
+.scrollNext.disabled :hover {
+  background-color: transparent;
+}
+.fa-chevron-left {
+  font-size: 1rem;
+  margin: 0.4rem 0 0 0.6rem;
+  font-weight: 500;
+}
+.fa-chevron-right {
+  font-size: 1rem;
+  margin: 0.4rem 0 0 0.8rem;
+  font-weight: 500;
+}
+.singleAirline {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  width: 85%;
+}
+
+.singleAirline::-webkit-scrollbar {
+  height: 0;
+}
+.AirlinesFilterControls {
+  width: 15%;
+}
+
+.allFaresFilter {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1.5rem 0 1.5rem 0;
+  color: grey;
+  border-right: 1px solid grey;
+}
+
+.nonStopFilter {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem 0 0.5rem 0;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  cursor: pointer;
+}
+
+.moreThen1StopFilter {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem 0 0.5rem 0;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  cursor: pointer;
+}

@@ -1,0 +1,158 @@
+.RewardDetailsContainer {
+  margin: 1rem 0 0 0;
+  padding: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  border-radius: 0.4rem;
+  height: max-content;
+}
+.flyoRewardsLogo {
+  padding: 1rem;
+  font-size: 22px;
+  font-weight: 600;
+  color: #093a6d;
+}
+.rewardslogoImgTag {
+  position: absolute;
+  top: 23%;
+  left: 31.8%;
+  height: 27px;
+  width: 80px;
+}
+.rewardslogoSpan {
+  font-size: 26px;
+  font-weight: 600;
+}
+.rewardsPointsAndTierDisplay {
+  width: 98%;
+  margin: 0 0 0.5rem 0.6rem;
+  display: flex;
+  border-radius: 0.4rem;
+  background-color: #022243;
+  color: #ffffff;
+}
+.rewardspointsDisplay {
+  width: 33%;
+  padding: 1.5rem 1rem 1rem 1rem;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border-right: 1px solid grey;
+}
+.rewardspointsDisplaySpan {
+  font-size: 16px;
+  font-weight: 100;
+}
+.rewardstierDisplay {
+  width: 33%;
+  padding: 1.5rem 1rem 1rem 1rem;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+  border-right: 1px solid grey;
+}
+.rewardstierDisplaySpan {
+  font-size: 18px;
+  font-weight: 600;
+}
+.rewardsMedalDisplay {
+  width: 33%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bronzeMedal {
+  padding: 1rem;
+  text-align: center;
+}
+.bronzeMedal .fa-medal {
+  color: #d4b863;
+  font-size: 28px;
+  margin: 0.7rem 0 0 0;
+}
+.silverMedal {
+  padding: 1rem;
+  text-align: center;
+}
+.silverMedal .fa-medal {
+  color: #dfdbdb;
+  font-size: 28px;
+  margin: 0.7rem 0 0 0;
+  opacity: 0.5;
+}
+.goldMedal {
+  padding: 1rem;
+  text-align: center;
+}
+.goldMedal .fa-medal {
+  color: #ffd700;
+  font-size: 28px;
+  margin: 0.7rem 0 0 0;
+  opacity: 0.5;
+}
+.platinumMedal {
+  padding: 1rem;
+  text-align: center;
+}
+.platinumMedal .fa-medal {
+  color: #c0beba;
+  font-size: 28px;
+  margin: 0.7rem 0 0 0;
+  opacity: 0.5;
+}
+.medalTierText {
+  margin: 0.5rem 0 0 0;
+  font-size: 14px;
+}
+.rewardsPrompt {
+  padding: 1rem;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .rewardsPointsAndTierDisplay {
+    position: relative;
+    left: 18%;
+  }
+  .rewardslogoImgTag {
+    position: absolute;
+    top: 29.8%;
+    left: 21%;
+    height: 27px;
+    width: 80px;
+  }
+  .rewardsPointsAndTierDisplay {
+    width: 60%;
+  }
+  .rewardspointsDisplay {
+    width: 100%;
+    border-bottom: 1px solid grey;
+  }
+  .rewardstierDisplay {
+    width: 100%;
+    border-bottom: 1px solid grey;
+  }
+  .rewardsPointsAndTierDisplay {
+    flex-direction: column;
+  }
+  .rewardsMedalDisplay {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+}

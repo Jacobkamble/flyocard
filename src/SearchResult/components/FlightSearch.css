@@ -1,0 +1,2100 @@
+.switchUpdateSearch {
+  height: 40px;
+  width: 40px;
+}
+.fas{
+  font-size: 1.4em;
+}
+.marg{
+  margin-left: 0.5em;
+  margin-right: 1em;
+}
+.editBtn {
+  display: none;
+}
+.d-flex{
+  justify-content: space-between;
+}
+.backBtn {
+  display: none;
+}
+.filtersContainer {
+  display: none;
+}
+.editSearchBlock {
+  display: none;
+}
+.tripDescriptionBlock {
+  display: flex;
+  flex-direction: column;
+  margin: 0.2rem 0 0 0rem;
+  height: max-content;
+  width: 16.5rem;
+}
+.tripDescription {
+  display: flex;
+}
+.aiportName1 {
+  padding: 0 0.5rem 0 0.5rem;
+}
+.itineraryDates {
+  display: flex;
+  width: 18rem;
+}
+.cityNameH1 {
+  margin: 0rem;
+  font-size: 1rem;
+}
+.datesH1 {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.travelllerCountDisplay {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.fa-arrow-right {
+  font-size: 0.9rem;
+  padding: 0 0.8rem 0 0.5rem;
+}
+.fa-exchange-alt {
+  font-size: 1rem;
+  padding: 0 0.8rem 0 0.5rem;
+}
+.displayTrip {
+  height: 1rem;
+}
+.itineraryDates {
+  margin: 0 0 0 0.5rem;
+}
+
+.twowayTripDateContainer {
+  display: none;
+}
+.SelectedFlightStatusContainerDesktop {
+  display: flex;
+  justify-content: space-around;
+  width: 94%;
+  margin: 1rem 0 0 2.4rem;
+  text-align: center;
+}
+.popularFiltersDesktop {
+  display: block;
+  margin: 0 0 1rem 0;
+}
+.popularFiltersMedia {
+  display: none;
+}
+.twowayDepcontainer {
+  width: 48%;
+  text-align: center;
+  margin: 0.3rem 0 0 0;
+}
+.twowayReturncontainer {
+  width: 48%;
+  text-align: center;
+  margin: 0.3rem 0 0 0;
+}
+.twowayTripDates {
+  font-size: 0.96rem;
+  font-weight: 600;
+  transition: background-color 400ms ease;
+  cursor: pointer;
+}
+
+.twowayTripDates.open {
+  background-color: #60bde5;
+  border-radius: 0.3rem;
+}
+.paraTwoway {
+  display: none;
+  margin: 0;
+}
+.paraTwowayReturn {
+  display: none;
+  margin: 0;
+}
+.paraTwoway.open {
+  color: grey;
+  font-weight: 600;
+  margin: 0 0 0 0.4rem;
+  display: block;
+  font-size: 0.7rem;
+  text-align: start;
+}
+.paraTwowayReturn.open {
+  color: grey;
+  font-weight: 600;
+  margin: 0 0.4rem 0 0;
+  display: block;
+  font-size: 0.7rem;
+  text-align: end;
+}
+.filtersWrapper {
+  top: 9rem;
+  width: 20%;
+  height: 75%;
+  margin: 0.5rem 0 0 0rem;
+}
+.departureFlightDetailsContainer {
+  display: none;
+}
+.returnFlightDetailsContainer {
+  display: none;
+}
+.FlightDetailsWrapperDesktop {
+  width: 70%;
+  justify-content: space-evenly;
+  margin: 0rem 0.2rem 1rem -8rem;
+}
+
+.FlightSearchDetailsContainerDesktop {
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 1rem 0.2rem 1rem 2rem;
+}
+.FlightDetailsContainerDesktop {
+  display: block;
+  top: 0rem;
+  width: 95%;
+  height: 77%;
+}
+.departureFlightDetailsContainerDesktopOneway {
+  display: block;
+  top: 0rem;
+  width: 60%;
+  height: 77%;
+  margin: 1rem 0.2rem 1rem -12rem;
+}
+.returnFlightDetailsContainerDesktop {
+  display: block;
+  top: 0rem;
+  width: 50%;
+  height: 77%;
+}
+
+.bookBtnContainer {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  bottom: 0.3rem;
+  width: 100%;
+  padding: 0.8rem 0 0.4rem 0.8rem;
+}
+
+.bookBtnLabel {
+  display: flex;
+  width: max-content;
+}
+.filter_FlightWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.multicityCallusBlock {
+  font-size: 4vh;
+  background-color: #ffff;
+  border-radius: 0.4rem;
+  margin: 15% 0 0 9%;
+  width: 80vw;
+  height: 25vh;
+  text-align: center;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.multicityCallusTitle {
+  padding: 5.5% 0 0 0;
+}
+@media screen and (max-width: 1370px) {
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .FlightDetailsContainerDesktop {
+    display: none;
+  }
+  .departureFlightDetailsContainer {
+    display: block;
+    position: fixed;
+    top: 9.2rem;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+  }
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    margin: 0.2rem 0 0 0.4rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  .tripDescription {
+    display: flex;
+    width: 100%;
+    margin: 0 10rem 0 0;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  .cityNameH1 {
+    margin: 0rem;
+    width: max-content;
+    font-size: 1.3rem;
+  }
+
+  .travelllerCountDisplay {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.8rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1.8rem;
+    padding: 0.2rem 0.8rem 0 0.2rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+
+  .editBtn {
+    padding: 0.2rem 1rem 0.1rem 0.4rem;
+    margin: 0 1.5rem 0 58rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+ /* .editIcon {
+    width: 1.8rem;
+    height: 2.8rem;
+    transition: all 200ms ease;
+  }*/
+
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+
+  .departureFlightDetailsContainer.check {
+    top: 13rem;
+    height: 79%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 5.4rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.8rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.8rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 3.2rem;
+    height: 2.8rem;
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon {
+    height: 2.2rem;
+    padding: 0.45rem 0 0 0.4rem;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .FlightDetailsContainerDesktop {
+    display: none;
+  }
+  .departureFlightDetailsContainer {
+    display: block;
+    position: fixed;
+    top: 9.2rem;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+  }
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    justify-content: unset;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    margin: 0.2rem 0 0 0.4rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  .tripDescription {
+    display: flex;
+    width: 100%;
+    margin: 0 10rem 0 0;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  .cityNameH1 {
+    margin: 0rem;
+    width: max-content;
+    font-size: 1.3rem;
+  }
+
+  .travelllerCountDisplay {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.8rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1.8rem;
+    padding: 0.2rem 0.8rem 0 0.2rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+
+  .editBtn {
+    padding: 0.2rem 1rem 0.1rem 0.4rem;
+    margin: 0 1.5rem 0 58rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  /*.editIcon {
+    width: 1.8rem;
+    height: 2.8rem;
+    transition: all 200ms ease;
+  }*/
+
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+
+  .departureFlightDetailsContainer.check {
+    top: 13rem;
+    height: 79%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 5.4rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.8rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.8rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 3.2rem;
+    height: 2.8rem;
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon {
+    height: 2.2rem;
+    padding: 0.45rem 0 0 0.4rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .d-flex {
+    margin-left: 36em;
+}
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .FlightDetailsContainerDesktop {
+    display: none;
+  }
+
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    justify-content: unset;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    margin: 0.2rem 0 0 0.4rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  .tripDescription {
+    display: flex;
+    width: 100%;
+    margin: 0 10rem 0 0;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  .cityNameH1 {
+    margin: 0rem;
+    width: max-content;
+    font-size: 1.3rem;
+  }
+
+  .travelllerCountDisplay {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.8rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1.8rem;
+    padding: 0.2rem 0.8rem 0 0.2rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+
+  .editBtn {
+    padding: 0.2rem 1rem 0.1rem 0.4rem;
+    margin: 0 0.2rem 0 36rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  /*.editIcon {
+    width: 1.8rem;
+    height: 2.8rem;
+    transition: all 200ms ease;
+  }*/
+
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+  .departureFlightDetailsContainer {
+    display: block;
+    position: fixed;
+    top: 9rem;
+    width: 99%;
+    height: 88%;
+    overflow-y: scroll;
+  }
+  .departureFlightDetailsContainer.check {
+    top: 13rem;
+    height: 72%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 5.4rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.4rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.8rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 2.8rem;
+    height: 2.8rem;
+     
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon{
+    height: 2.2rem;
+    padding: 0.45rem 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 555px)
+{.d-flex {
+    margin-left: 5em;
+}}
+@media screen and (max-width: 840px) {
+  .d-flex {
+    margin-left: 22em;
+}
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .FlightDetailsContainerDesktop {
+    display: none;
+  }
+
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    justify-content: unset;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    margin: 0.2rem 0 0 0.4rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  .tripDescription {
+    display: flex;
+    width: 100%;
+    margin: 0 10rem 0 0;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  .cityNameH1 {
+    margin: 0rem;
+    width: max-content;
+    font-size: 1.3rem;
+  }
+
+  .travelllerCountDisplay {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.8rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1.8rem;
+    padding: 0.2rem 0.8rem 0 0.2rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+
+  .editBtn {
+    padding: 0.2rem 1rem 0.1rem 0.4rem;
+    margin: 0 0.2rem 0 36rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  /*.editIcon {
+    width: 1.8rem;
+    height: 2.8rem;
+    transition: all 200ms ease;
+  }*/
+
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+  .departureFlightDetailsContainer {
+    display: block;
+    position: fixed;
+    top: 9.5rem;
+    width: 100%;
+    height: 89%;
+    overflow-y: scroll;
+  }
+  .departureFlightDetailsContainer.check {
+    top: 13rem;
+    height: 79%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 5.4rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.8rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.8rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 2.8rem;
+    height: 2.8rem;
+     
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon{
+    height: 2.2rem;
+    padding: 0.45rem 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .d-flex {
+    margin-left: 19em;
+}
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .FlightDetailsContainerDesktop {
+    display: none;
+  }
+
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    justify-content: unset;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    margin: 0.2rem 0 0 0.4rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  .tripDescription {
+    display: flex;
+    width: 100%;
+    margin: 0 10rem 0 0;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  .cityNameH1 {
+    margin: 0rem;
+    width: max-content;
+    font-size: 1.3rem;
+  }
+
+  .travelllerCountDisplay {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.8rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1.8rem;
+    padding: 0.2rem 0.8rem 0 0.2rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+
+  .editBtn {
+    padding: 0.2rem 1rem 0.1rem 0.4rem;
+    margin: 0 0.2rem 0 21rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+ /* .editIcon {
+    width: 1.8rem;
+    height: 2.8rem;
+    transition: all 200ms ease;
+  }*/
+
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+  .departureFlightDetailsContainer {
+    display: block;
+    position: fixed;
+    top: 9.5rem;
+    width: 100%;
+    height: 89%;
+    overflow-y: scroll;
+  }
+  .departureFlightDetailsContainer.check {
+    top: 13rem;
+    height: 79%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 5.4rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.2rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.8rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 2.8rem;
+    height: 2.8rem;
+     
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon{
+    height: 2.2rem;
+    padding: 0.45rem 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 670px) {
+  .d-flex {
+    margin-left: 10em;
+}
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .FlightDetailsContainerDesktop {
+    display: none;
+  }
+
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    justify-content: unset;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    margin: 0.2rem 0 0 0.4rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  .tripDescription {
+    display: flex;
+    width: 100%;
+    margin: 0 10rem 0 0;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  .cityNameH1 {
+    margin: 0rem;
+    width: max-content;
+    font-size: 1.3rem;
+  }
+
+  .travelllerCountDisplay {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.8rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1.8rem;
+    padding: 0.2rem 0.8rem 0 0.2rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+
+  .editBtn {
+    padding: 0.2rem 1rem 0.1rem 0.4rem;
+    margin: 0 0.2rem 0 21rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  /*.editIcon {
+    width: 1.8rem;
+    height: 2.8rem;
+    transition: all 200ms ease;
+  }*/
+
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+  .departureFlightDetailsContainer {
+    display: block;
+    position: fixed;
+    top: 9.5rem;
+    width: 100%;
+    height: 89%;
+    overflow-y: scroll;
+  }
+  .departureFlightDetailsContainer.check {
+    top: 13rem;
+    height: 79%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 5.4rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.2rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.8rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 2.8rem;
+    height: 2.8rem;
+     
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon {
+    height: 2.2rem;
+    padding: 0.45rem 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .d-flex {
+    margin-left: 0em;
+}
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.2rem 0 0.2rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    margin: 0.2rem 0 0 0.2rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+  .tripDescriptionBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem 0 0 0rem;
+    height: max-content;
+    width: 16.5rem;
+    background-color: #fff;
+  }
+  .tripDescription {
+    display: flex;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .itineraryDates {
+    display: flex;
+    width: 18rem;
+  }
+  .cityNameH1 {
+    margin: 0rem;
+    font-size: 0.85rem;
+  }
+  .datesH1 {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .travelllerCountDisplay {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.9rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+  .itineraryDates {
+    margin: 0 0 0 0.5rem;
+  }
+
+  .editBtn {
+    padding: 0.6rem 1rem 0.1rem 0.4rem;
+    margin: 0 0 0 1.2rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+ /* .editIcon {
+    width: 1.3rem;
+    height: 1.4rem;
+    transition: all 200ms ease;
+  }*/
+
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+
+  .departureFlightDetailsContainer {
+    position: fixed;
+    top: 7rem;
+    width: 100%;
+    height: 88%;
+    overflow-y: scroll;
+  }
+  .departureFlightDetailsContainer.check {
+    top: 10.1rem;
+    height: 82%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 4.2rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.35rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.2rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 2.2rem;
+    height: 2.2rem;
+     
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon {
+    height: 1.7rem;
+    padding: 0.45rem 0 0 0.45rem;
+  }
+  .flightReviewModalContainer {
+    position: fixed;
+    bottom: 10rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .d-flex {
+    margin-left: 0em;
+}
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0rem 0rem 0rem;
+    margin: 0;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+  .tripDescriptionBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem 0 0 0rem;
+    height: max-content;
+    width: 15rem;
+    background-color: #fff;
+  }
+  .tripDescription {
+    display: flex;
+    margin: 0;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .itineraryDates {
+    display: flex;
+    width: 10rem;
+  }
+  .cityNameH1 {
+    margin: 0rem;
+    font-size: 0.85rem;
+  }
+  .datesH1 {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .travelllerCountDisplay {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.9rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+  .itineraryDates {
+    margin: 0 0 0 0.5rem;
+  }
+
+  .editBtn {
+    padding: 0.6rem 0rem 0.1rem 0.4rem;
+    margin: 0 0rem 0 0rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+ /* .editIcon {
+    width: 1.3rem;
+    height: 1.4rem;
+    transition: all 200ms ease;
+  }*/
+
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+
+  .departureFlightDetailsContainer {
+    position: fixed;
+    top: 7rem;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+  }
+  .departureFlightDetailsContainer.check {
+    top: 10.5rem;
+    height: 78%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 4.2rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.25rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.2rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 1.8rem;
+    height: 1.8rem;
+     
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon {
+    height: 1.4rem;
+    padding: 0.4rem 0 0 0.4rem;
+  }
+  .flightReviewModalContainer {
+    position: fixed;
+    bottom: 10rem;
+  }
+  .searchBlockMobileMenu .fa-times {
+    margin: 0.2rem 0 0 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  .d-flex {
+    margin-left: -5em;
+}
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    margin: 0.2rem 0 0 0.4rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+  .tripDescriptionBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0 0 0rem;
+    height: max-content;
+    width: 14.5rem;
+    background-color: #fff;
+  }
+  .tripDescription {
+    display: flex;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .itineraryDates {
+    display: flex;
+    width: 18rem;
+  }
+  .cityNameH1 {
+    margin: 0rem;
+    font-size: 0.85rem;
+  }
+  .datesH1 {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .travelllerCountDisplay {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.9rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+  .itineraryDates {
+    margin: 0 0 0 0.5rem;
+  }
+
+  .editBtn {
+    padding: 0.6rem 1rem 0.1rem 0.4rem;
+    margin: 0 0 0 0.2rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+ /* .editIcon {
+    width: 1.3rem;
+    height: 1.4rem;
+    transition: all 200ms ease;
+  }*/
+
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+
+  .departureFlightDetailsContainer {
+    position: fixed;
+    top: 7rem;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+  }
+  .departureFlightDetailsContainer.check {
+    top: 10.1rem;
+    height: 78%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 4.2rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.35rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.2rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 2.2rem;
+    height: 2.2rem;
+     
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon {
+    height: 1.7rem;
+    padding: 0.45rem 0 0 0.45rem;
+  }
+  .flightReviewModalContainer {
+    position: fixed;
+    bottom: 10rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    margin: 0.2rem 0 0 0.4rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+  .tripDescriptionBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0 0 0rem;
+    height: max-content;
+    width: 14.5rem;
+    background-color: #fff;
+  }
+  .tripDescription {
+    display: flex;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .itineraryDates {
+    display: flex;
+    width: 18rem;
+  }
+  .cityNameH1 {
+    margin: 0rem;
+    font-size: 0.85rem;
+  }
+  .datesH1 {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .travelllerCountDisplay {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.9rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+  .itineraryDates {
+    margin: 0 0 0 0.5rem;
+  }
+
+  .editBtn {
+    padding: 0.6rem 1rem 0.1rem 0.4rem;
+    margin: 0 0 0 0.2rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+ /* .editIcon {
+    width: 1.3rem;
+    height: 1.4rem;
+    transition: all 200ms ease;
+  }
+*/
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+
+  .departureFlightDetailsContainer {
+    position: fixed;
+    top: 7rem;
+    width: 100%;
+    height: 84%;
+    overflow-y: scroll;
+  }
+  .departureFlightDetailsContainer.check {
+    top: 10.4rem;
+    height: 75%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 4.2rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.35rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.2rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 2.2rem;
+    height: 2.2rem;
+     
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon {
+    height: 1.7rem;
+    padding: 0.45rem 0 0 0.45rem;
+  }
+  .flightReviewModalContainer {
+    position: fixed;
+    bottom: 10rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .editSearchBlockDesktop {
+    display: none;
+  }
+  .filtersWrapper {
+    display: none;
+  }
+  .airlineFilterContainerDesktop {
+    display: none;
+  }
+
+  .SelectedFlightStatusContainerDesktop {
+    display: none;
+  }
+  .UpdateSearchBlock {
+    background-color: #ffff;
+    height: max-content;
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+
+  .editSearchBlock {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .backBtn {
+    padding: 0.5rem 0.6rem 0.5rem 0.2rem;
+    margin: 0.2rem 0 0 0rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+  .fa-arrow-left {
+    font-size: 1.2rem;
+    color: black;
+  }
+  .tripDescriptionBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem 0 0 0rem;
+    height: max-content;
+    width: 15rem;
+  }
+  .tripDescription {
+    display: flex;
+  }
+  .aiportName1 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .itineraryDates {
+    display: flex;
+    width: 18rem;
+  }
+  .cityNameH1 {
+    margin: 0rem;
+    font-size: 0.85rem;
+  }
+  .datesH1 {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .travelllerCountDisplay {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .fa-arrow-right {
+    font-size: 0.9rem;
+    padding: 0 0.8rem 0 0.5rem;
+  }
+  .fa-exchange-alt {
+    font-size: 1rem;
+    padding: 0 0.5rem 0 0rem;
+  }
+  .displayTrip {
+    height: 1rem;
+  }
+  .itineraryDates {
+    margin: 0 0 0 0.5rem;
+  }
+
+  .editBtn {
+    padding: 0.6rem 0rem 0.1rem 0.4rem;
+    margin: 0 0 0 -2rem;
+    height: max-content;
+    align-self: center;
+    display: block;
+  }
+ /* .editIcon {
+    width: 1.2rem;
+    height: 1.4rem;
+    transition: all 200ms ease;
+  }
+*/
+  .modalOverLay {
+    background: rgba(158, 155, 155, 0.493);
+    top: -0.1%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: all 1.2s;
+  }
+  .modalContainer {
+    transition: all 1.3s ease;
+  }
+
+  .departureFlightDetailsContainer {
+    position: fixed;
+    top: 7rem;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+  }
+  .departureFlightDetailsContainer.check {
+    top: 10.1rem;
+    height: 70%;
+  }
+  .popularFiltersDesktop {
+    display: none;
+  }
+  .popularFiltersMedia {
+    display: block;
+    position: fixed;
+    top: 4.2rem;
+    width: 100%;
+  }
+  .SelectedFlightStatusContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0.35rem;
+    text-align: center;
+  }
+
+  .SelectedFlightStatusContainer.open {
+    display: block;
+    position: fixed;
+    top: 4.2rem;
+  }
+  .returnFlightDetailsContainer {
+    position: fixed;
+    top: 9rem;
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+  }
+  .returnFlightDetailsContainer.open {
+    width: 100%;
+    position: fixed;
+  }
+
+  .filtersContainer {
+    align-self: center;
+    width: 1.8rem;
+    height: 1.8rem;
+     
+    border-radius: 100%;
+    display: block;
+  }
+
+  .filterIcon {
+    height: 1.5rem;
+    padding: 0.35rem 0 0 0.35rem;
+  }
+  .flightReviewModalContainer {
+    position: fixed;
+    bottom: 10rem;
+  }
+}

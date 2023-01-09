@@ -1,0 +1,116 @@
+.tripDetailsNav {
+  display: none;
+  position: fixed;
+}
+.tripDetailsWrapper {
+  width: 100%;
+}
+.tripsNavigationDesktop {
+  width: 100%;
+  background-color: #fff;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.tripsCategoryWrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 16px;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+}
+.tripsCategoryDesktop {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 250ms ease-in;
+  user-select: none;
+}
+
+.tripsCategoryDesktop.selected {
+  background-color: #a4d3e7;
+  color: #0d3c86;
+}
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .tripsNavigationDesktop {
+    display: none;
+  }
+
+  .tripDetailsNav {
+    width: 96%;
+    display: flex;
+    background-color: #fff;
+    padding: 0.6rem 0 0.6rem 0;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .CurrentTripDisplay {
+    text-align: center;
+    font-size: 18px;
+    width: 50%;
+    margin: 0 0 0 0.5rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    background-color: #a4d3e7;
+  }
+
+  .tripDetailsHamburger {
+    text-align: right;
+    padding: 0 1.5rem 0 0;
+    width: 50%;
+    max-height: 24px;
+    user-select: none;
+  }
+  .tripDetailsHamburger .fa-chevron-down {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+    user-select: none;
+  }
+
+  .tripDetailsHamburger .fa-chevron-up {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+    user-select: none;
+  }
+  .tripsDropDown {
+    margin: 0.2rem 0 0 0;
+    background-color: #fff;
+    border-radius: 0.2rem 0.2rem 0.4rem 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .tripsCategory {
+    font-size: 16px;
+    margin: 0.2rem 0 0.2rem 0;
+    border-bottom: 0.001rem solid #cfd1d5;
+    cursor: pointer;
+    padding: 0.8rem 0.5rem 0.8rem 0.5rem;
+  }
+  .upcomingTripsWrapper {
+    margin: 1rem 0 0 0;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+}

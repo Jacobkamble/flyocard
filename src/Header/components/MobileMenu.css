@@ -1,0 +1,107 @@
+.mobileMenuOverlay {
+  background-color: #404040;
+  position: absolute;
+  top: 7.5%;
+  right: 0%;
+  height: 120%;
+  width: 100%;
+  z-index: 10;
+}
+
+.mobileMenuContainer {
+  background-color: #eff3f8;
+  position: absolute;
+  top: 7.5%;
+  right: 0%;
+  height: 120%;
+  width: 90%;
+  z-index: 10;
+  padding: 0.5rem;
+}
+.signInOptionContainer {
+  background-color: #fff;
+  height: 8%;
+  padding: 1rem 2rem 4rem 2rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.signInBtn {
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #0d3c86;
+}
+.signInBtn:hover {
+  background-color: #184fa7;
+  cursor: pointer;
+}
+.verifiedUserDetails {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+.userDashLinkMobileMenu {
+  text-decoration: none;
+  color: black;
+}
+.userTier .fa-trophy {
+  font-size: 18px;
+  color: #cd7f32;
+}
+.optionTitle {
+  width: 70%;
+}
+
+.mobileMenuCurrencyConverterContainer {
+  margin: 0.5rem 0 0 0;
+  padding: 0.7rem 0 0.7rem 0;
+  border-radius: 0.2rem;
+  text-align: left;
+  background-color: #fff;
+  font-weight: 600;
+  height: 5%;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  cursor: pointer;
+}
+.currencyIconWrapper {
+  width: 25%;
+  text-align: center;
+}
+.mobileMenuCurrencyConverterContainer .fa-dollar-sign {
+  padding: 0;
+  font-size: 16px;
+}
+
+.mobileMenuCurrencyConverterContainer .fa-arrow-right {
+  padding: 0;
+  font-size: 12px;
+}
+
+.mobileMenuCurrencyConverterContainer .fa-question {
+  padding: 0;
+  font-size: 14px;
+}
+
+.signOutOptionContainer {
+  margin: 0.5rem 0 0 0;
+  padding: 0.7rem 0 0.7rem 1rem;
+  border-radius: 0.2rem;
+  text-align: left;
+  background-color: #fff;
+  font-weight: 600;
+  height: 5%;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  cursor: pointer;
+}
+.signoutIcon {
+  text-align: center;
+  width: 20%;
+}
+.signoutIcon .fa-sign-out-alt {
+  font-size: 17px;
+}

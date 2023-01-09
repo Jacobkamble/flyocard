@@ -1,0 +1,557 @@
+.DatePicker__input {
+  position: relative;
+  z-index: 0;
+}
+
+.responsive-calendar {
+  /* by setting font-size, all the elements will correspond */
+  font-size: 12px !important; /* default to 10px */
+}
+
+.responsive-calendarOne {
+  /* by setting font-size, all the elements will correspond */
+  font-size: 12px !important; /* default to 10px */
+}
+.my-custom-input-class {
+  text-align: center;
+  outline: none;
+  width: 13.5rem;
+  height: 2.2rem;
+  border: none;
+  padding: 0.4rem 0 0 0;
+  margin: 1rem 0 0.3rem 0.2rem;
+  transition: all 600ms ease;
+  border-radius: 1rem;
+  line-height: 1;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+}
+.calenderContainerOne {
+  width: 100%;
+  position: relative;
+  left: -2rem;
+  top: -6rem;
+  /* z-index: 7; */
+}
+.calenderContainer {
+  width: 100%;
+  position: relative;
+  left: 1rem;
+  top: -6rem;
+  height: 100%;
+  /* z-index: 4; */
+}
+.my-custom-input-class::placeholder {
+  font-size: 1rem;
+  color: #949494;
+}
+.my-custom-input-class:hover {
+  background-color: #a4d3e7;
+}
+.labelH3 {
+  margin: 0.5rem 0.5rem 0 0.6rem;
+  font-size: 0.89rem;
+  width: 18ch;
+}
+
+.returnPlaceholder {
+  font-size: 1.02rem;
+  margin-top: 0.2rem;
+}
+
+.dateContainer {
+  margin-left: 1.2rem;
+}
+
+.dayOfWeekDisplay {
+  margin: 0px;
+  font-size: 1rem;
+  color: #818181;
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+  .DatePicker__input {
+    position: relative;
+    z-index: 0;
+  }
+  
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 12px !important; /* default to 10px */
+  }
+  
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 12px !important; /* default to 10px */
+  }
+  .my-custom-input-class {
+    text-align: center;
+    outline: none;
+    width: 13.5rem;
+    height: 2.2rem;
+    border: none;
+    padding: 0.4rem 0 0 0;
+    margin: 1rem 0 0.3rem 0.2rem;
+    transition: all 600ms ease;
+    border-radius: 1rem;
+    line-height: 1;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+  }
+  .calenderContainerOne {
+    width: 100%;
+    position: relative;
+    left: -2rem;
+    top: -6rem;
+  }
+  .calenderContainer {
+    width: 100%;
+    position: relative;
+    left: 1rem;
+    top: -6rem;
+    height: 100%;
+  }
+  .my-custom-input-class::placeholder {
+    font-size: 1rem;
+    color: #949494;
+  }
+  .my-custom-input-class:hover {
+    background-color: #a4d3e7;
+  }
+  .labelH3 {
+    margin: 0.5rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 18ch;
+  }
+  
+  .returnPlaceholder {
+    font-size: 1.02rem;
+    margin-top: 0.2rem;
+  }
+  
+  .dateContainer {
+    margin-left: 1.2rem;
+  }
+  
+  .dayOfWeekDisplay {
+    margin: 0px;
+    font-size: 1rem;
+    color: #818181;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .calenderContainer {
+    width: 75%;
+    left: 8rem;
+    top: -6rem;
+  }
+  .calenderContainerOne {
+    width: 75%;
+    left: 8rem;
+    top: -5.5rem;
+  }
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 12px !important; /* default to 10px */
+  }
+
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 12px !important; /* default to 10px */
+  }
+}
+@media screen and (max-width: 1024px) {
+  .my-custom-input-class {
+    background-color: #ffffff;
+    /* width: 70vw; */
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    margin: 1rem 0 0.2rem 0.6rem;
+    text-align: left;
+  }
+  .labelH3 {
+    margin: 0;
+    margin-left: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 0.89rem;
+    font-weight: bold;
+    width: 18ch;
+  }
+  .calenderContainer {
+    width: 75%;
+    left: 8rem;
+    top: -6rem;
+  }
+  .calenderContainerOne {
+    width: 75%;
+    left: 8rem;
+    top: -5.5rem;
+  }
+
+  .returnPlaceholder {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #949494;
+  }
+
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 15px !important; /* default to 10px */
+  }
+
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 15px !important; /* default to 10px */
+  }
+}
+@media screen and (max-width: 840px) {
+  .my-custom-input-class {
+    background-color: #ffffff;
+    width: 70vw;
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    margin: 0 0 0.2rem 0.6rem;
+  }
+  .labelH3 {
+    margin: 0;
+    margin-left: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+  .calenderContainer {
+    width: 75%;
+    left: 8rem;
+    top: -6rem;
+  }
+  .calenderContainerOne {
+    width: 75%;
+    left: 8rem;
+    top: -5.5rem;
+  }
+
+  .returnPlaceholder {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #949494;
+  }
+
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 12px !important; /* default to 10px */
+  }
+
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 12px !important; /* default to 10px */
+  }
+}
+@media screen and (max-width: 770px) {
+  .my-custom-input-class {
+    background-color: #ffffff;
+    width: 70vw;
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    margin: 0 0 0.2rem 0.6rem;
+  }
+  .labelH3 {
+    margin: 0;
+    margin-left: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+  .calenderContainer {
+    width: 75%;
+    left: 8rem;
+    top: -6rem;
+  }
+  .calenderContainerOne {
+    width: 75%;
+    left: 8rem;
+    top: -5.5rem;
+  }
+
+  .returnPlaceholder {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #949494;
+  }
+
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 10px !important; /* default to 10px */
+  }
+
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 10px !important; /* default to 10px */
+  }
+}
+@media screen and (max-width: 670px) {
+  .my-custom-input-class {
+    background-color: #ffffff;
+    width: 75vw;
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    margin: 0 0 0.2rem 0.6rem;
+  }
+  .labelH3 {
+    margin: 0;
+    margin-left: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+  .calenderContainer {
+    width: 75%;
+    left: 6rem;
+    top: -6rem;
+  }
+  .calenderContainerOne {
+    width: 75%;
+    left: 6rem;
+    top: -5.5rem;
+  }
+
+  .returnPlaceholder {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #949494;
+  }
+
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 10px !important; /* default to 10px */
+  }
+
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 10px !important; /* default to 10px */
+  }
+}
+@media screen and (max-width: 480px) {
+  .my-custom-input-class {
+    background-color: #ffffff;
+    width: 50%;
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    margin: 0 0 0.2rem 0.6rem;
+  }
+  .labelH3 {
+    margin: 0;
+    margin-left: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+  .calenderContainer {
+    width: 75%;
+    left: 2.8rem;
+    top: -6rem;
+  }
+  .calenderContainerOne {
+    width: 75%;
+    left: 2.8rem;
+    top: -5.5rem;
+  }
+
+  .returnPlaceholder {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #949494;
+  }
+
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 9px !important; /* default to 10px */
+  }
+
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 9px !important; /* default to 10px */
+  }
+}
+@media screen and (max-width: 420px) {
+  .my-custom-input-class {
+    background-color: #ffffff;
+    width: auto;
+    padding: 0rem;
+    margin: 0;
+    text-align: end;
+    font-size: 1.2rem;
+  }
+  .dateContainer {
+    margin-left: 0rem;
+    text-align: end;
+  }
+  .departureDateContainer .left .dateContainer .dayOfWeekDisplay{
+    text-align: left;
+  }
+  .departureDateContainer .left .my-custom-input-class{
+    text-align: left;
+  }
+  .labelH3 {
+    margin: 0;
+    margin-left: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+  .calenderContainer {
+    width: 75%;
+    left: 0.5rem;
+    top: -6rem;
+  }
+  .calenderContainerOne {
+    width: 75%;
+    left: 0.5rem;
+    top: -5.5rem;
+  }
+
+  .returnPlaceholder {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #949494;
+  }
+
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 11px !important; /* default to 10px */
+  }
+
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 11px !important; /* default to 10px */
+  }
+}
+@media screen and (max-width: 380px) {
+  .my-custom-input-class {
+    background-color: #ffffff;
+    width: 84vw;
+    padding: 0.4rem 0 0rem 0rem;
+    margin: 0 0 0.2rem 0.6rem;
+  }
+
+  .my-custom-input-class p{
+  text-align: end;
+  }
+  
+  .labelH3 {
+    margin: 0;
+    margin-left: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+  .calenderContainer {
+    width: 75%;
+    left: 1.5rem;
+    top: -6rem;
+  }
+  .calenderContainerOne {
+    width: 75%;
+    left: 1.5rem;
+    top: -5.5rem;
+  }
+
+  .returnPlaceholder {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #949494;
+  }
+
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 9px !important; /* default to 10px */
+  }
+
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 9px !important; /* default to 10px */
+  }
+}
+@media screen and (max-width: 360px) {
+  .my-custom-input-class {
+    background-color: #ffffff;
+    width: 84vw;
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    margin: 0 0 0.2rem 0.6rem;
+  }
+  .labelH3 {
+    margin: 0;
+    margin-left: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+  .calenderContainer {
+    width: 75%;
+    left: 0.8rem;
+    top: -6rem;
+  }
+  .calenderContainerOne {
+    width: 75%;
+    left: 0.8rem;
+    top: -5.5rem;
+  }
+
+  .returnPlaceholder {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #949494;
+  }
+
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 9px !important; /* default to 10px */
+  }
+
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 9px !important; /* default to 10px */
+  }
+}
+@media screen and (max-width: 320px) {
+  .my-custom-input-class {
+    background-color: #ffffff;
+    width: 84vw;
+    padding: 0.4rem 0 0.4rem 0.4rem;
+    margin: 0 0 0.2rem 0.6rem;
+  }
+  .labelH3 {
+    margin: 0;
+    margin-left: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+  .calenderContainer {
+    width: 75%;
+    left: 0.1rem;
+    top: -6rem;
+  }
+  .calenderContainerOne {
+    width: 75%;
+    left: 0.1rem;
+    top: -5.5rem;
+  }
+
+  .returnPlaceholder {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #949494;
+  }
+
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 9px !important; /* default to 10px */
+  }
+
+  .responsive-calendarOne {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 9px !important; /* default to 10px */
+  }
+}

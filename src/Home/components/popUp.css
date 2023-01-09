@@ -1,0 +1,924 @@
+.dropdown {
+  position: relative;
+  color: #333;
+  cursor: default;
+}
+
+.dropdown .selected-value {
+  cursor: default;
+  outline: none;
+  padding: 8px 0px 0px 10px;
+  width: 250px;
+  border-radius: 12px;
+}
+.headingH3Airport {
+  margin: 0rem 0.5rem 0 0.6rem;
+  font-size: 0.89rem;
+  width: 18ch;
+  font-weight: 600;
+}
+
+.optionsBlock {
+  position: relative;
+  margin-top: -3.8rem;
+  z-index: 2;
+  width: 15.8rem;
+}
+.optionsBlock.open {
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  border-radius: 0.4rem;
+  background-color: #ffff;
+}
+
+.cityInputDep1 {
+  display: none;
+}
+.cityInputDep1.open {
+  display: block;
+  border-radius: 0.4rem;
+  border: none;
+  line-height: 2;
+  font-size: 1rem;
+  cursor: text;
+  outline: none;
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
+  width: 86%;
+  margin: 0 0 0 0.6rem;
+}
+.cityInputDes1 {
+  display: none;
+}
+.cityInputDes1.open {
+  display: block;
+  border: none;
+  line-height: 2;
+  font-size: 1rem;
+  cursor: text;
+  outline: none;
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
+  width: 86%;
+  margin: 0 0 0 0.6rem;
+}
+.cityInputDep2 {
+  display: none;
+}
+.cityInputDes2 {
+  display: none;
+}
+.CityName_Placeholder {
+  border: none;
+  border-radius: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  outline: none;
+  height: 2.2rem;
+  width: 12rem;
+  font-size: 1.2rem;
+  margin: 1rem 0 0 0.5rem;
+  transition: all 600ms ease;
+  color: grey;
+  z-index: 10;
+  padding: 0.5rem 0 1rem 0.8rem;
+}
+
+.CityName_Placeholder.cityname {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.3rem 0 1rem 0.8rem;
+}
+
+.CityName_Placeholder:hover {
+  background-color: #a4d3e7;
+}
+.cityInput::placeholder {
+  color: #949494;
+  font-size: 18px;
+}
+
+.cityNameDisplay {
+  margin: 0px;
+}
+.dropdown .options {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top: 0;
+  height: 0px;
+  overflow: hidden;
+  overflow-y: auto;
+  position: relative;
+  width: 15.7rem;
+  margin-left: 0rem;
+  border-radius: 0.4rem;
+  z-index: 20;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  border: 7px solid #cecece;
+  box-shadow: inset 0 0 2.5px 2px rgba(150, 150, 150, 0.5);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #949494;
+  height: 20px;
+  border-radius: 8px;
+}
+
+.dropdown .options.open {
+  height: 12.5rem;
+  z-index: 10;
+}
+
+.dropdown .option {
+  box-sizing: border-box;
+  color: rgba(51, 51, 51, 0.8);
+  cursor: pointer;
+  display: block;
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  height: 4.2rem;
+}
+
+.CityName {
+  font-size: 1rem;
+  color: black;
+}
+.AirportName {
+  font-size: 0.65rem;
+  color: black;
+}
+.AirportCode {
+  font-style: italic;
+  font-size: 0.9rem;
+  align-items: flex-end;
+  color: rgb(0, 0, 0);
+}
+
+.dropdown .option.selected,
+.dropdown .option:hover {
+  background-color: #c7e5f1;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown .option.notSelected {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputFieldWrapper {
+  visibility: hidden;
+}
+.inputFieldWrapper.open {
+  visibility: visible;
+  display: flex;
+  width: 15.2rem;
+}
+.fa-search {
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+  margin: 0 0 0 0.5rem;
+}
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+  .dropdown {
+    position: relative;
+    color: #333;
+    cursor: default;
+  }
+  
+  .dropdown .selected-value {
+    cursor: default;
+    outline: none;
+    padding: 8px 0px 0px 10px;
+    width: 250px;
+    border-radius: 12px;
+  }
+  .headingH3Airport {
+    margin: 0rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 18ch;
+    font-weight: 600;
+  }
+  
+  .optionsBlock {
+    position: relative;
+    margin-top: -3.8rem;
+    z-index: 2;
+    width: 15.8rem;
+  }
+  .optionsBlock.open {
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    border-radius: 0.4rem;
+    background-color: #ffff;
+  }
+  
+  .cityInputDep1 {
+    display: none;
+  }
+  .cityInputDep1.open {
+    display: block;
+    border-radius: 0.4rem;
+    border: none;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 86%;
+    margin: 0 0 0 0.6rem;
+  }
+  .cityInputDes1 {
+    display: none;
+  }
+  .cityInputDes1.open {
+    display: block;
+    border: none;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 86%;
+    margin: 0 0 0 0.6rem;
+  }
+  .cityInputDep2 {
+    display: none;
+  }
+  .cityInputDes2 {
+    display: none;
+  }
+  .CityName_Placeholder {
+    border: none;
+    border-radius: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+    height: 2.2rem;
+    width: 12rem;
+    font-size: 1.2rem;
+    margin: 1rem 0 0 0.5rem;
+    transition: all 600ms ease;
+    color: grey;
+    z-index: 10;
+    padding: 0.5rem 0 1rem 0.8rem;
+  }
+  
+  .CityName_Placeholder.cityname {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.3rem 0 1rem 0.8rem;
+  }
+  
+  .CityName_Placeholder:hover {
+    background-color: #a4d3e7;
+  }
+  .cityInput::placeholder {
+    color: #949494;
+    font-size: 18px;
+  }
+  
+  .cityNameDisplay {
+    margin: 0px;
+  }
+  .dropdown .options {
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 0;
+    height: 0px;
+    overflow: hidden;
+    overflow-y: auto;
+    position: relative;
+    width: 15.7rem;
+    margin-left: 0rem;
+    border-radius: 0.4rem;
+    z-index: 20;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    border: 7px solid #cecece;
+    box-shadow: inset 0 0 2.5px 2px rgba(150, 150, 150, 0.5);
+    border-radius: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #949494;
+    height: 20px;
+    border-radius: 8px;
+  }
+  
+  .dropdown .options.open {
+    height: 12.5rem;
+    z-index: 10;
+  }
+  
+  .dropdown .option {
+    box-sizing: border-box;
+    color: rgba(51, 51, 51, 0.8);
+    cursor: pointer;
+    display: block;
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+    height: 4.2rem;
+  }
+  
+  .CityName {
+    font-size: 1rem;
+    color: black;
+  }
+  .AirportName {
+    font-size: 0.65rem;
+    color: black;
+  }
+  .AirportCode {
+    font-style: italic;
+    font-size: 0.9rem;
+    align-items: flex-end;
+    color: rgb(0, 0, 0);
+  }
+  
+  .dropdown .option.selected,
+  .dropdown .option:hover {
+    background-color: #c7e5f1;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+  }
+  .dropdown .option.notSelected {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .inputFieldWrapper {
+    visibility: hidden;
+  }
+  .inputFieldWrapper.open {
+    visibility: visible;
+    display: flex;
+    width: 15.2rem;
+  }
+  .fa-search {
+    text-align: center;
+    align-self: center;
+    font-size: 0.8rem;
+    margin: 0 0 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .optionsBlock {
+    position: relative;
+    margin-top: -2.3rem;
+    z-index: 2;
+    width: 45rem;
+    margin: 0 0 0 -0.2rem;
+  }
+  .optionsBlock.open {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .dropdown .options {
+    width: 100%;
+  }
+  .headingH3Airport {
+    margin: 0 0 0 -0.5rem;
+  }
+  .cityInput.open {
+    display: block;
+    border: none;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    margin: 0rem 0 0 0rem;
+  }
+  .cityInput::placeholder {
+    color: #949494;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .CityName_Placeholder.cityname {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.2rem;
+    /* text-align: center; */
+    /* width: 70vw; */
+  }
+  .inputFieldWrapper.open {
+    visibility: visible;
+    display: flex;
+    width: 48rem;
+  }
+  .fa-search {
+    text-align: center;
+    align-self: center;
+    font-size: 0.6rem;
+    margin: 0 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 840px) {
+  .optionsBlock {
+    position: relative;
+    margin-top: -2.3rem;
+    z-index: 2;
+    width: 36.5rem;
+    margin: 0 0 0 0rem;
+  }
+  .optionsBlock.open {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .dropdown .options {
+    width: 100%;
+  }
+  .headingH3Airport {
+    margin: 0 0 0 -0.5rem;
+  }
+  .cityInput.open {
+    display: block;
+    border: none;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    margin: 0rem 0 0 0rem;
+  }
+  .cityInput::placeholder {
+    color: #949494;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .CityName_Placeholder.cityname {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.2rem;
+    text-align: center;
+    width: 70vw;
+  }
+  .inputFieldWrapper.open {
+    visibility: visible;
+    display: flex;
+    width: 38rem;
+  }
+  .fa-search {
+    text-align: center;
+    align-self: center;
+    font-size: 0.6rem;
+    margin: 0 0 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .optionsBlock {
+    position: relative;
+    margin-top: -2.3rem;
+    z-index: 2;
+    width: 32rem;
+    margin: 0 0 0 0.2rem;
+  }
+  .optionsBlock.open {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .dropdown .options {
+    width: 100%;
+  }
+  .headingH3Airport {
+    margin: 0 0 0 -0.5rem;
+  }
+  .cityInput.open {
+    display: block;
+    border: none;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    margin: 0rem 0 0 0rem;
+  }
+  .cityInput::placeholder {
+    color: #949494;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .CityName_Placeholder.cityname {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.2rem;
+    text-align: center;
+    width: 70vw;
+  }
+  .inputFieldWrapper.open {
+    visibility: visible;
+    display: flex;
+    width: 30rem;
+  }
+  .fa-search {
+    text-align: center;
+    align-self: center;
+    font-size: 0.6rem;
+    margin: 0 0 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .optionsBlock {
+    position: relative;
+    margin-top: -2.3rem;
+    z-index: 2;
+    width: 29rem;
+    margin: 0 0 0 0.2rem;
+  }
+  .optionsBlock.open {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .dropdown .options {
+    width: 100%;
+  }
+  .headingH3Airport {
+    margin: 0 0 0 -0.5rem;
+  }
+  .cityInput.open {
+    display: block;
+    border: none;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    margin: 0rem 0 0 0rem;
+  }
+  .cityInput::placeholder {
+    color: #949494;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .CityName_Placeholder.cityname {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.2rem;
+    text-align: center;
+    width: 70vw;
+  }
+  .inputFieldWrapper.open {
+    visibility: visible;
+    display: flex;
+    width: 30rem;
+  }
+  .fa-search {
+    text-align: center;
+    align-self: center;
+    font-size: 0.6rem;
+    margin: 0 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .optionsBlock {
+    position: relative;
+    margin-top: -2.3rem;
+    z-index: 2;
+    width: 30rem;
+    margin: 0 0 0 -0.2rem;
+  }
+  .optionsBlock.open {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .dropdown .options {
+    width: 100%;
+  }
+  .dropdown {
+    position: relative;
+    color: #333;
+    width: 50%;
+    cursor: default;
+  }
+  .dropdown .selected-value {
+    cursor: default;
+    outline: none;
+    padding: 8px 0px 0px 0px;
+    width: auto;
+    border-radius: 12px;
+    text-align: end;
+  }
+  .headingH3Airport {
+    margin: 0 0 0 -0.5rem;
+  }
+  .cityInput.open {
+    display: block;
+    border: none;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    margin: 0rem 0 0 0rem;
+  }
+  .cityInput::placeholder {
+    color: #949494;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .CityName_Placeholder.cityname {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.2rem;
+    text-align: center;
+    width: 64vw;
+  }
+  .inputFieldWrapper.open {
+    visibility: visible;
+    display: flex;
+    width: 30rem;
+  }
+  .fa-search {
+    text-align: center;
+    align-self: center;
+    font-size: 0.6rem;
+    margin: 0 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .CityName_Placeholder {
+    width: 84vw;
+    font-size: 1.2rem;
+    padding: 0.4rem 0 0 0;
+  }
+  .CityName_Placeholder.cityname {
+    width: auto;
+    font-size: 1.2rem;
+    padding: 0rem 0 0 0;
+    text-align: end;
+  }
+  .optionsBlock {
+    position: relative;
+    margin-top: -2.3rem;
+    z-index: 2;
+    width: 100%;
+    margin: 0 0 0 -0.2rem;
+    display: none;
+  }
+  .optionsBlock.open {
+    display: block;
+    position: fixed;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 -2rem;
+    z-index: 100;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .departureLabel {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.2rem 0 0 2.5rem;
+  }
+  .cityInputDep1 {
+    display: none;
+  }
+  .cityInputDep1.open {
+    display: block;
+    border: 1px solid black;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 80%;
+    margin: 0.2rem 0 0 1rem;
+  }
+  .cityInputDep2 {
+    display: none;
+  }
+  .cityInputDep2.open {
+    display: block;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 80%;
+    margin: 0.2rem 0 0 2.5rem;
+  }
+  .cityInputDes1 {
+    display: none;
+  }
+  .cityInputDes1.open {
+    display: block;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 80%;
+    margin: 0.2rem 0 0 2.5rem;
+  }
+  .cityInputDes2 {
+    display: none;
+  }
+  .cityInputDes2.open {
+    display: block;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 80%;
+    margin: 0.2rem 0 0 1rem;
+  }
+
+  .cityInput::placeholder {
+    color: #949494;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .dropdown .options {
+    width: 100%;
+    margin-left: 1.2rem;
+  }
+  .dropdown .options.open {
+    width: 25.7rem;
+    height: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .inputFieldWrapper.open {
+    visibility: visible;
+    display: flex;
+    width: 100%;
+  }
+  .fa-arrow-left {
+    text-align: center;
+    align-self: center;
+    font-size: 0.6rem;
+    margin: 0 0 0 0.5rem;
+  }
+  .fa-search {
+    text-align: center;
+    align-self: center;
+    font-size: 0.6rem;
+    margin: 0 0 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .optionsBlock {
+    position: relative;
+    margin-top: -2.3rem;
+    z-index: 2;
+    width: 100%;
+    margin: 0 0 0 -0.2rem;
+    display: none;
+  }
+  .optionsBlock.open {
+    display: block;
+    position: fixed;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 -2rem;
+    z-index: 100;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .cityInputDep1 {
+    display: none;
+  }
+  .cityInputDep1.open {
+    display: block;
+    border: 1px solid black;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 80%;
+    margin: 1rem 0 0 1rem;
+  }
+  .cityInputDep2 {
+    display: none;
+  }
+  .cityInputDep2.open {
+    display: block;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 80%;
+    margin: 1rem 0 0 2.5rem;
+  }
+  .cityInputDes1 {
+    display: none;
+  }
+  .cityInputDes1.open {
+    display: block;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 80%;
+    margin: 1rem 0 0 2.5rem;
+  }
+  .cityInputDes2 {
+    display: none;
+  }
+  .cityInputDes2.open {
+    display: block;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    line-height: 2;
+    font-size: 1rem;
+    cursor: text;
+    outline: none;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 80%;
+    margin: 1rem 0 0 1rem;
+  }
+
+  .cityInput::placeholder {
+    color: #949494;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .dropdown .options {
+    width: 100%;
+    margin-left: 1.2rem;
+  }
+  .dropdown .options.open {
+    width: 25.7rem;
+    height: 100%;
+    margin: 0 0 0 0;
+  }
+  .inputFieldWrapper.open {
+    visibility: visible;
+    display: flex;
+    width: 100%;
+  }
+  .fa-arrow-left {
+    text-align: center;
+    align-self: center;
+    font-size: 0.6rem;
+    margin: 0 0 0 0.5rem;
+  }
+  .fa-search {
+    text-align: center;
+    align-self: center;
+    font-size: 0.6rem;
+    margin: 0 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .CityName_Placeholder.cityname {
+    width: 84vw;
+  }
+  .dropdown .options {
+    width: 17.5rem;
+    margin-left: 1.2rem;
+  }
+  .cityInput {
+    width: 18.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .dropdown .options {
+    width: 15rem;
+    margin-left: 1.2rem;
+  }
+  .cityInput {
+    width: 16rem;
+  }
+}

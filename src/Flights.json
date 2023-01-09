@@ -1,0 +1,180 @@
+
+  [ {
+    
+    "id": "1",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:40",
+    "arrivalTime": "19:35",
+    "price":"325",
+    "airline1":"American Airlines",
+    "idR":"101",
+    "departureR":"Dallas",
+    "destinationR":"  Los-Angeles",
+    "departureTimeR": "13:00",
+    "arrivalTimeR": "19:00",
+    "priceR":"321",
+    "airline2":"American Airlines"
+    
+  },
+  {
+
+    "id": "2",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"421",
+    "airline1":"Spirit",
+    "idR":"102",
+    "departureR":"Dallas",
+    "destinationR":"  Los-Angeles",
+    "departureTimeR": "13:00",
+    "arrivalTimeR": "19:00",
+    "priceR":"331",
+    "airline2":"Spirit"
+    
+  }
+  ,
+  {
+
+    "id": "3",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"421",
+    "airline1":"Alaska",
+    "idR":"103",
+    "departureR":"Dallas",
+    "destinationR":"  Los-Angeles",
+    "departureTimeR": "13:00",
+    "arrivalTimeR": "19:00",
+    "priceR":"351",
+    "airline2":"Alaska"
+    
+  },
+  {
+
+    "id": "4",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"411",
+    "airline1":"United Airlines",
+    "idR":"104",
+    "departureR":"Dallas",
+    "destinationR":"  Los-Angeles",
+    "departureTimeR": "13:00",
+    "arrivalTimeR": "19:00",
+    "priceR":"326",
+    "airline2":"United Airlines"
+    
+  },
+  {
+
+    "id": "5",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"426",
+    "airline1":"Sun Country1",
+    "idR":"105",
+    "departureR":"Dallas",
+    "destinationR":"  Los-Angeles",
+    "departureTimeR": "13:00",
+    "arrivalTimeR": "19:00",
+    "priceR":"328",
+    "airline2":"Sun Country"
+    
+  },
+  {
+
+    "id": "6",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"428",
+    "airline1":"Sun Country2",
+    "idR":"105",
+    "departureR":"Dallas",
+    "destinationR":"  Los-Angeles",
+    "departureTimeR": "13:00",
+    "arrivalTimeR": "19:00",
+    "priceR":"368",
+    "airline2":"Sun Country"
+    
+  },
+  {
+
+    "id": "7",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"427",
+    "airline1":"Sun Country3",
+    "idR":"105",
+    "departureR":"Dallas",
+    "destinationR":"  Los-Angeles",
+    "departureTimeR": "13:00",
+    "arrivalTimeR": "19:00",
+    "priceR":"358",
+    "airline2":"Sun Country"
+    
+  },
+  {
+
+    "id": "8",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"427",
+    "airline1":"Sun Country4",
+    "idR":"105",
+    "departureR":"Dallas",
+    "destinationR":"  Los-Angeles",
+    "departureTimeR": "13:00",
+    "arrivalTimeR": "19:00",
+    "priceR":"358",
+    "airline2":"Sun Country"
+    
+  }, {
+
+    "id": "9",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"427",
+    "airline1":"Sun Country5",
+    "idR":"105",
+    "departureR":"Dallas",
+    "destinationR":"  Los-Angeles",
+    "departureTimeR": "13:00",
+    "arrivalTimeR": "19:00",
+    "priceR":"358",
+    "airline2":"Sun Country"
+    
+  }, {
+
+    "id": "10",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"427",
+    "airline1":"Sun Country6",
+    "idR":"105",
+    "departureR":"Dallas",
+    "destinationR":"  Los-Angeles",
+    "departureTimeR": "13:00",
+    "arrivalTimeR": "19:00",
+    "priceR":"358",
+    "airline2":"Sun Country"
+    
+  }] 

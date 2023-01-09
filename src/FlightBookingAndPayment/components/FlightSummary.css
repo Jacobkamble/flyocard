@@ -1,0 +1,269 @@
+.departureAirport {
+}
+.itinerarySummaryContainer {
+  width: 98%;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  margin: 0% 0 0 1%;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.itinerarySummaryHeader {
+  margin: 0.5rem;
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.itinerarySummaryHeaderTotal {
+  font-weight: 600;
+  color: #46b2e0;
+  margin: 0rem 1rem 0 0rem;
+}
+
+.tripInfoContainer {
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  border: 0.1rem solid #bebdbd;
+}
+.tripDetailsHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.FlightDatesHeader {
+  display: flex;
+  font-size: 1rem;
+  background-color: #f7d6bf;
+  border-radius: 0.2rem 0.2rem 0.8rem 0.2rem;
+  padding: 0.2rem;
+}
+.tripTypeContainer {
+  font-weight: 600;
+  margin: 0 0.4rem 0 0;
+}
+.cabinType {
+  display: flex;
+  padding: 0.2rem;
+}
+.cabinCode {
+  font-weight: 600;
+  margin: 0 0 0 0.4rem;
+}
+.tripDetailsSummaryComponent {
+  display: flex;
+  width: 90%;
+  margin: 0 0 0 1%;
+  justify-content: space-between;
+}
+.airlineInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.airlineName {
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 0.4rem 0 0 0.5rem;
+}
+.airlineLogo {
+  display: flex;
+  margin: 0rem 0 0 1rem;
+  padding: 1rem 0 0 0;
+}
+.airlineLogoImgTag {
+  height: 35px;
+  width: 35px;
+  margin: 1rem 0.5rem;
+}
+.FlightDateInfoContainer {
+  width: 14%;
+  padding: 1.7rem 0.2rem 0.2rem 0.2rem;
+  margin: 0 0 0 0.5rem;
+}
+.FlightDates {
+  font-size: 1rem;
+}
+
+.LayOverInfo {
+  padding: 0 0 0 0.5rem;
+  width: 25%;
+}
+.LayOverImg {
+  height: 15px;
+  width: 180px;
+}
+.totalHoursOfFlight {
+  padding: 0 0 0 0rem;
+  width: max-content;
+  margin: 0 0 0 30%;
+}
+.NoOfStops {
+  padding: 0 0 0 0rem;
+  width: max-content;
+  margin: 0 0 0 30%;
+}
+
+.timeCodeWrapper {
+  padding: 0.5rem;
+}
+
+.timeContainer {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.airportInfoContainer {
+  display: flex;
+}
+
+.cityContainer {
+  font-size: 1.1rem;
+  padding: 0 0 0 0rem;
+  font-weight: 600;
+}
+.codeContainer {
+  font-size: 0.8rem;
+  padding: 0.3rem 0 0 0.2rem;
+  color: #878787;
+}
+.priceDescription {
+  font-size: 0.6rem;
+  color: black;
+}
+
+@media screen and (max-width: 420px) {
+  .departureAirport {
+  }
+  .itinerarySummaryContainer {
+    width: 98%;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    margin: 2% 0 0 1%;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .itinerarySummaryHeader {
+    margin: 0.2rem;
+    display: flex;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .itinerarySummaryHeaderTotal {
+    font-weight: 600;
+    color: #46b2e0;
+    margin: 0rem 0rem 0 0rem;
+  }
+
+  .tripInfoContainer {
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .tripDetailsHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.4rem 0;
+  }
+  .FlightDatesHeader {
+    display: flex;
+    font-size: 0.8rem;
+    background-color: #46b2e0;
+    border-radius: 0.2rem 0.2rem 0.8rem 0.2rem;
+    padding: 0.1rem 0.4rem 0.1rem 0.4rem;
+  }
+  .tripTypeContainer {
+    font-weight: 600;
+    margin: 0 0.4rem 0 0;
+  }
+  .cabinType {
+    font-size: 0.7rem;
+    display: flex;
+    padding: 0.2rem;
+  }
+  .cabinCode {
+    font-weight: 600;
+    margin: 0 0 0 0.4rem;
+  }
+  .tripDetailsSummaryComponent {
+    display: flex;
+    width: 95%;
+    margin: 0.2rem 0.2rem 0.2rem 0.5rem;
+    justify-content: space-between;
+  }
+  .airlineInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0 0 0;
+  }
+  .airlineName {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0.6rem 0 0 0.4rem;
+  }
+  .airlineLogo {
+    display: flex;
+    margin: 0rem 0 0 0rem;
+    padding: 0rem 0 0 0;
+  }
+  .airlineLogoImgTag {
+    height: 30px;
+    width: 30px;
+  }
+  .FlightDateInfoContainer {
+    display: none;
+  }
+
+  .LayOverInfo {
+    padding: 0.6rem 0 0 0rem;
+    width: 20%;
+    font-size: 0.7rem;
+  }
+  .LayOverImg {
+    height: 15px;
+    width: 80px;
+  }
+  .totalHoursOfFlight {
+    padding: 0 0 0 0rem;
+    width: max-content;
+    margin: 0 0 0 30%;
+  }
+  .NoOfStops {
+    padding: 0 0 0 0rem;
+    width: max-content;
+    margin: 0 0 0 30%;
+  }
+
+  .timeCodeWrapper {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 0 0rem 0 0;
+  }
+
+  .timeContainer {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .airportInfoContainer {
+    display: flex;
+  }
+
+  .cityContainer {
+    display: none;
+  }
+  .codeContainer {
+    font-size: 1.2rem;
+    padding: 0.3rem 0 0 0.4rem;
+    color: #878787;
+  }
+}
+
+.flightno{
+  font-size: 0.8rem;
+  font-weight:500;
+}

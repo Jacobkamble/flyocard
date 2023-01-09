@@ -1,0 +1,69 @@
+.radioBlock {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.2rem 0.2rem 0.5rem 0.2rem;
+}
+.customRadio {
+  width: max-content;
+  margin: 0.5rem;
+  padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+  border-radius:0.4rem;
+   /* 0.4rem; */
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  transition: background-color 600ms ease;
+  cursor: pointer;
+  background-color: white;
+}
+
+.customRadio.selected {
+  background-color: #318fb5;
+  color: #ffffff;
+
+}
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .radioBlock {
+    margin: 0.2rem 0.2rem 0.5rem 1.8rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .radioBlock {
+    width: 99vw;
+    margin: 0.2rem 0.2rem 0rem -1rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .radioBlock {
+    width: 88vw;
+    margin: 0.2rem 0.2rem 0rem 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .radioBlock {
+    width: 99vw;
+    margin: 0.2rem 0.2rem 0rem -0.4rem;
+  }
+  .customRadio {
+    width: max-content;
+    margin: 0.5rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    transition: background-color 600ms ease;
+    cursor: pointer;
+    /* new added */
+    /* background-color: white;
+    color: black; */
+  }
+}

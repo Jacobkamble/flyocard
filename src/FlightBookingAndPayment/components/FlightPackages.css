@@ -1,0 +1,258 @@
+.packageHeaderContainer {
+  margin: 1%;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.packageBoxContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.SupportPackagetext {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.packageBoxContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.packageBox1 {
+  margin-top: 0.5rem;
+  background-color: white;
+  width: 13rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+.packageBox1.selected {
+  background-color: #b0cac7;
+}
+.packageBox2 {
+  margin-top: 0.5rem;
+  background-color: white;
+  width: 13rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+.packageBox2.selected {
+  background-color: #b0cac7;
+}
+.packageBox3 {
+  margin-top: 0.5rem;
+  background-color: white;
+  width: 13rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+.packageBox3.selected {
+  background-color: #b0cac7;
+}
+.packageBox1:hover {
+  background-color: #a4d3e7;
+}
+.packageBox2:hover {
+  background-color: #a4d3e7;
+}
+.packageBox3:hover {
+  background-color: #a4d3e7;
+}
+
+/*.packageBox2.selected {
+  background-color: blue;
+}*/
+
+.BoxTextContainer {
+  margin: 0.5rem;
+}
+
+.BoxText1 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.BoxText2 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.BoxText3 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+
+.BoxCurrency {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.BoxText4 {
+  /* padding-top: 0.5rem; */
+  font-size: small;
+  text-align: center;
+}
+
+
+.btn {
+  margin-top: .5rem;
+  background-color: transparent;
+  border: none;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.btn.selected {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+@media screen and (max-width: 420px) {
+  .packageHeaderContainer {
+    margin: 1%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: white;
+    border-radius: 0.5rem;
+  }
+
+  .SupportPackagetext {
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .packageBoxContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+  }
+  .packageBox1 {
+    margin-top: 1.5rem;
+    background-color: white;
+    width: 7rem;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+  }
+
+  .packageBox2 {
+    background-color: white;
+    width: 7rem;
+    height: 11.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+  }
+
+  /*.packageBox2.selected {
+      background-color: blue;
+    }*/
+
+  .packageBox3 {
+    margin-top: 1.5rem;
+    background-color: white;
+    width: 7rem;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+  }
+
+  .packageBox1:hover {
+    background-color: #a4d3e7;
+  }
+  .packageBox2:hover {
+    background-color: #a4d3e7;
+  }
+  .packageBox3:hover {
+    background-color: #a4d3e7;
+  }
+
+  .BoxTextContainer {
+    margin: 1rem;
+  }
+
+  #box2 {
+    padding-top: 1.8rem;
+  }
+
+  .BoxText1 {
+    margin-top: 0rem;
+    font-size: small;
+    text-align: center;
+  }
+
+  .BoxText2 {
+    margin-top: 0rem;
+    font-size: small;
+    text-align: center;
+  }
+
+  .BoxText3 {
+    margin-top: 0rem;
+    font-size: x-small;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .BoxCurrency {
+    margin-top: 0rem;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .BoxText4 {
+    margin-top: 0rem;
+    padding-top: 1rem;
+    font-size: small;
+    text-align: center;
+  }
+
+  .btn {
+    margin-top: 0rem;
+    font-size: small;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+  }
+  .btn.selected {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: white;
+  }
+}

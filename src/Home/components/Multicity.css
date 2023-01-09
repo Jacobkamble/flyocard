@@ -1,0 +1,641 @@
+.multicityContainer {
+  margin-left: 90px;
+}
+
+.temporaryMulticityContainer {
+  position: relative;
+  border-radius: 12px;
+  font-size: 2rem;
+  display: flex;
+  height: 150px;
+  /*margin: 20vh 0 2rem 2.5rem;*/
+  padding: 10vh 0 0 15vh;
+}
+.searchBlockMulticity {
+  position: relative;
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  display: flex;
+  height: 150px;
+  margin: 15vh 0 2rem 2.5rem;
+}
+
+.addCityBlock {
+  border-radius: 12px;
+  display: flex;
+  margin: 2.5rem 0 2rem 2.5rem;
+}
+
+.addCityBtnContainer1 {
+  height: max-content;
+  width: max-content;
+  position: relative;
+  top: -17vh;
+  left: 108vh;
+}
+.addCityBtnContainer2 {
+  height: max-content;
+  width: max-content;
+  position: relative;
+  margin-top: 10px;
+}
+.addCityBtnContainer3 {
+  height: max-content;
+  width: max-content;
+  margin-top: 10px;
+}
+
+.BtnContainer2 {
+  display: flex;
+  position: relative;
+  top: -18vh;
+  left: 104vh;
+  width: 16rem;
+  justify-content: space-evenly;
+  margin: 0px;
+}
+.BtnContainer3 {
+  display: flex;
+  position: relative;
+  top: -18vh;
+  left: 104vh;
+  width: 16rem;
+  justify-content: space-evenly;
+  margin: 0px;
+}
+
+.cancelImg {
+  height: 40px;
+  width: 40px;
+  padding: 5px 5px 0px 5px;
+  transition: opacity 300ms ease;
+}
+.cancelImg:hover {
+  opacity: 0.6;
+}
+
+.closeCityBtnContainer2 {
+  height: max-content;
+  width: max-content;
+}
+.closeCityBtnContainer2 :hover {
+  cursor: pointer;
+}
+
+.closeCityBtnContainer3 {
+  height: max-content;
+  width: max-content;
+}
+.closeCityBtnContainer3 :hover {
+  cursor: pointer;
+}
+.closeCityBtnContainer4 {
+  height: max-content;
+  width: max-content;
+  position: relative;
+  top: 6.5vh;
+  left: -10vh;
+}
+.closeCityBtnContainer4 :hover {
+  cursor: pointer;
+}
+.TravellerInfoContainerMulticity {
+  display: none;
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  height: 20vh;
+  padding: 0 0 0 24rem;
+  margin: 0 0 0 1.3rem;
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+  .multicityContainer {
+    margin: 0 0 8rem 0;
+  }
+  .searchBlockMulticity {
+    flex-direction: column;
+    height: auto;
+    margin: 3.5rem 0 0 0rem;
+    border: 1px solid #e7e7e7;
+  }
+  .addCityBlock {
+    border-radius: 12px;
+    display: flex;
+    margin: 1rem 0 1rem 0rem;
+  }
+  .addCityBtnContainer1 {
+    top: -5rem;
+    left: 21vw;
+  }
+  .BtnContainer2 {
+    top: -5rem;
+    left: 20vw;
+  }
+  .BtnContainer3 {
+    top: -5rem;
+    left: 20vw;
+  }
+  .closeCityBtnContainer4 {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 21.5rem;
+    left: -39vw;
+  }
+
+  .TravellerInfoContainerMulticity {
+    border: none;
+    border-radius: 12px;
+    height: 20vh;
+    padding: 0 0 0 0;
+    display: block;
+    margin: 0 0 0 0rem;
+  }
+  .TravellerInfoContainerTop {
+    display: none;
+  }
+
+  .errorContainerTravelClassMulticity {
+    position: relative;
+    top: 0.1rem;
+    left: 18%;
+    width: 24rem;
+    border-radius: 8px;
+    padding: 0.1rem 0.2rem 0.1rem 0.5rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  .errorContainerTravelClassMulticity.open {
+    visibility: visible;
+  }
+  .errorContainerTravelClassMulticity:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .temporaryMulticityContainer {
+    text-align: center;
+    font-size: 2rem;
+    height: 150px;
+    margin: 8vh 0 0rem 0rem;
+    padding: 5vh 0 0 1vh;
+  }
+  .multicityContainer {
+    margin: 0 0 8rem 0;
+  }
+  .searchBlockMulticity {
+    flex-direction: column;
+    height: auto;
+    margin: 3.5rem 0 0 0rem;
+    border: 1px solid #e7e7e7;
+  }
+  .addCityBlock {
+    border-radius: 12px;
+    display: flex;
+    margin: 1rem 0 1rem 0rem;
+  }
+  .addCityBtnContainer1 {
+    top: -5rem;
+    left: 28vw;
+  }
+  .BtnContainer2 {
+    top: -5rem;
+    left: 24vw;
+  }
+  .BtnContainer3 {
+    top: -5rem;
+    left: 24vw;
+  }
+  .closeCityBtnContainer4 {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 21.5rem;
+    left: -31vw;
+  }
+
+  .TravellerInfoContainerMulticity {
+    border: none;
+    border-radius: 12px;
+    height: 20vh;
+    padding: 0 0 0 0;
+    display: block;
+    margin: 0 0 0 0rem;
+  }
+  .TravellerInfoContainerTop {
+    display: none;
+  }
+
+  .errorContainerTravelClassMulticity {
+    position: relative;
+    top: 0.1rem;
+    left: 18%;
+    width: 24rem;
+    border-radius: 8px;
+    padding: 0.1rem 0.2rem 0.1rem 0.5rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  .errorContainerTravelClassMulticity.open {
+    visibility: visible;
+  }
+  .errorContainerTravelClassMulticity:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -70%;
+  }
+}
+@media screen and (max-width: 840px) {
+  .temporaryMulticityContainer {
+    text-align: center;
+    font-size: 1.5rem;
+    height: 150px;
+    margin: 8vh 0 0rem 0rem;
+    padding: 5vh 0 0 3vh;
+  }
+  .multicityContainer {
+    margin: 0 0 8rem 0;
+  }
+  .searchBlockMulticity {
+    flex-direction: column;
+    height: auto;
+    margin: 3.5rem 0 0 0rem;
+    border: 1px solid #e7e7e7;
+  }
+  .addCityBlock {
+    border-radius: 12px;
+    display: flex;
+    margin: 1rem 0 1rem 0rem;
+  }
+  .addCityBtnContainer1 {
+    top: -5rem;
+    left: 24vw;
+  }
+  .BtnContainer2 {
+    top: -5rem;
+    left: 20vw;
+  }
+  .BtnContainer3 {
+    top: -5rem;
+    left: 20vw;
+  }
+  .closeCityBtnContainer4 {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 21.5rem;
+    left: -61vw;
+  }
+
+  .TravellerInfoContainerMulticity {
+    border: none;
+    border-radius: 12px;
+    height: 20vh;
+    padding: 0 0 0 0;
+    display: block;
+    margin: 0 0 0 0rem;
+  }
+  .TravellerInfoContainerTop {
+    display: none;
+  }
+
+  .errorContainerTravelClassMulticity {
+    position: relative;
+    top: 0.1rem;
+    left: 18%;
+    width: 24rem;
+    border-radius: 8px;
+    padding: 0.1rem 0.2rem 0.1rem 0.5rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  .errorContainerTravelClassMulticity.open {
+    visibility: visible;
+  }
+  .errorContainerTravelClassMulticity:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -70%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .temporaryMulticityContainer {
+    text-align: center;
+    font-size: 1.3rem;
+    height: 150px;
+    margin: 8vh 0 0rem 0rem;
+    padding: 5vh 0 0 3vh;
+  }
+  .multicityContainer {
+    margin: 0 0 8rem 0;
+  }
+  .searchBlockMulticity {
+    flex-direction: column;
+    height: auto;
+    margin: 3.5rem 0 0 0rem;
+    border: 1px solid #e7e7e7;
+  }
+  .addCityBlock {
+    border-radius: 12px;
+    display: flex;
+    margin: 1rem 0 1rem 0rem;
+  }
+  .addCityBtnContainer1 {
+    top: -5rem;
+    left: 24vw;
+  }
+  .BtnContainer2 {
+    top: -5rem;
+    left: 20vw;
+  }
+  .BtnContainer3 {
+    top: -5rem;
+    left: 20vw;
+  }
+  .closeCityBtnContainer4 {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 21.5rem;
+    left: -61vw;
+  }
+
+  .TravellerInfoContainerMulticity {
+    border: none;
+    border-radius: 12px;
+    height: 20vh;
+    padding: 0 0 0 0;
+    display: block;
+    margin: 0 0 0 0rem;
+  }
+  .TravellerInfoContainerTop {
+    display: none;
+  }
+
+  .errorContainerTravelClassMulticity {
+    position: relative;
+    top: 0.1rem;
+    left: 18%;
+    width: 24rem;
+    border-radius: 8px;
+    padding: 0.1rem 0.2rem 0.1rem 0.5rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  .errorContainerTravelClassMulticity.open {
+    visibility: visible;
+  }
+  .errorContainerTravelClassMulticity:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .multicityContainer {
+    margin: 0 0 8rem 0;
+  }
+  .searchBlockMulticity {
+    flex-direction: column;
+    height: auto;
+    margin: 3.5rem 0 0 1.3rem;
+    border: 1px solid #e7e7e7;
+  }
+  .addCityBlock {
+    border-radius: 12px;
+    display: flex;
+    margin: 1rem 0 1rem 1.3rem;
+  }
+  .addCityBtnContainer1 {
+    top: -5rem;
+    left: 28vw;
+  }
+  .BtnContainer2 {
+    top: -5rem;
+    left: 22vw;
+  }
+  .BtnContainer3 {
+    top: -5rem;
+    left: 22vw;
+  }
+  .closeCityBtnContainer4 {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 21.5rem;
+    left: -50vw;
+  }
+
+  .TravellerInfoContainerMulticity {
+    border: none;
+    border-radius: 12px;
+    height: 20vh;
+    padding: 0 0 0 0;
+    display: block;
+  }
+  .TravellerInfoContainerTop {
+    display: none;
+  }
+
+  .errorContainerTravelClassMulticity {
+    position: relative;
+    top: -3vh;
+    left: 18%;
+    width: 15rem;
+    border-radius: 8px;
+    padding: 0.1rem 0.2rem 0.1rem 0.5rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  .errorContainerTravelClassMulticity.open {
+    visibility: visible;
+  }
+  .errorContainerTravelClassMulticity:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -40%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .temporaryMulticityContainer {
+    text-align: center;
+    font-size: 1.5rem;
+    height: 150px;
+    margin: 8vh 0 0rem 0rem;
+    padding: 5vh 0 0 4vh;
+  }
+  .addCityBtnContainer1 {
+    top: -4.5rem;
+    left: 28vw;
+  }
+  .BtnContainer2 {
+    top: -5rem;
+    left: 22vw;
+  }
+  .BtnContainer3 {
+    top: -5rem;
+    left: 22vw;
+  }
+  .closeCityBtnContainer4 {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 21.5rem;
+    left: -50vw;
+  }
+}
+@media screen and (max-width: 380px) {
+  .temporaryMulticityContainer {
+    text-align: center;
+    font-size: 1.5rem;
+    height: 150px;
+    margin: 8vh 0 0rem 0rem;
+    padding: 5vh 0 0 3vh;
+  }
+  .addCityBtnContainer1 {
+    top: -4.5rem;
+    left: 25vw;
+  }
+  .BtnContainer2 {
+    top: -5rem;
+    left: 20vw;
+  }
+  .BtnContainer3 {
+    top: -5rem;
+    left: 20vw;
+  }
+  .closeCityBtnContainer4 {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 21.5rem;
+    left: -52vw;
+  }
+}
+@media screen and (max-width: 360px) {
+  .multicityContainer {
+    margin: 0 0 8rem 0;
+  }
+  .searchBlockMulticity {
+    flex-direction: column;
+    height: auto;
+    margin: 6rem 0 0 1rem;
+    border: 1px solid #e7e7e7;
+  }
+  .addCityBlock {
+    margin: 1rem 0 1rem 1rem;
+  }
+
+  .addCityBtnContainer1 {
+    top: -4.5rem;
+    left: 25vw;
+  }
+  .BtnContainer2 {
+    top: -5rem;
+    left: 20vw;
+  }
+  .BtnContainer3 {
+    top: -5rem;
+    left: 20vw;
+  }
+  .closeCityBtnContainer4 {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 21.5rem;
+    left: -52vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .multicityContainer {
+    margin: 0 0 8rem 0;
+  }
+  .searchBlockMulticity {
+    flex-direction: column;
+    height: auto;
+    margin: 6rem 0 0 1rem;
+    border: 1px solid #e7e7e7;
+  }
+  .addCityBlock {
+    margin: 1rem 0 1rem 1rem;
+  }
+
+  .addCityBtnContainer1 {
+    top: -4.5rem;
+    left: 22vw;
+  }
+  .BtnContainer2 {
+    top: -5rem;
+    left: 14vw;
+  }
+  .BtnContainer3 {
+    top: -5rem;
+    left: 14vw;
+  }
+  .closeCityBtnContainer4 {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    top: 21.5rem;
+    left: -54vw;
+  }
+}

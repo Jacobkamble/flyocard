@@ -1,0 +1,97 @@
+.priceDetailsWrapperMedia {
+  display: none;
+}
+
+.flightBookingAndPaymentContainer {
+  display: flex;
+}
+
+.flightBookingAndPaymentScroll {
+  margin-top: 1%;
+  width: 80%;
+  height: 88vh;
+  overflow-y: scroll;
+}
+.flightSummaryWrapper {
+  width: 100%;
+}
+.priceDetailsWrapperDesktop {
+  width: 28%;
+  margin: 0 0 0 1%;
+}
+
+.travellerInfoInputWrapper {
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  margin: 1%;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+}
+.travellerInfoInputWrapperMedia {
+  display: none;
+}
+.flightBookingAndPaymentScrollMedia {
+  display: none;
+}
+
+@media screen and (max-width: 1370px) {
+  .priceDetailsWrapperDesktop {
+    display: none;
+  }
+  .travellerInfoInputWrapper {
+    display: none;
+  }
+  .flightBookingAndPaymentScroll {
+    display: none;
+  }
+  .flightBookingAndPaymentContainer {
+    display: block;
+  }
+
+  .flightBookingAndPaymentScrollMedia {
+    display: block;
+    overflow-x: hidden;
+  }
+
+  .flightSummaryWrapper {
+    width: 100%;
+    margin: 1% 0 1% 0;
+  }
+  .travellerInfoInputWrapperMedia {
+    display: block;
+  }
+  .priceDetailsWrapperMedia {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .priceDetailsWrapperDesktop {
+    display: none;
+  }
+  .travellerInfoInputWrapper {
+    display: none;
+  }
+  .flightBookingAndPaymentScroll {
+    display: none;
+  }
+  .flightBookingAndPaymentContainer {
+    display: block;
+  }
+
+  .flightBookingAndPaymentScrollMedia {
+    display: block;
+
+    overflow-x: hidden;
+  }
+
+  .flightSummaryWrapper {
+    width: 100%;
+  }
+  .travellerInfoInputWrapperMedia {
+    display: block;
+  }
+  .priceDetailsWrapperMedia {
+    display: block;
+  }
+}

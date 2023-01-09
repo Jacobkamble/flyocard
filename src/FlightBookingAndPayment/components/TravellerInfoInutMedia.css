@@ -1,0 +1,924 @@
+.travellerInfoInputOpenBtnMedia {
+  background-color: #fff;
+  height: max-content;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  margin: 0.4rem 0.4rem 0rem 0.4rem;
+  padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.travellerInfoInputToggleOpen {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.travellerInfoInputContainerMedia {
+  height: max-content;
+  width: 100%;
+  margin: 2% 0 0 0;
+}
+
+.travellerInfoInputContainerMedia.open {
+}
+.travellerInfoInputContainerMedia.closed {
+  display: none;
+}
+
+.travellerInfoInputHeaderContainerMedia.Primary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.travellerInfoInputHeaderMedia {
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 100%;
+}
+.travellerInfoInputDetailsInstructionMedia {
+  display: none;
+}
+.travellerInfoInputDetailsInstructionMedia.Primary {
+  display: block;
+  width: 95%;
+  font-size: 0.6rem;
+  padding: 0.2rem;
+  margin: 2% 2% 2% 2.6%;
+  border: 1.2px solid #46b2e0;
+}
+
+.InfoInputContainerMedia {
+  margin: 1%;
+  display: block;
+  height: max-content;
+}
+
+.travellerInfoInputFieldMedia {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0.4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.travellerTypeMedia {
+  width: 100%;
+  margin: 2.5% 0% 2.5% 0;
+  padding: 0.8rem 0 0 0;
+}
+
+.travellerTitleWrapperMedia {
+  width: 100%;
+  height: 100%;
+  margin: 2.5% 1% 1% 0;
+}
+
+.travellerTitleMedia {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+}
+
+.travellerTitleMedia.Error {
+  border-color: red;
+}
+
+.titleSelectionDropDownMedia {
+  height: max-content;
+  width: max-content;
+  margin: 1% 0 0 0%;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  position: absolute;
+}
+
+.travellerGenderWrapperMedia {
+  width: 100%;
+  height: 100%;
+  margin: 2.5% 1% 1% 0;
+}
+.travellerGenderMedia {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+}
+.travellerGenderMedia.Error {
+  border-color: red;
+}
+.genderSelectionDropDownMedia {
+  height: max-content;
+  width: max-content;
+  margin: 1% 0 0 0%;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  position: absolute;
+}
+.travellerNameWrapperMedia {
+  width: 100%;
+  height: 100%;
+  margin: 2.5% 1% 1% 0;
+}
+.travellerFirstNameMedia {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+}
+.travellerFirstNameMedia.check {
+  border-color: #46b2e0;
+}
+.travellerFirstNameMedia.check.Error {
+  border-color: red;
+}
+.travellerFirstNameMedia.Error {
+  border-color: red;
+}
+.travellerMiddleNameMedia {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+}
+.travellerMiddleNameMedia.check {
+  border-color: #46b2e0;
+}
+.travellerLastNameMedia {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+}
+.travellerLastNameMedia.check {
+  border-color: #46b2e0;
+}
+.travellerLastNameMedia.check.Error {
+  border-color: red;
+}
+.travellerLastNameMedia.Error {
+  border-color: red;
+}
+.travellerDateOfBirthContainerMedia {
+  width: 100%;
+}
+.travellerDateOfBirthMedia {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  margin: 1% 1% 1% 0;
+  transition: border 400ms ease;
+}
+.travellerDateOfBirthMedia.check {
+  border-color: #46b2e0;
+}
+.travellerInfoInputFieldDOBMedia {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  padding: 0 0 0 0.4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.monthDropDownWrapperMedia {
+  height: max-content;
+  width: max-content;
+  margin: -50% 0 0 0%;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  position: absolute;
+}
+
+.dateOfBirthMonthMedia {
+  color: grey;
+  font-size: 0.8rem;
+  font-family: 100;
+  width: 50%;
+  padding: 0.4rem;
+}
+.dateOfBirthDayMedia {
+  border-right: 2px solid rgb(0 0 0 / 20%);
+  border-left: 2px solid rgb(0 0 0 / 20%);
+  color: grey;
+  font-size: 0.9rem;
+  margin: 0%;
+}
+
+.dateOfBirthYearMedia {
+  padding: 0%;
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  margin: 0%;
+}
+
+.travellerGenderContainerMedia {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1% 0 0 1%;
+}
+
+.travellerGenderRadioGroupMedia {
+  padding: 1% 0rem 1% 0rem;
+  width: 100%;
+  display: flex;
+}
+
+.genderHeaderMedia {
+  width: 100%;
+}
+
+.travellerGenderRadioMedia {
+  display: flex;
+  width: 40%;
+  margin: 0 0% 0 2%;
+}
+
+.genderRadioMedia {
+  margin: 4% 5% 0 1%;
+  border: 2px solid rgb(0 0 0 / 40%);
+  height: 52%;
+  width: 10%;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 200ms ease;
+}
+
+.genderRadioMedia.Checked {
+  background-color: #a4d3e7;
+}
+.genderRadioTitleMedia {
+  color: grey;
+  font-size: 0.9rem;
+  margin: 1.5% 0 2.5% 0;
+  cursor: pointer;
+}
+
+.travellerInfoerrMessageMedia {
+  font-size: 0.7rem;
+  color: red;
+  margin: 0 0 0 2%;
+}
+
+.travellerEmailContainerMedia.Primary {
+  display: block;
+}
+.travellerEmailWrapperMedia {
+  width: 100%;
+  height: 4rem;
+}
+.travellerEmailMedia {
+  width: 100%;
+  padding: 1%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  margin: 0% 0% 0% 0%;
+  transition: all 400ms ease;
+}
+.travellerEmailMedia.check {
+  border-color: #46b2e0;
+}
+.travellerEmailMedia.check.Error {
+  border-color: red;
+}
+.travellerEmailMedia.Error {
+  border-color: red;
+}
+@media screen and (max-width: 1370px) {
+  .travellerInfoInputOpenBtnMedia {
+    background-color: #fff;
+    height: max-content;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    margin: 0.4rem 0.4rem 0rem 0.8rem;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    border-radius: 0.4rem;
+    width: 98%;
+  }
+
+  .travellerInfoInputToggleOpen {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+  .travellerInfoInputContainerMedia {
+    height: max-content;
+    width: 100%;
+    margin: 2% 0 0 0;
+  }
+
+  .travellerInfoInputContainerMedia.open {
+  }
+  .travellerInfoInputContainerMedia.closed {
+    display: none;
+  }
+
+  .travellerInfoInputHeaderContainerMedia.Primary {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .travellerInfoInputHeaderMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .travellerInfoInputDetailsInstructionMedia {
+    display: none;
+  }
+  .travellerInfoInputDetailsInstructionMedia.Primary {
+    display: block;
+    width: 95%;
+    font-size: 0.6rem;
+    padding: 0.2rem;
+    margin: 2% 2% 2% 2.6%;
+    border: 1.2px solid #46b2e0;
+  }
+
+  .InfoInputContainerMedia {
+    margin: 1%;
+    display: block;
+    height: max-content;
+  }
+
+  .travellerInfoInputFieldMedia {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0.4rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .travellerTypeMedia {
+    width: 100%;
+    margin: 2.5% 0% 2.5% 0;
+    padding: 0.8rem 0 0 0;
+  }
+
+  .travellerTitleWrapperMedia {
+    width: 100%;
+    height: 100%;
+    margin: 2.5% 1% 1% 0;
+  }
+
+  .travellerTitleMedia {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+
+  .travellerTitleMedia.Error {
+    border-color: red;
+  }
+
+  .titleSelectionDropDownMedia {
+    height: max-content;
+    width: max-content;
+    margin: 1% 0 0 0%;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    position: absolute;
+  }
+
+  .travellerGenderWrapperMedia {
+    width: 100%;
+    height: 100%;
+    margin: 2.5% 1% 1% 0;
+  }
+  .travellerGenderMedia {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+  .travellerGenderMedia.Error {
+    border-color: red;
+  }
+  .genderSelectionDropDownMedia {
+    height: max-content;
+    width: max-content;
+    margin: 1% 0 0 0%;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    position: absolute;
+  }
+  .travellerNameWrapperMedia {
+    width: 100%;
+    height: 100%;
+    margin: 2.5% 1% 1% 0;
+  }
+  .travellerFirstNameMedia {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+  .travellerFirstNameMedia.check {
+    border-color: #46b2e0;
+  }
+  .travellerFirstNameMedia.check.Error {
+    border-color: red;
+  }
+  .travellerFirstNameMedia.Error {
+    border-color: red;
+  }
+  .travellerMiddleNameMedia {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+  .travellerMiddleNameMedia.check {
+    border-color: #46b2e0;
+  }
+  .travellerLastNameMedia {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+  .travellerLastNameMedia.check {
+    border-color: #46b2e0;
+  }
+  .travellerLastNameMedia.check.Error {
+    border-color: red;
+  }
+  .travellerLastNameMedia.Error {
+    border-color: red;
+  }
+  .travellerDateOfBirthContainerMedia {
+    width: 100%;
+  }
+  .travellerDateOfBirthMedia {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    margin: 1% 1% 1% 0;
+    transition: border 400ms ease;
+  }
+  .travellerDateOfBirthMedia.check {
+    border-color: #46b2e0;
+  }
+  .travellerInfoInputFieldDOBMedia {
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 0.4rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .monthDropDownWrapperMedia {
+    height: max-content;
+    width: max-content;
+    margin: -50% 0 0 0%;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    position: absolute;
+  }
+
+  .dateOfBirthMonthMedia {
+    color: grey;
+    font-size: 0.8rem;
+    font-family: 100;
+    width: 50%;
+    padding: 0.4rem;
+  }
+  .dateOfBirthDayMedia {
+    border-right: 2px solid rgb(0 0 0 / 20%);
+    border-left: 2px solid rgb(0 0 0 / 20%);
+    color: grey;
+    font-size: 0.9rem;
+    margin: 0%;
+  }
+
+  .dateOfBirthYearMedia {
+    padding: 0%;
+    border-radius: 0.2rem;
+    color: grey;
+    font-size: 0.9rem;
+    margin: 0%;
+  }
+
+  .travellerGenderContainerMedia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0 0 1%;
+  }
+
+  .travellerGenderRadioGroupMedia {
+    padding: 1% 0rem 1% 0rem;
+    width: 100%;
+    display: flex;
+  }
+
+  .genderHeaderMedia {
+    width: 100%;
+  }
+
+  .travellerGenderRadioMedia {
+    display: flex;
+    width: 40%;
+    margin: 0 0% 0 2%;
+  }
+
+  .genderRadioMedia {
+    margin: 4% 5% 0 1%;
+    border: 2px solid rgb(0 0 0 / 40%);
+    height: 52%;
+    width: 10%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+  }
+
+  .genderRadioMedia.Checked {
+    background-color: #a4d3e7;
+  }
+  .genderRadioTitleMedia {
+    color: grey;
+    font-size: 0.9rem;
+    margin: 1.5% 0 2.5% 0;
+    cursor: pointer;
+  }
+
+  .travellerInfoerrMessageMedia {
+    font-size: 0.7rem;
+    color: red;
+    margin: 0 0 0 2%;
+  }
+
+  .travellerEmailContainerMedia.Primary {
+    display: block;
+  }
+  .travellerEmailWrapperMedia {
+    width: 100%;
+    height: 4rem;
+  }
+  .travellerEmailMedia {
+    width: 100%;
+    padding: 1%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    color: grey;
+    font-size: 0.9rem;
+    margin: 0% 0% 0% 0%;
+    transition: all 400ms ease;
+  }
+  .travellerEmailMedia.check {
+    border-color: #46b2e0;
+  }
+  .travellerEmailMedia.check.Error {
+    border-color: red;
+  }
+  .travellerEmailMedia.Error {
+    border-color: red;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .travellerInfoInputOpenBtnMedia {
+    background-color: #fff;
+    height: max-content;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    margin: 0.4rem 0.4rem 0rem 0.4rem;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    border-radius: 0.4rem;
+  }
+
+  .travellerInfoInputToggleOpen {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+  .travellerInfoInputContainerMedia {
+    height: max-content;
+    width: 100%;
+    margin: 2% 0 0 0;
+  }
+
+  .travellerInfoInputContainerMedia.open {
+  }
+  .travellerInfoInputContainerMedia.closed {
+    display: none;
+  }
+
+  .travellerInfoInputHeaderContainerMedia.Primary {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .travellerInfoInputHeaderMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .travellerInfoInputDetailsInstructionMedia {
+    display: none;
+  }
+  .travellerInfoInputDetailsInstructionMedia.Primary {
+    display: block;
+    width: 95%;
+    font-size: 0.6rem;
+    padding: 0.2rem;
+    margin: 2% 2% 2% 2.6%;
+    border: 1.2px solid #46b2e0;
+  }
+
+  .InfoInputContainerMedia {
+    margin: 1%;
+    display: block;
+    height: max-content;
+  }
+
+  .travellerInfoInputFieldMedia {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0.4rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .travellerTypeMedia {
+    width: 100%;
+    margin: 2.5% 0% 2.5% 0;
+    padding: 0.8rem 0 0 0;
+  }
+
+  .travellerTitleWrapperMedia {
+    width: 100%;
+    height: 100%;
+    margin: 2.5% 1% 1% 0;
+  }
+
+  .travellerTitleMedia {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+
+  .travellerTitleMedia.Error {
+    border-color: red;
+  }
+
+  .titleSelectionDropDownMedia {
+    height: max-content;
+    width: max-content;
+    margin: 1% 0 0 0%;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    position: absolute;
+  }
+
+  .travellerGenderWrapperMedia {
+    width: 100%;
+    height: 100%;
+    margin: 2.5% 1% 1% 0;
+  }
+  .travellerGenderMedia {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+  .travellerGenderMedia.Error {
+    border-color: red;
+  }
+  .genderSelectionDropDownMedia {
+    height: max-content;
+    width: max-content;
+    margin: 1% 0 0 0%;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    position: absolute;
+  }
+  .travellerNameWrapperMedia {
+    width: 100%;
+    height: 100%;
+    margin: 2.5% 1% 1% 0;
+  }
+  .travellerFirstNameMedia {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+  .travellerFirstNameMedia.check {
+    border-color: #46b2e0;
+  }
+  .travellerFirstNameMedia.check.Error {
+    border-color: red;
+  }
+  .travellerFirstNameMedia.Error {
+    border-color: red;
+  }
+  .travellerMiddleNameMedia {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+  .travellerMiddleNameMedia.check {
+    border-color: #46b2e0;
+  }
+  .travellerLastNameMedia {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    color: grey;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+  }
+  .travellerLastNameMedia.check {
+    border-color: #46b2e0;
+  }
+  .travellerLastNameMedia.check.Error {
+    border-color: red;
+  }
+  .travellerLastNameMedia.Error {
+    border-color: red;
+  }
+  .travellerDateOfBirthContainerMedia {
+    width: 100%;
+  }
+  .travellerDateOfBirthMedia {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    margin: 1% 1% 1% 0;
+    transition: border 400ms ease;
+  }
+  .travellerDateOfBirthMedia.check {
+    border-color: #46b2e0;
+  }
+  .travellerInfoInputFieldDOBMedia {
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 0.4rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .monthDropDownWrapperMedia {
+    height: max-content;
+    width: max-content;
+    margin: -50% 0 0 0%;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    position: absolute;
+  }
+
+  .dateOfBirthMonthMedia {
+    color: grey;
+    font-size: 0.8rem;
+    font-family: 100;
+    width: 50%;
+    padding: 0.4rem;
+  }
+  .dateOfBirthDayMedia {
+    border-right: 2px solid rgb(0 0 0 / 20%);
+    border-left: 2px solid rgb(0 0 0 / 20%);
+    color: grey;
+    font-size: 0.9rem;
+    margin: 0%;
+  }
+
+  .dateOfBirthYearMedia {
+    padding: 0%;
+    border-radius: 0.2rem;
+    color: grey;
+    font-size: 0.9rem;
+    margin: 0%;
+  }
+
+  .travellerGenderContainerMedia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0 0 1%;
+  }
+
+  .travellerGenderRadioGroupMedia {
+    padding: 1% 0rem 1% 0rem;
+    width: 100%;
+    display: flex;
+  }
+
+  .genderHeaderMedia {
+    width: 100%;
+  }
+
+  .travellerGenderRadioMedia {
+    display: flex;
+    width: 40%;
+    margin: 0 0% 0 2%;
+  }
+
+  .genderRadioMedia {
+    margin: 4% 5% 0 1%;
+    border: 2px solid rgb(0 0 0 / 40%);
+    height: 52%;
+    width: 10%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+  }
+
+  .genderRadioMedia.Checked {
+    background-color: #a4d3e7;
+  }
+  .genderRadioTitleMedia {
+    color: grey;
+    font-size: 0.9rem;
+    margin: 1.5% 0 2.5% 0;
+    cursor: pointer;
+  }
+
+  .travellerInfoerrMessageMedia {
+    font-size: 0.7rem;
+    color: red;
+    margin: 0 0 0 2%;
+  }
+
+  .travellerEmailContainerMedia.Primary {
+    display: block;
+  }
+  .travellerEmailWrapperMedia {
+    width: 100%;
+    height: 4rem;
+  }
+  .travellerEmailMedia {
+    width: 100%;
+    padding: 1%;
+    border: 2px solid rgb(0 0 0 / 20%);
+    border-radius: 0.2rem;
+    color: grey;
+    font-size: 0.9rem;
+    margin: 0% 0% 0% 0%;
+    transition: all 400ms ease;
+  }
+  .travellerEmailMedia.check {
+    border-color: #46b2e0;
+  }
+  .travellerEmailMedia.check.Error {
+    border-color: red;
+  }
+  .travellerEmailMedia.Error {
+    border-color: red;
+  }
+}

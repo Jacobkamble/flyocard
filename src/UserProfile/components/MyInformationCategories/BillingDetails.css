@@ -1,0 +1,197 @@
+.creditCardInfoConatiner {
+  padding: 1rem;
+  height: max-content;
+}
+
+.creditCardInfoHeader {
+  font-size: 18px;
+  font-weight: 600;
+}
+.creditCardInfoDisplay {
+  border-bottom: 2px solid #bebdbd;
+  padding: 1rem 10rem 1rem 0rem;
+}
+.inputFieldRow {
+  display: flex;
+  padding: 0 0rem 0 0;
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+.inputAndLabel {
+  display: flex;
+  width: 50%;
+  border: 1px solid #bebdbd;
+  border-radius: 0.4rem;
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+.nameOnCard {
+  display: flex;
+  width: 40%;
+  border: 1px solid #bebdbd;
+  border-radius: 0.4rem;
+  margin: 0rem 0 0rem 0rem;
+}
+
+.cardInputField {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  margin: 0rem 0 0 0rem;
+  border: none;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  padding: 0.2rem;
+}
+.cardInputField::placeholder {
+  font-size: 13px;
+}
+
+.BDlabel {
+  width: 30%;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  color: #565d63;
+  border-right: 1px solid #bebdbd;
+  font-size: 13px;
+  max-height: 3rem;
+}
+.BDlabelExpiryDate {
+  width: 40%;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  color: #565d63;
+  border-right: 1px solid #bebdbd;
+  font-size: 13px;
+  max-height: 3rem;
+}
+.BDtext {
+  width: 80%;
+  padding: 0rem;
+  max-height: 3rem;
+}
+.billingAddressContainer {
+  scroll-snap-align: start;
+}
+.billingAddressContainer {
+  padding: 1rem;
+  border-bottom: 2px solid #bebdbd;
+}
+.billingAddressHeader {
+  font-size: 18px;
+  font-weight: 600;
+}
+.adressOptions {
+  margin: 0.5rem 0 0.5rem 0;
+  display: flex;
+}
+.adressOption1 {
+  width: 30%;
+  display: flex;
+}
+.adressOption2 {
+  width: 50%;
+  display: flex;
+}
+
+.addressOptionRadio {
+  margin: 0.5rem 0rem 0.5rem 0.5rem;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+.addressOptionLabel {
+  margin: 0.2rem 0.5rem 0rem 0.5rem;
+}
+.addressForm {
+  padding: 1rem;
+}
+
+.countrySelect {
+  display: flex;
+  padding: 0 0rem 0 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.compulsouryTextSpan {
+  margin: 0 0 0 0.1rem;
+  color: red;
+}
+
+.saveBtn {
+  position: relative;
+  left: 75%;
+  width: 20%;
+  text-align: center;
+  font-size: 18px;
+  margin: 1rem 0 1rem 0;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  background-color: #46b2e0;
+  user-select: none;
+  cursor: pointer;
+  transition: background-color 200ms ease-in;
+}
+.saveBtn:hover {
+  background-color: #a4d3e7;
+}
+
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .inputFieldRow {
+    flex-direction: column;
+  }
+  .inputAndLabel {
+    width: 100%;
+    margin: 1rem 0 0rem 0;
+  }
+  .creditCardInfoDisplay {
+    padding: 1rem 0rem 1rem 0rem;
+  }
+  .adressOption1 {
+    width: 50%;
+    display: flex;
+  }
+  .adressOption2 {
+    width: 50%;
+    display: flex;
+  }
+  .BDlabel {
+    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+    font-size: 13px;
+  }
+  .BDlabelExpiryDate {
+    width: 48%;
+    font-size: 12px;
+    border-right: 1px solid #bebdbd;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
+  .BDtext {
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+}

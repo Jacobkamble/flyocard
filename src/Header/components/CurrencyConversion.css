@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.logoborder{
+  border:1px solid #46b2e0;
+  border-radius: 20px;
+
+}
+:root {
+  --blue: rgb(171, 212, 224);
+  --white: #ffff;
+  --dark: rgb(228, 222, 222);
+  --shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.conversionWrapper.open {
+  z-index: 100;
+  display: grid;
+  position: relative;
+  left: -3rem;
+  padding: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  box-shadow: var(--shadow);
+  background-color: var(--white);
+  border-radius: 0.4rem;
+  z-index: 10;
+  user-select: none;
+}
+.conversionWrapper.open::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 12px solid #ffff;
+  border-right: 10px solid transparent;
+  left: 67%;
+  top: -4.2%;
+}
+.conversionWrapper.close {
+  display: none;
+}
+
+.flagIcon {
+  height: 23.28px;
+  width: 35px;
+  margin-top: 0.35rem;
+  box-shadow: var(--shadow);
+}
+.currencyWrapper {
+  display: grid;
+  font-size: 1.2rem;
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  grid-template-columns: 42px 1fr;
+  transition: background-color 250ms ease;
+  place-items: center;
+  margin: 0.4rem 1.6rem 0.2rem 1.6rem;
+}
+
+.codeSymbolContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  place-items: center;
+}
+.currencySymbolContainer {
+  display: grid;
+  background-color: var(--dark);
+  border-radius: 100%;
+  grid-template-columns: 33.5px;
+  grid-template-rows: 33.5px;
+  place-items: center;
+}
+
+.currencySymbol {
+  font-size: 0.75rem;
+}
+
+.currencyWrapper:hover {
+  background-color: var(--blue);
+}
+.currencyWrapper.select {
+  background-color: var(--blue);
+}

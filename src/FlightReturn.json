@@ -1,0 +1,52 @@
+
+  [ {
+    
+    "id": "1",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:40",
+    "arrivalTime": "19:35",
+    "price":"311"
+    
+  },
+  {
+
+    "id": "2",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"421"
+    
+  }
+  ,
+  {
+
+    "id": "3",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"461"
+    
+  },
+  {
+
+    "id": "4",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"401"
+    
+  },
+  {
+
+    "id": "5",
+    "departure":"Los-Angeles",
+    "destination":"Dallas",
+    "departureTime": "13:10",
+    "arrivalTime": "19:00",
+    "price":"451"
+    
+  }] 

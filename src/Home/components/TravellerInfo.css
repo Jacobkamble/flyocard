@@ -1,0 +1,1234 @@
+/*--------------------- TRAVELLER & CLASS DISPLAY---------------------*/
+.infoPlaceholder {
+  cursor: default;
+  outline: none;
+  padding: 0.4rem 0 0 0.5rem;
+  transition: all 200ms ease;
+  width: auto;
+  border-radius: 12px;
+}
+
+.infoInput {
+  display: flex;
+  font-weight: 600;
+  border: none;
+  border-radius: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  outline: none;
+  height: 2.2rem;
+  width: auto;
+  font-size: 1.5rem;
+  margin: 1rem 0.5rem 0.5rem;
+  transition: all 600ms ease;
+  z-index: 10;
+}
+.infoInputPlaceholder {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.3rem 0 1rem 0.8rem;
+}
+
+.infoInput:hover {
+  background-color: #a4d3e7;
+}
+.classInfo {
+  margin: 0.2rem 0 0 0.2rem;
+  font-size: 1rem;
+  color: #818181;
+}
+/*--------------------- TRAVELLER & CLASS END---------------------*/
+
+/*---------------------  TRAVELLER  DROP-DOWN---------------------*/
+.travellerInfoDropdown {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 1em 4em rgba(0, 0, 0, 0.07);
+  box-sizing: border-box;
+  border-radius: 16px;
+  top: 0.8rem;
+  left: -26rem;
+  overflow: hidden;
+  overflow-y: hidden;
+  height: max-content;
+  width: 46vw;
+  transition: margin-top ease-out 200ms;
+  z-index: 100;
+  visibility: visible;
+}
+
+.travellerInfoDropdown.open {
+  margin-top: -2.5rem;
+  transition: 200ms ease-out;
+}
+.travellerInfoDropdown.close {
+  visibility: hidden;
+  box-shadow: none;
+}
+
+/*---------------------  TRAVELLER  DROP-DOWN END---------------------*/
+
+/*--------------------- ADULT TRAVELLER SELECT---------------------*/
+.noOfTravellersLabel {
+  font-size: 0.78rem;
+  margin: 0.4rem 0 0 2rem;
+}
+
+.adultTravellerContainer {
+  width: max-content;
+  height: 3rem;
+  margin-left: 2rem;
+  margin-top: 0.3rem;
+  display: flex;
+}
+
+.adultTravellers {
+  width: max-content;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  height: 2.24rem;
+  margin-top: 0.3rem;
+  margin-right: 0.3rem;
+}
+.noOfTravellers {
+  /*--------------------- COMMON FOR ALL &except class& LISTS---------------------*/
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.noOfTravellersGroup {
+  /*--------------------- COMMON FOR ALL &except class& LISTS---------------------*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.noOfTravellersLi {
+  /*--------------------- COMMON FOR ALL  &except class& LISTS---------------------*/
+  height: 1.6rem;
+  width: 1.8rem;
+  margin: 0.2rem 0.3rem 0 0.1rem;
+  padding: 0;
+  padding-top: 0.2rem;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  transition: background-color 200ms ease;
+}
+
+ul li.noOfTravellersLi:hover {
+  /*--------------------- COMMON FOR ALL  &except class& LISTS---------------------*/
+  background-color: #d3d1d1;
+  cursor: pointer;
+  font-weight: 600;
+}
+.selectedNo {
+  /*--------------------- COMMON FOR ALL  &except class& LISTS---------------------*/
+  height: 2.2rem;
+  width: 1.8rem;
+  margin: 0.2rem 0.3rem 0 0.1rem;
+  margin-top: -0.3rem;
+  padding: 0;
+  padding-top: 0.6rem;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #91d1ec;
+  font-weight: 600;
+}
+
+/*------------------------------ADULT END------------------------------*/
+
+/*--------------------- CHILDREN TRAVELLER SELECT---------------------*/
+
+.childrenInfantContainer {
+  display: flex;
+  width: 100%;
+  margin: 0.4rem 0 1rem 0;
+  justify-content: space-around;
+}
+
+.childInfantLabelContainer {
+  display: flex;
+  margin: 0.4rem 0 0.6rem 0;
+}
+
+.childLabel {
+  width: max-content;
+  font-size: 0.72rem;
+  margin: 0 0 0 0;
+  padding: 0.2rem;
+  font-weight: 600;
+}
+
+.listContainer6 {
+  margin: 0;
+  display: flex;
+}
+.childrenTravellersContainer {
+  display: flex;
+  flex-direction: column;
+}
+.childrenTravellers {
+  width: max-content;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  height: 2.2rem;
+  display: flex;
+  margin-right: 0.3rem;
+}
+
+/*--------------------- CHILDREN END---------------------*/
+
+/*--------------------- INFANT TRAVELLER SELECT---------------------*/
+.infantLabel {
+  width: max-content;
+  font-size: 0.72rem;
+  margin: 0 0 0 0;
+  padding: 0.2rem;
+  font-weight: 600;
+}
+.infantTravellersContainer {
+  display: flex;
+  flex-direction: column;
+}
+.infantTravellers {
+  width: max-content;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  height: 2.2rem;
+  margin-right: 0.3rem;
+  display: flex;
+}
+
+.countClassErr {
+  background-color: #91d1ec;
+  position: absolute;
+  width: 10rem;
+  border-radius: 8px;
+  padding: 0.2rem 0 0.2rem 0.4rem;
+  background: #ffd3d4;
+  box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  top: 3.8rem;
+  left: 31.4rem;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.countClassErr.open:after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 12px solid #ffd3d4;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+  left: 2rem;
+  top: 90%;
+}
+.countClassErr.open {
+  visibility: visible;
+}
+
+.travelClasserrorH4 {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 100;
+  color: red;
+}
+/*--------------------- INFANT END---------------------*/
+
+/*--------------------- CLASS SELECT---------------------*/
+
+.travelClassBlock {
+  margin: 1rem 0.3rem 0.6rem 0.3rem;
+}
+.travelClassContainer {
+  width: max-content;
+  height: 2.6rem;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  margin: 0.4rem 0.2rem 0 1.2rem;
+  display: flex;
+}
+.travelClassInfo {
+  display: flex;
+}
+
+.travelClassList {
+  width: 38vw;
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.travelClassLi {
+  height: 1.8rem;
+  width: 13.75rem;
+  margin: 0.2rem 0rem 0rem 0.1rem;
+  padding: 0.4rem 0rem 0rem 0rem;
+  font-size: 0.75rem;
+  text-align: center;
+  border-radius: 4px;
+  transition: background-color 200ms ease;
+}
+
+ul li.travelClassLi:hover {
+  background-color: #d3d1d1;
+  cursor: pointer;
+  font-weight: 600;
+}
+.selectedNoClass {
+  height: 1.8rem;
+  width: 13.75rem;
+  margin: -0.2rem 0rem 0rem 0.1rem;
+  padding: 0.8rem 0 0.4rem 0;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #91d1ec;
+  transition: background-color 200ms ease;
+  font-weight: 600;
+}
+/*--------------------- CLASS SELECT END---------------------*/
+
+/*--------------------- APPLY BUTTON-------------------------*/
+
+.btnTravellerClassSSelect {
+  height: max-content;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 0 0 0.8rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+/*--------------------- APPLY BUTTON END---------------------*/
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+  .infoPlaceholder {
+    cursor: default;
+    outline: none;
+    padding: 0.4rem 0 0 0.5rem;
+    transition: all 200ms ease;
+    width: auto;
+    border-radius: 12px;
+  }
+  
+  .infoInput {
+    display: flex;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+    height: 2.2rem;
+    width: auto;
+    font-size: 1.5rem;
+    margin: 1rem 0.5rem 0.5rem;
+    transition: all 600ms ease;
+    z-index: 10;
+  }
+  .infoInputPlaceholder {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.3rem 0 1rem 0.8rem;
+  }
+  
+  .infoInput:hover {
+    background-color: #a4d3e7;
+  }
+  .classInfo {
+    margin: 0.2rem 0 0 0.2rem;
+    font-size: 1rem;
+    color: #818181;
+  }
+  /*--------------------- TRAVELLER & CLASS END---------------------*/
+  
+  /*---------------------  TRAVELLER  DROP-DOWN---------------------*/
+  .travellerInfoDropdown {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 1em 4em rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    border-radius: 16px;
+    top: 0.8rem;
+    left: -26rem;
+    overflow: hidden;
+    overflow-y: hidden;
+    height: max-content;
+    width: 46vw;
+    transition: margin-top ease-out 200ms;
+    z-index: 100;
+    visibility: visible;
+  }
+  
+  .travellerInfoDropdown.open {
+    margin-top: -2.5rem;
+    transition: 200ms ease-out;
+  }
+  .travellerInfoDropdown.close {
+    visibility: hidden;
+    box-shadow: none;
+  }
+  
+  /*---------------------  TRAVELLER  DROP-DOWN END---------------------*/
+  
+  /*--------------------- ADULT TRAVELLER SELECT---------------------*/
+  .noOfTravellersLabel {
+    font-size: 0.78rem;
+    margin: 0.4rem 0 0 2rem;
+  }
+  
+  .adultTravellerContainer {
+    width: max-content;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    display: flex;
+  }
+  
+  .adultTravellers {
+    width: max-content;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    height: 2.24rem;
+    margin-top: 0.3rem;
+    margin-right: 0.3rem;
+  }
+  .noOfTravellers {
+    /*--------------------- COMMON FOR ALL &except class& LISTS---------------------*/
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .noOfTravellersGroup {
+    /*--------------------- COMMON FOR ALL &except class& LISTS---------------------*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .noOfTravellersLi {
+    /*--------------------- COMMON FOR ALL  &except class& LISTS---------------------*/
+    height: 1.6rem;
+    width: 1.8rem;
+    margin: 0.2rem 0.3rem 0 0.1rem;
+    padding: 0;
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    transition: background-color 200ms ease;
+  }
+  
+  ul li.noOfTravellersLi:hover {
+    /*--------------------- COMMON FOR ALL  &except class& LISTS---------------------*/
+    background-color: #d3d1d1;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .selectedNo {
+    /*--------------------- COMMON FOR ALL  &except class& LISTS---------------------*/
+    height: 2.2rem;
+    width: 1.8rem;
+    margin: 0.2rem 0.3rem 0 0.1rem;
+    margin-top: -0.3rem;
+    padding: 0;
+    padding-top: 0.6rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #91d1ec;
+    font-weight: 600;
+  }
+  
+  /*------------------------------ADULT END------------------------------*/
+  
+  /*--------------------- CHILDREN TRAVELLER SELECT---------------------*/
+  
+  .childrenInfantContainer {
+    display: flex;
+    width: 100%;
+    margin: 0.4rem 0 1rem 0;
+    justify-content: space-around;
+  }
+  
+  .childInfantLabelContainer {
+    display: flex;
+    margin: 0.4rem 0 0.6rem 0;
+  }
+  
+  .childLabel {
+    width: max-content;
+    font-size: 0.72rem;
+    margin: 0 0 0 0;
+    padding: 0.2rem;
+    font-weight: 600;
+  }
+  
+  .listContainer6 {
+    margin: 0;
+    display: flex;
+  }
+  .childrenTravellersContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .childrenTravellers {
+    width: max-content;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    height: 2.2rem;
+    display: flex;
+    margin-right: 0.3rem;
+  }
+  
+  /*--------------------- CHILDREN END---------------------*/
+  
+  /*--------------------- INFANT TRAVELLER SELECT---------------------*/
+  .infantLabel {
+    width: max-content;
+    font-size: 0.72rem;
+    margin: 0 0 0 0;
+    padding: 0.2rem;
+    font-weight: 600;
+  }
+  .infantTravellersContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .infantTravellers {
+    width: max-content;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    height: 2.2rem;
+    margin-right: 0.3rem;
+    display: flex;
+  }
+  
+  .countClassErr {
+    background-color: #91d1ec;
+    position: absolute;
+    width: 10rem;
+    border-radius: 8px;
+    padding: 0.2rem 0 0.2rem 0.4rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    top: 3.8rem;
+    left: 31.4rem;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  
+  .countClassErr.open:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 12px solid #ffd3d4;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    left: 2rem;
+    top: 90%;
+  }
+  .countClassErr.open {
+    visibility: visible;
+  }
+  
+  .travelClasserrorH4 {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 100;
+    color: red;
+  }
+  /*--------------------- INFANT END---------------------*/
+  
+  /*--------------------- CLASS SELECT---------------------*/
+  
+  .travelClassBlock {
+    margin: 1rem 0.3rem 0.6rem 0.3rem;
+  }
+  .travelClassContainer {
+    width: max-content;
+    height: 2.6rem;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    margin: 0.4rem 0.2rem 0 1.2rem;
+    display: flex;
+  }
+  .travelClassInfo {
+    display: flex;
+  }
+  
+  .travelClassList {
+    width: 38vw;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .travelClassLi {
+    height: 1.8rem;
+    width: 13.75rem;
+    margin: 0.2rem 0rem 0rem 0.1rem;
+    padding: 0.4rem 0rem 0rem 0rem;
+    font-size: 0.75rem;
+    text-align: center;
+    border-radius: 4px;
+    transition: background-color 200ms ease;
+  }
+  
+  ul li.travelClassLi:hover {
+    background-color: #d3d1d1;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .selectedNoClass {
+    height: 1.8rem;
+    width: 13.75rem;
+    margin: -0.2rem 0rem 0rem 0.1rem;
+    padding: 0.8rem 0 0.4rem 0;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #91d1ec;
+    transition: background-color 200ms ease;
+    font-weight: 600;
+  }
+  /*--------------------- CLASS SELECT END---------------------*/
+  
+  /*--------------------- APPLY BUTTON-------------------------*/
+  
+  .btnTravellerClassSSelect {
+    height: max-content;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 0 0 0.8rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+@media screen and (max-width: 1024px) {
+  .infoPlaceholder {
+    width: 63vw;
+    height: 6rem;
+  }
+
+  .infoInput {
+    width: 70vw;
+    background-color: #ffff;
+    margin: 0 0 0 0rem;
+    padding: 0.2rem;
+    text-align: center;
+  } 
+  /* .infoInputPlaceholder {
+    padding: 0.2rem;
+    width: 70vw;
+  } */
+
+  /*---------------------  TRAVELLER  DROP-DOWN---------------------*/
+  .travellerInfoDropdown {
+    top: 1.2rem;
+    left: -0.2rem;
+    height: max-content;
+    width: 64vw;
+  }
+  /*---------------------  TRAVELLER  DROP-DOWN END---------------------*/
+
+  /*--------------------- ADULT TRAVELLER SELECT---------------------*/
+  .noOfTravellersLabel {
+    font-size: 0.78rem;
+    margin: 0.2rem 0 0 0.6rem;
+  }
+  .adultTravellerContainer {
+    margin-left: 1rem;
+  }
+
+  /*------------------------------ADULT END------------------------------*/
+
+  /*------------------------------CHILDREN AND INFANT---------------------------*/
+  .childrenInfantContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0.4rem 0 1rem 0.6rem;
+  }
+  /*----------------------------CHILDREN AND INFANT END----------------------------*/
+
+  /*--------------------- CLASS SELECT---------------------*/
+
+  .travelClassBlock {
+    margin: 1.2rem 0.3rem 0.6rem 0.3rem;
+    height: 20vh;
+  }
+  .travelClassContainer {
+    margin: 0.6rem 0.2rem 0 0.8rem;
+  }
+
+  .travelClassList {
+    width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .travelClassLi {
+    height: 2.5rem;
+    width: 40vw;
+    margin: 0.6rem 0rem 0rem 0.3rem;
+    padding: 0.4rem 0rem 0.4rem 0rem;
+    font-size: 0.8rem;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  }
+  .selectedNoClass {
+    height: 2.5rem;
+    width: 40vw;
+    margin: 0.6rem 0rem 0rem 0.3rem;
+    padding: 0.6rem 0 0.6rem 0;
+    font-size: 0.8rem;
+  }
+
+  .btnTravellerClassSSelect {
+    height: max-content;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 1.5rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .countClassErr {
+    background-color: #91d1ec;
+    position: absolute;
+    width: 8.2rem;
+    border-radius: 8px;
+    padding: 0 0 0 0.4rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    top: 10rem;
+    left: 10.4rem;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+
+  .countClassErr.open:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 12px solid #ffd3d4;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    left: 2rem;
+    top: 90%;
+  }
+  .countClassErr.open {
+    visibility: visible;
+  }
+
+  .travelClasserrorH4 {
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 100;
+    color: red;
+  }
+}
+@media screen and (max-width: 840px) {
+  .infoPlaceholder {
+    width: 63vw;
+    height: 6rem;
+  }
+
+  .infoInput {
+    width: 70vw;
+  }
+  .infoInputPlaceholder {
+    width: 70vw;
+  }
+  /*---------------------  TRAVELLER  DROP-DOWN---------------------*/
+  .travellerInfoDropdown {
+    top: 1.2rem;
+    left: 0.5rem;
+    height: max-content;
+    width: 64vw;
+  }
+  /*---------------------  TRAVELLER  DROP-DOWN END---------------------*/
+
+  /*--------------------- ADULT TRAVELLER SELECT---------------------*/
+  .noOfTravellersLabel {
+    font-size: 0.78rem;
+    margin: 0.2rem 0 0 0.6rem;
+  }
+  .adultTravellerContainer {
+    margin-left: 1rem;
+  }
+
+  /*------------------------------ADULT END------------------------------*/
+
+  /*------------------------------CHILDREN AND INFANT---------------------------*/
+  .childrenInfantContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0.4rem 0 1rem 0.6rem;
+  }
+  /*----------------------------CHILDREN AND INFANT END----------------------------*/
+
+  /*--------------------- CLASS SELECT---------------------*/
+
+  .travelClassBlock {
+    margin: 1.2rem 0.3rem 0.6rem 0.3rem;
+    height: 20vh;
+  }
+  .travelClassContainer {
+    margin: 0.6rem 0.2rem 0 0.8rem;
+  }
+
+  .travelClassList {
+    width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .travelClassLi {
+    height: 2.5rem;
+    width: 40vw;
+    margin: 0.6rem 0rem 0rem 0.3rem;
+    padding: 0.4rem 0rem 0.4rem 0rem;
+    font-size: 0.8rem;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  }
+  .selectedNoClass {
+    height: 2.5rem;
+    width: 40vw;
+    margin: 0.6rem 0rem 0rem 0.3rem;
+    padding: 0.6rem 0 0.6rem 0;
+    font-size: 0.8rem;
+  }
+
+  .btnTravellerClassSSelect {
+    height: max-content;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 1.5rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .countClassErr {
+    background-color: #91d1ec;
+    position: absolute;
+    width: 8.2rem;
+    border-radius: 8px;
+    padding: 0 0 0 0.4rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    top: 10rem;
+    left: 10.4rem;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+
+  .countClassErr.open:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 12px solid #ffd3d4;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    left: 2rem;
+    top: 90%;
+  }
+  .countClassErr.open {
+    visibility: visible;
+  }
+
+  .travelClasserrorH4 {
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 100;
+    color: red;
+  }
+}
+@media screen and (max-width: 770px) {
+  .infoPlaceholder {
+    width: 63vw;
+    height: 6rem;
+  }
+
+  .infoInput {
+    width: 70vw;
+  }
+  .infoInputPlaceholder {
+    width: 70vw;
+  }
+
+  /*---------------------  TRAVELLER  DROP-DOWN---------------------*/
+  .travellerInfoDropdown {
+    top: 1.2rem;
+    left: -0.2rem;
+    height: max-content;
+    width: 64vw;
+  }
+  /*---------------------  TRAVELLER  DROP-DOWN END---------------------*/
+
+  /*--------------------- ADULT TRAVELLER SELECT---------------------*/
+  .noOfTravellersLabel {
+    font-size: 0.78rem;
+    margin: 0.2rem 0 0 0.6rem;
+  }
+  .adultTravellerContainer {
+    margin-left: 1rem;
+  }
+
+  /*------------------------------ADULT END------------------------------*/
+
+  /*------------------------------CHILDREN AND INFANT---------------------------*/
+  .childrenInfantContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0.4rem 0 1rem 0.6rem;
+  }
+  /*----------------------------CHILDREN AND INFANT END----------------------------*/
+
+  /*--------------------- CLASS SELECT---------------------*/
+
+  .travelClassBlock {
+    margin: 1.2rem 0.3rem 0.6rem 0.3rem;
+    height: 20vh;
+  }
+  .travelClassContainer {
+    margin: 0.6rem 0.2rem 0 0.8rem;
+  }
+
+  .travelClassList {
+    width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .travelClassLi {
+    height: 2.5rem;
+    width: 40vw;
+    margin: 0.6rem 0rem 0rem 0.3rem;
+    padding: 0.4rem 0rem 0.4rem 0rem;
+    font-size: 0.8rem;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  }
+  .selectedNoClass {
+    height: 2.5rem;
+    width: 40vw;
+    margin: 0.6rem 0rem 0rem 0.3rem;
+    padding: 0.6rem 0 0.6rem 0;
+    font-size: 0.8rem;
+  }
+
+  .btnTravellerClassSSelect {
+    height: max-content;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 1.5rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .countClassErr {
+    background-color: #91d1ec;
+    position: absolute;
+    width: 8.2rem;
+    border-radius: 8px;
+    padding: 0 0 0 0.4rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    top: 10rem;
+    left: 10.4rem;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+
+  .countClassErr.open:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 12px solid #ffd3d4;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    left: 2rem;
+    top: 90%;
+  }
+  .countClassErr.open {
+    visibility: visible;
+  }
+
+  .travelClasserrorH4 {
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 100;
+    color: red;
+  }
+}
+@media screen and (max-width: 480px) {
+  .infoPlaceholder {
+    width: 90vw;
+    height: 8rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .infoInput {
+    width: 70vw;
+  }
+  .infoInputPlaceholder {
+    width: 70vw;
+  }
+  /*---------------------  TRAVELLER  DROP-DOWN---------------------*/
+  .travellerInfoDropdown {
+    top: 1.2rem;
+    left: -1rem;
+    height: max-content;
+    width: 95vw;
+  }
+  /*---------------------  TRAVELLER  DROP-DOWN END---------------------*/
+
+  /*--------------------- ADULT TRAVELLER SELECT---------------------*/
+  .noOfTravellersLabel {
+    font-size: 0.78rem;
+    margin: 0.2rem 0 0 0.6rem;
+  }
+  .adultTravellerContainer {
+    margin-left: 1rem;
+  }
+
+  /*------------------------------ADULT END------------------------------*/
+
+  /*------------------------------CHILDREN AND INFANT---------------------------*/
+  .childrenInfantContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0.4rem 0 1rem 0.6rem;
+  }
+  /*----------------------------CHILDREN AND INFANT END----------------------------*/
+
+  /*--------------------- CLASS SELECT---------------------*/
+
+  .travelClassBlock {
+    margin: 1.2rem 0.3rem 0.6rem 0.3rem;
+    height: 20vh;
+  }
+  .travelClassContainer {
+    margin: 0.6rem 0.2rem 0 0.8rem;
+  }
+
+  .travelClassList {
+    width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .travelClassLi {
+    height: 2.5rem;
+    width: 68vw;
+    margin: 0.6rem 0rem 0rem 0.3rem;
+    padding: 0.4rem 0rem 0.4rem 0rem;
+    font-size: 0.8rem;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  }
+  .selectedNoClass {
+    height: 2.5rem;
+    width: 68vw;
+    margin: 0.6rem 0rem 0rem 0.3rem;
+    padding: 0.8rem 0 0.8rem 0;
+    font-size: 0.8rem;
+  }
+
+  .btnTravellerClassSSelect {
+    height: max-content;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 1.5rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .countClassErr {
+    background-color: #91d1ec;
+    position: absolute;
+    width: 8.2rem;
+    border-radius: 8px;
+    padding: 0 0 0 0.4rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    top: 10rem;
+    left: 10.4rem;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+
+  .countClassErr.open:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 12px solid #ffd3d4;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    left: 2rem;
+    top: 90%;
+  }
+  .countClassErr.open {
+    visibility: visible;
+  }
+
+  .travelClasserrorH4 {
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 100;
+    color: red;
+  }
+}
+@media screen and (max-width: 420px) {
+  .adultTravellerContainer {
+    width: 90vw;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    display: flex;
+  }
+  .childrenInfantContainer {
+    width: 80vw;
+    margin: 0.4rem 0 0rem 1rem;
+  }
+  .btnTravellerClassSSelect {
+    height: max-content;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 3rem 0 0.8rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .infoInput {
+    width: 50%;
+  }
+  .infoInputPlaceholder {
+    width: auto;
+  }
+  .infoInputPlaceholder {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.3rem 0 1rem 0rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .adultTravellerContainer {
+    width: 90vw;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    display: flex;
+  }
+  .noOfTravellers {
+    /*--------------------- COMMON FOR ALL &except class& LISTS---------------------*/
+    display: flex;
+    width: 75vw;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .infoInput {
+    width: 58vw;
+  }
+  .infoInputPlaceholder {
+    width: 58vw;
+  }
+}
+@media screen and (max-width: 360px) {
+  .infoInput {
+    width: 55vw;
+  }
+  .infoInputPlaceholder {
+    width: 55vw;
+  }
+
+  .adultTravellerContainer {
+    margin-left: 0.8rem;
+  }
+  .btnTravellerClassSSelect {
+    margin: 4rem 0 1rem 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .infoInput {
+    width: 84vw;
+  }
+  .infoInputPlaceholder {
+    width: 84vw;
+  }
+  /*---------------------  TRAVELLER  DROP-DOWN---------------------*/
+  .travellerInfoDropdown {
+    top: 1.2rem;
+    left: -1.3rem;
+    height: max-content;
+    width: 95vw;
+  }
+  .btnTravellerClassSSelect {
+    height: max-content;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 5rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .noOfTravellersLabel {
+    font-size: 0.78rem;
+    margin: 0.4rem 0 0 2rem;
+  }
+
+  .adultTravellerContainer {
+    width: 80vw;
+    height: 3rem;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+    display: flex;
+  }
+
+  .childrenInfantContainer {
+    width: 80vw;
+    margin: 0.4rem 0 0rem 0.2rem;
+  }
+
+  .noOfTravellers {
+    /*--------------------- COMMON FOR ALL &except class& LISTS---------------------*/
+    display: flex;
+    width: 80vw;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}

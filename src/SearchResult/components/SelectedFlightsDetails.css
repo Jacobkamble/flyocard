@@ -1,0 +1,1350 @@
+@media screen and (max-width: 1370px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 5.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0rem;
+  }
+  .propmptContainerMedia {
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1rem 0 0 3rem;
+  }
+  .airlineNameMedia {
+    font-size: 1.2rem;
+    padding: 1.4rem 0 0 2rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 38px;
+    width: 38px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 32px;
+    height: 35px;
+    cursor: pointer;
+    margin: 1.2rem 0.5rem 0 2rem;
+  }
+  .fa-check {
+    color: #ffff;
+    font-size: 1.2rem;
+    margin: 0.4rem 0rem 0 0rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 4rem 0 15rem;
+  }
+  .departureTimeMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+  }
+  .layOverSvgImgTagMedia {
+    width: 180px;
+    height: 18px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 10rem 0 4rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 0.8rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 5.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0rem;
+  }
+  .propmptContainerMedia {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1rem 0 0 3rem;
+  }
+  .airlineNameMedia {
+    font-size: 1.2rem;
+    padding: 1.4rem 0 0 2rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 38px;
+    width: 38px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 32px;
+    height: 35px;
+    cursor: pointer;
+    margin: 1.2rem 0.5rem 0 2rem;
+  }
+  .fa-check {
+    color: #ffff;
+    font-size: 1.2rem;
+    margin: 0.4rem 0rem 0 0rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 4rem 0 9rem;
+  }
+  .departureTimeMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+  }
+  .layOverSvgImgTagMedia {
+    width: 180px;
+    height: 18px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 9rem 0 4rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 0.8rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 5.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0rem;
+  }
+  .propmptContainerMedia {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1rem 0 0 3rem;
+  }
+  .airlineNameMedia {
+    font-size: 1.2rem;
+    padding: 1.4rem 0 0 2rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 38px;
+    width: 38px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 32px;
+    height: 35px;
+    cursor: pointer;
+    margin: 1.2rem 0.5rem 0 2rem;
+  }
+  .fa-check {
+    color: #ffff;
+    font-size: 1.2rem;
+    margin: 0.4rem 0rem 0 0rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 4rem 0 2rem;
+  }
+  .departureTimeMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+  }
+  .layOverSvgImgTagMedia {
+    width: 180px;
+    height: 18px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 8rem 0 4rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 0.8rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 840px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 5.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0rem;
+  }
+  .propmptContainerMedia {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1rem 0 0 3rem;
+  }
+  .airlineNameMedia {
+    font-size: 1.2rem;
+    padding: 1.4rem 0 0 2rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 38px;
+    width: 38px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 32px;
+    height: 35px;
+    cursor: pointer;
+    margin: 1.2rem 0.5rem 0 2rem;
+  }
+  .fa-check {
+    color: #ffff;
+    font-size: 1.2rem;
+    margin: 0.4rem 0rem 0 0rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 2rem 0 2rem;
+  }
+  .departureTimeMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+  }
+  .layOverSvgImgTagMedia {
+    width: 180px;
+    height: 18px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 2rem 0 2rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 0.8rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 770px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 5.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0.6rem;
+  }
+  .propmptContainerMedia {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0.2rem;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1rem 0 0 1rem;
+  }
+  .airlineNameMedia {
+    font-size: 1.2rem;
+    padding: 1.4rem 0 0 1rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 38px;
+    width: 38px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 32px;
+    height: 35px;
+    cursor: pointer;
+    margin: 1.2rem 0.5rem 0 2rem;
+  }
+  .fa-check {
+    color: #ffff;
+    font-size: 1.2rem;
+    margin: 0.4rem 0rem 0 0rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 2rem 0 2rem;
+  }
+  .departureTimeMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+  }
+  .layOverSvgImgTagMedia {
+    width: 180px;
+    height: 18px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 2rem 0 2rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 0.8rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+    font-weight: 600;
+    margin: 0 0 0 0.2rem;
+  }
+}
+@media screen and (max-width: 670px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 5.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0.6rem;
+  }
+  .propmptContainerMedia {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0.2rem;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1rem 0 0 1rem;
+  }
+  .airlineNameMedia {
+    font-size: 1.2rem;
+    padding: 1.4rem 0 0 1rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 38px;
+    width: 38px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 32px;
+    height: 35px;
+    cursor: pointer;
+    margin: 1.2rem 0.5rem 0 2rem;
+  }
+  .fa-check {
+    color: #ffff;
+    font-size: 1.2rem;
+    margin: 0.4rem 0rem 0 0rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 2rem 0 2rem;
+  }
+  .departureTimeMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+  }
+  .layOverSvgImgTagMedia {
+    width: 180px;
+    height: 18px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 2rem 0 2rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 0.8rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 1rem;
+    width: max-content;
+    font-weight: 600;
+    margin: 0 0 0 0.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 0.7rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0rem;
+  }
+  .propmptContainerMedia {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0rem;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1.2rem 0 0 1rem;
+  }
+  .airlineNameMedia {
+    font-size: 1rem;
+    padding: 1.2rem 0 0 0.2rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 25px;
+    width: 25px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 25px;
+    height: 26px;
+    cursor: pointer;
+    margin: 1.2rem 0.2rem 0 0.8rem;
+  }
+  .fa-check {
+    color: #ffff;
+    font-size: 0.8rem;
+    margin: 0rem 0.3rem 0 0.3rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.2rem 0rem 0 0rem;
+    font-size: 0.8rem;
+  }
+  .departureTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+    margin: 0.4rem 0 0 0;
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+    font-size: 0.8rem;
+    margin: 0 0 -0.4rem 0;
+  }
+  .layOverSvgImgTagMedia {
+    width: 60px;
+    height: 8px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+    font-size: 0.8rem;
+    margin: -0.4rem 0 0 0;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 0rem 0 0rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 1rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 0.7rem;
+    width: max-content;
+    font-weight: 600;
+    margin: 0 0 0 0rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 0.7rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0rem;
+  }
+  .propmptContainerMedia {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0rem;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1.2rem 0 0 0.4rem;
+  }
+  .airlineNameMedia {
+    font-size: 1rem;
+    padding: 1.2rem 0 0 0.2rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 25px;
+    width: 25px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 25px;
+    height: 26px;
+    cursor: pointer;
+    margin: 1.2rem 0.2rem 0 0.2rem;
+  }
+  .fa-check {
+    color: #ffff;
+    font-size: 0.8rem;
+    margin: 0rem 0.3rem 0 0.3rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.2rem 0rem 0 0rem;
+    font-size: 0.8rem;
+  }
+  .departureTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+    margin: 0.4rem 0 0 0;
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+    font-size: 0.8rem;
+    margin: 0 0 -0.4rem 0;
+  }
+  .layOverSvgImgTagMedia {
+    width: 60px;
+    height: 8px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+    font-size: 0.8rem;
+    margin: -0.4rem 0 0 0;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0rem 0rem 0 0rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 1rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 0.7rem;
+    width: max-content;
+    font-weight: 600;
+    margin: 0 0 0 0rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 0.7rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0rem;
+  }
+  .propmptContainerMedia {
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0rem;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1.2rem 0 0 0.4rem;
+  }
+  .airlineNameMedia {
+    font-size: 1rem;
+    padding: 1.2rem 0 0 0.2rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 25px;
+    width: 25px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 25px;
+    height: 26px;
+    cursor: pointer;
+    margin: 1.2rem 0.2rem 0 0.4rem;
+  }
+  .fa-check {
+    color: #ffff;
+    font-size: 0.8rem;
+    margin: 0rem 0.3rem 0 0.3rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.2rem 0rem 0 0rem;
+    font-size: 0.7rem;
+  }
+  .departureTimeMedia {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+    margin: 0.4rem 0 0 0;
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+    font-size: 0.8rem;
+    margin: 0 0 -0.4rem 0;
+  }
+  .layOverSvgImgTagMedia {
+    width: 55px;
+    height: 8px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+    font-size: 0.8rem;
+    margin: -0.4rem 0 0 0;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.2rem 0rem 0 0rem;
+    font-size: 0.7rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 0.8rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 0.7rem;
+    width: max-content;
+    font-weight: 600;
+    margin: 0 0 0 0rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 0.7rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0rem;
+  }
+  .propmptContainerMedia {
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0rem;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1rem 0 0 0.4rem;
+  }
+  .airlineNameMedia {
+    font-size: 1rem;
+    padding: 1rem 0 0 0.2rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 25px;
+    width: 25px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 22px;
+    height: 26px;
+    cursor: pointer;
+    margin: 1rem 0.2rem 0 0.4rem;
+  }
+  .fa-check {
+    color: black;
+    font-size: 0.8rem;
+    margin: 0rem 0.3rem 0rem 0.3rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+    margin: 0.2rem 0rem 0 0.5rem;
+    font-size: 0.7rem;
+  }
+  .departureTimeMedia {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+    margin: 0.4rem 0 0 0;
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+    font-size: 0.8rem;
+    margin: 0 0 -0.4rem 0;
+  }
+  .layOverSvgImgTagMedia {
+    width: 55px;
+    height: 8px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+    font-size: 0.8rem;
+    margin: -0.4rem 0 0 0;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+    margin: 0.2rem 1rem 0 0rem;
+    font-size: 0.7rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 0.8rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 0.7rem;
+    width: max-content;
+    font-weight: 600;
+    margin: 0 0 0 0rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .flightStatusDetailWrapperMedia {
+    width: 98%;
+  }
+  .SelectedFlightPrompMedia {
+    text-align: left;
+    font-size: 0.7rem;
+    width: max-content;
+  }
+  .flightStatusDetailContainerMedia {
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #bbe3f5;
+    border-radius: 0.4rem;
+    border: 0.8px solid #03638b;
+    margin: 0rem 0 0 0rem;
+  }
+  .propmptContainerMedia {
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0.2rem 0rem;
+  }
+  .SelectedFlightSummarycontainerMedia {
+    display: flex;
+  }
+  .airlineInfoMedia {
+    display: flex;
+  }
+  .flightStatusAirlineIconMedia {
+    margin: 1.2rem 0 0 0.4rem;
+  }
+  .airlineNameMedia {
+    font-size: 1rem;
+    padding: 1.2rem 0 0 0.2rem;
+    font-weight: 600;
+  }
+  .flightStatusAirlineIconImgTagMedia {
+    height: 25px;
+    width: 25px;
+    border-radius: 0.4rem;
+  }
+  .backToComboMedia {
+    margin: 0 -4rem 0rem 0;
+    text-align: right;
+    width: 10%;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #03638b;
+  }
+  .checkBoxUncheckMedia {
+    background-color: #0f8fc5;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    width: 25px;
+    height: 26px;
+    cursor: pointer;
+    margin: 1.2rem 0.2rem 0 0.4rem;
+  }
+  .fa-check {
+    color: #ffff;
+    font-size: 0.8rem;
+    margin: 0rem 0.3rem 0 0.3rem;
+  }
+  .itineraryDepInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.2rem 0rem 0 0rem;
+    font-size: 0.7rem;
+  }
+  .departureTimeMedia {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .departureAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .layOverInfoMedia {
+    margin: 0.4rem 0 0 0;
+  }
+  .totalFlightHoursMedia {
+    color: #8796b9;
+    font-size: 0.8rem;
+    margin: 0 0 -0.4rem 0;
+  }
+  .layOverSvgImgTagMedia {
+    width: 55px;
+    height: 8px;
+  }
+  .NoOFStopsMedia {
+    color: #8796b9;
+    font-size: 0.8rem;
+    margin: -0.4rem 0 0 0;
+  }
+  .itineraryDesInfoMedia {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.2rem 0rem 0 0rem;
+    font-size: 0.7rem;
+  }
+
+  .destinationTimeMedia {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .destinationAirportMedia {
+    color: #8796b9;
+    font-weight: 600;
+  }
+  .FlightPriceMedia {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(27, 175, 27);
+    margin: 0.8rem 0 0 0.5rem;
+  }
+  .SelectSecondFlightPrompMedia {
+    text-align: left;
+    font-size: 0.7rem;
+    width: max-content;
+    font-weight: 600;
+    margin: 0 0 0 0rem;
+  }
+}

@@ -1,0 +1,72 @@
+.loginFormWrapper {
+  padding: 0 4rem 0 4rem;
+}
+.otpInputField {
+  height: 100%;
+  width: 98%;
+  outline: none;
+  border: none;
+  font-family: poppins;
+}
+.welcomeMessageWrapper {
+  height: 72%;
+  display: flex;
+  margin: -2.2rem 0 0.2rem 0;
+}
+.welcomeMessageTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0e3d6f;
+  height: max-content;
+  margin: 6% 0 0 0;
+}
+.loginFormContinueBtn {
+  margin: 0 0 0 4rem;
+}
+.welcomeIllustration {
+  height: max-content;
+}
+.welcomeIllustrationImgTag {
+  height: 250px;
+  width: 180px;
+}
+.loginBtnWrapper {
+  margin: 2rem 1rem 1rem 2.3rem;
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .loginBtnWrapper {
+    margin: 2rem 1rem 1rem 0.8rem;
+  }
+  .welcomeIllustration {
+    display: none;
+  }
+  .welcomeMessageWrapper {
+    height: 20%;
+    display: flex;
+    margin: -2.2rem 0 0.2rem 0;
+  }
+  .loginFormContinueBtn {
+    margin: 0 0 0 0rem;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 320px) {
+}

@@ -1,0 +1,555 @@
+.filtersContentContainer {
+  z-index: 15;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+}
+.sortOptions {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.sortLabel {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.sortSelect {
+  font-size: 1rem;
+}
+
+.sortIcon {
+  width: 8%;
+  text-align: center;
+  align-self: center;
+}
+
+.sortByContentBlock {
+  height: max-content;
+  margin: 1rem 0 0 0;
+}
+.sortBlock {
+  display: flex;
+  margin: 0 0 1.5rem 1rem;
+  width: 90%;
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  background-color: #ffff;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.sortHeader {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 0.8rem 0;
+}
+.fa-rupee-sign {
+  font-size: 1rem;
+}
+.fa-clock {
+  font-size: 1rem;
+}
+
+.filterContentBlock {
+  height: max-content;
+  margin: 1rem 0 0 0;
+}
+.filterHeader {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 0.8rem 0;
+}
+
+.filterBlock {
+  margin: 0 0 1.5rem 0.5rem;
+  width: 95%;
+  padding: 0 0 0 0;
+}
+.filterOptions {
+  border-bottom: 2px solid #fff;
+}
+.filterLabel {
+  font-size: 1rem;
+  margin: 0 0 0 1rem;
+}
+.filterSelect {
+  font-size: 0.6rem;
+}
+.stopsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0.2rem 1rem 0.2rem;
+}
+.stopBlock {
+  border-radius: 0.4rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  background-color: #ffff;
+  width: 28%;
+  text-align: center;
+}
+.numberOfStops {
+  margin: 0.2rem 0 0 0;
+  font-size: 1.2rem;
+  height: 1.7rem;
+}
+.stopLabel {
+  font-size: 0.6rem;
+}
+.stopCost {
+  font-size: 0.5rem;
+}
+
+.timeSlotContainter {
+  display: flex;
+  margin: 1rem 0.2rem 1rem 0.2rem;
+}
+.timeSlotBlock {
+  border-radius: 0.4rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  background-color: #ffff;
+  width: 25%;
+  height: 4.5rem;
+  margin: 0.2rem;
+  padding: 0rem;
+  text-align: center;
+}
+.timeSlotLabel {
+  font-size: 1rem;
+}
+.timeSlotCost {
+  font-size: 0.7rem;
+}
+
+.airlinesContainer {
+  margin: 1.4rem 0.2rem 2rem 0rem;
+  border-bottom: 2px solid #fff;
+}
+.airlineBlock {
+  border-radius: 0.4rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  background-color: #fff;
+  width: 90%;
+  padding: 0 0 0.7rem 0;
+  margin: 0rem 0.4rem 0.4rem 0.4rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.airlineDescription {
+  display: flex;
+}
+
+.filterAirlineLogoImgTag {
+  width: 30px;
+  height: 30px;
+  border-radius: 0.3rem;
+}
+.airlineNameFilters {
+  align-self: center;
+  font-size: 1rem;
+  margin: 1rem 0 0 0.5rem;
+}
+.airlinePriceDescription {
+  display: flex;
+  width: 6rem;
+  justify-content: space-evenly;
+  margin: 1rem 0 0 0rem;
+}
+.airlinePriceFilters {
+  font-size: 0.8rem;
+  align-self: center;
+}
+.airlineSelectBtn {
+  width: 1rem;
+  height: 1rem;
+  border: 3px solid #8d8f91;
+  align-self: center;
+  border-radius: 0.5rem;
+  transition: all 400ms ease;
+}
+.airlineSelectBtn.Selected {
+  background-color: #60bde5;
+  border: 3px solid #60bde5;
+}
+.filterApplyBtnContainer {
+  height: 1.5rem;
+  padding: 1.2rem 0 0 0;
+  text-align: center;
+}
+@media screen and (max-width: 1370px) {
+  .filtersContentContainer {
+    margin: 0;
+    z-index: 15;
+    border-radius: 0;
+  }
+  .sortOptions {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .sortLabel {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .sortSelect {
+    font-size: 1rem;
+  }
+
+  .sortIcon {
+    width: 8%;
+    text-align: center;
+    align-self: center;
+  }
+
+  .sortByContentBlock {
+    height: max-content;
+
+    margin: 1rem 0 0 0;
+  }
+  .sortBlock {
+    display: flex;
+    margin: 0 0 1.5rem 12rem;
+    width: 70%;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    background-color: #ffff;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .sortHeader {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 0.8rem 0;
+  }
+  .fa-rupee-sign {
+    font-size: 1.1rem;
+  }
+  .fa-clock {
+    font-size: 1.1rem;
+  }
+
+  .filterContentBlock {
+    height: max-content;
+    margin: 1rem 0 0 0;
+  }
+  .filterHeader {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 0.8rem 0;
+  }
+
+  .filterBlock {
+    margin: 0 0 1.5rem 0rem;
+    width: 90%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+  .filterOptions {
+    margin: 0 0 0 10rem;
+    border-bottom: 2px solid #fff;
+  }
+  .filterLabel {
+    font-size: 1.2rem;
+    margin: 0 0 0 1rem;
+  }
+  .filterSelect {
+    font-size: 1rem;
+  }
+  .stopsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.4rem 0.2rem 1rem 0.2rem;
+  }
+  .stopBlock {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+    width: 22%;
+    text-align: center;
+  }
+  .numberOfStops {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.4rem;
+    height: 1.7rem;
+  }
+  .stopLabel {
+    margin: 0.1rem 0 0rem 0;
+    font-size: 0.8rem;
+  }
+  .stopCost {
+    font-size: 0.7rem;
+    margin: 0.1rem 0 0.2rem 0;
+  }
+
+  .timeSlotContainter {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.4rem 0.2rem 1rem 0.2rem;
+    flex-wrap: wrap;
+  }
+  .timeSlotBlock {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+    width: 20%;
+    height: 4rem;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    text-align: center;
+  }
+  .timeSlotLabel {
+    font-size: 1.1rem;
+  }
+  .timeSlotCost {
+    font-size: 0.9rem;
+  }
+
+  .airlinesContainer {
+    margin: 1.4rem 0.2rem 2rem 0rem;
+    border-bottom: 2px solid #fff;
+  }
+  .airlineBlock {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+    width: 95%;
+    margin: 0.4rem 0.4rem 1.2rem 0.4rem;
+    padding: 0 0 1rem 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .airlineDescription {
+    display: flex;
+  }
+
+  .filterAirlineLogoImgTag {
+    margin: 1rem 0 0 0.4rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+  }
+  .airlineNameFilters {
+    align-self: center;
+    font-size: 1.3rem;
+  }
+  .airlinePriceDescription {
+    display: flex;
+    width: 7rem;
+    justify-content: space-evenly;
+  }
+  .airlinePriceFilters {
+    font-size: 1.2rem;
+  }
+  .airlineSelectBtn {
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 3px solid #8d8f91;
+    align-self: center;
+    border-radius: 0.5rem;
+    transition: all 400ms ease;
+  }
+  .airlineSelectBtn.Selected {
+    background-color: #60bde5;
+    border: 3px solid #60bde5;
+  }
+  .filterApplyBtnContainer {
+    height: 3.5rem;
+    width: 100%;
+    background-color: #eff3f8;
+    position: fixed;
+    bottom: 0rem;
+    padding: 1.2rem 0 0 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .filtersContentContainer {
+    z-index: 15;
+    border-radius: 0;
+  }
+  .sortOptions {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .sortLabel {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .sortSelect {
+    font-size: 1rem;
+  }
+
+  .sortIcon {
+    width: 8%;
+    text-align: center;
+    align-self: center;
+  }
+
+  .sortByContentBlock {
+    height: max-content;
+    margin: 1rem 0 0 0;
+  }
+  .sortBlock {
+    display: flex;
+    margin: 0 0 1.5rem 1rem;
+    width: 90%;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    background-color: #ffff;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .sortHeader {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 0.8rem 0;
+  }
+  .fa-rupee-sign {
+    font-size: 1.1rem;
+  }
+  .fa-clock {
+    font-size: 1.1rem;
+  }
+
+  .filterContentBlock {
+    height: max-content;
+    margin: 1rem 0 0 0;
+  }
+  .filterHeader {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 0.8rem 0;
+  }
+
+  .filterBlock {
+    margin: 0 0 1.5rem 1.2rem;
+    width: 90%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+  .filterOptions {
+    border-bottom: 2px solid #fff;
+    width: 100%;
+
+    margin: 0 0 0 0;
+  }
+  .filterLabel {
+    font-size: 1.2rem;
+    margin: 0 0 0 1rem;
+  }
+  .filterSelect {
+    font-size: 1rem;
+  }
+  .stopsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.4rem 0.2rem 1rem 0.2rem;
+  }
+  .stopBlock {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+    width: 28%;
+    text-align: center;
+  }
+  .numberOfStops {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.4rem;
+    height: 1.7rem;
+  }
+  .stopLabel {
+    font-size: 0.8rem;
+  }
+  .stopCost {
+    font-size: 0.7rem;
+  }
+
+  .timeSlotContainter {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.4rem 0.2rem 1rem 0.2rem;
+    flex-wrap: wrap;
+  }
+  .timeSlotBlock {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+    width: 42%;
+    height: 10vh;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    text-align: center;
+  }
+  .timeSlotLabel {
+    font-size: 1.1rem;
+  }
+  .timeSlotCost {
+    font-size: 0.9rem;
+  }
+
+  .airlinesContainer {
+    margin: 1.4rem 0.2rem 2rem 0rem;
+
+    border-bottom: 2px solid #fff;
+  }
+  .airlineBlock {
+    border-radius: 0.4rem;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+    width: 95%;
+    margin: 0.4rem 0.4rem 1.2rem 0.4rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    justify-content: space-between;
+  }
+  .airlineDescription {
+    display: flex;
+  }
+
+  .airlineLogoImgTag {
+    margin: 0.4rem 0 0 0.4rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+  }
+  .airlineNameFilters {
+    align-self: center;
+    font-size: 1.3rem;
+  }
+  .airlinePriceDescription {
+    display: flex;
+    width: 7rem;
+    justify-content: space-evenly;
+  }
+  .airlinePriceFilters {
+    font-size: 1.2rem;
+  }
+  .airlineSelectBtn {
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 3px solid #8d8f91;
+    align-self: center;
+    border-radius: 0.5rem;
+    transition: all 400ms ease;
+  }
+  .airlineSelectBtn.Selected {
+    background-color: #60bde5;
+    border: 3px solid #60bde5;
+  }
+  .filterApplyBtnContainer {
+    height: 3.5rem;
+    width: 100%;
+    background-color: #eff3f8;
+    position: fixed;
+    bottom: 0rem;
+    padding: 1.2rem 0 0 0;
+    text-align: center;
+  }
+}

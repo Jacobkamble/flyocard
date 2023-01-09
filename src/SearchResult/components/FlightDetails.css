@@ -1,0 +1,1434 @@
+.flightDetailsContainer {
+  margin: 0rem 0.5rem 1rem 0.5rem;
+  padding: 1rem 0.8rem 0 0.8rem;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  background-color: #ffff;
+}
+.flightDetailsContainer.selected {
+  background-color: #ffff;
+}
+.flightDetailsHeader {
+  display: flex;
+  margin: 0 0 0.5rem 0;
+}
+.airlineLogo {
+  margin: 0 0.5rem 0 0;
+}
+.flightDetailsLogoImgTag {
+  margin: -0.7rem 0 0 0;
+  border-radius: 0.4rem;
+  height: 30px;
+  width: 30px;
+}
+.flightDetailsAirlineName {
+  margin: 0rem 0 0 0.2rem;
+  padding: 0.2rem 0 0 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.layoverlocationAndTime {
+  display: flex;
+  margin: 0.4rem 0 0.5rem 0;
+}
+.layoverIcon {
+  margin: 0.15rem 0 0 0;
+  width: max-content;
+}
+.layoverIconImgTag {
+  width: 3.8rem;
+}
+.layoverlocationAndTimeText {
+  font-size: 0.8em;
+  margin: 0.2rem 0 0 0.5rem;
+}
+.flightDetailsItinerary {
+  display: flex;
+}
+.flightDetailsDepartureInfo {
+  width: 30%;
+}
+.departureFlightTime {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.departureFlightLocation {
+  font-size: 0.8rem;
+  color: #878787;
+}
+.departureFlightLocation.selected {
+  color: black;
+}
+.flightDetailsTimeLayoverInfo {
+  width: 30%;
+}
+.totalFlightTime {
+  font-size: 0.8rem;
+  color: #878787;
+  position: relative;
+  top: 5%;
+  left: 12%;
+}
+.totalFlightTime.selected {
+  color: black;
+}
+.numberOfLayovers {
+  font-size: 0.8rem;
+  color: #878787;
+  position: relative;
+  top: -5%;
+  left: 12%;
+}
+.numberOfLayovers.selected {
+  color: black;
+}
+.flightDetailsDetinationInfo {
+  padding: 0 0 0 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  width: 25%;
+}
+.destinationFlightTime {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.destinationFlightLocation {
+  font-size: 0.8rem;
+  color: #878787;
+}
+.destinationFlightLocation.selected {
+  color: #000;
+}
+.maincontainer{
+  cursor: pointer;
+}
+a:hover{
+  color: #000 !important;;
+}
+.flightDetailsPrice {
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: 600;
+  width: 18%;
+}
+a:hover{color:none;}
+.BookingLink,a {
+  text-decoration: none;
+}
+.comboTotal {
+  display: flex;
+  color: rgb(76, 192, 76);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0 44.5rem;
+}
+.selectCheckBox {
+  background-color: white;
+  border: 0.1px solid black;
+  border-radius: 0.3rem;
+  margin: 0.2rem 0.5rem 0 0;
+  width: 20px;
+  height: 20px;
+}
+.fa-check {
+  color: #ffff;
+  margin: 0.2rem 0 0 0;
+}
+
+.selectCheckBox.Checked {
+  background-color: #60bde5;
+}
+
+@media screen and (max-width: 1367px) {
+  .flightDetailsContainer {
+    margin: 0.5rem 0.5rem 1rem 0rem;
+    padding: 1rem 0.8rem 0 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+  }
+  .flightDetailsContainer.selected {
+    background-color: #ffff;
+  }
+  .flightDetailsHeader {
+    display: flex;
+    width: 95%;
+    margin: 0.5rem 0 0.4rem 1.5rem;
+  }
+
+  .airlineLogo {
+    margin: 0 0.5rem 0 0;
+  }
+  .flightDetailsLogoImgTag {
+    border-radius: 0.4rem;
+    height: 25px;
+    width: 25px;
+  }
+  .flightDetailsAirlineName {
+    margin: 0rem 0 0 0;
+    font-size: 1.2rem;
+    width: 68%;
+  }
+  .comboTotal {
+    display: flex;
+    color: rgb(76, 192, 76);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: -0.8rem 0 0 11.5rem;
+  }
+  .layoverlocationAndTime {
+    display: flex;
+    margin: 0.4rem 0 0.5rem 0;
+  }
+  .layoverIcon {
+    margin: 0.15rem 0 0 0;
+    width: max-content;
+  }
+  .layoverIconImgTag {
+    width: 3.8rem;
+  }
+  .layoverlocationAndTimeText {
+    font-size: 0.8em;
+    margin: 0.2rem 0 0 0.5rem;
+  }
+  .flightDetailsItinerary {
+    display: flex;
+  }
+  .flightDetailsDepartureInfo {
+    width: 30%;
+  }
+  .departureFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .departureFlightLocation {
+    font-size: 0.8rem;
+    color: #878787;
+    width: max-content;
+  }
+  .departureFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsTimeLayoverInfo {
+    width: 30%;
+  }
+  .selectCheckBox {
+    background-color: white;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0.5rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-check {
+    color: #ffff;
+    margin: -0.2rem 0 0 0;
+  }
+
+  .selectCheckBox.Checked {
+    background-color: #60bde5;
+  }
+  .totalFlightTime {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: 5%;
+    left: 8%;
+  }
+  .totalFlightTime.selected {
+    color: black;
+  }
+  .numberOfLayovers {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: -5%;
+    left: 7.5%;
+    width: max-content;
+  }
+  .numberOfLayovers.selected {
+    color: black;
+  }
+  .flightDetailsDetinationInfo {
+    padding: 0 0 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 25%;
+  }
+  .destinationFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .destinationFlightLocation {
+    width: max-content;
+    font-size: 0.8rem;
+    color: #878787;
+  }
+  .destinationFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsPrice {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 18%;
+  }
+  .flightCurrencySymbol {
+    font-size: 1rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+  .flightCurrencySymbolCombo {
+    font-size: 1.4rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .flightDetailsContainer {
+    margin: 0.5rem 0.5rem 1rem 0rem;
+    padding: 1rem 0.8rem 0 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+  }
+  .flightDetailsContainer.selected {
+    background-color: #ffff;
+  }
+  .flightDetailsHeader {
+    display: flex;
+    width: 95%;
+    margin: 0.5rem 0 0.4rem 1.5rem;
+  }
+
+  .airlineLogo {
+    margin: 0 0.5rem 0 0;
+  }
+  .flightDetailsLogoImgTag {
+    border-radius: 0.4rem;
+    height: 25px;
+    width: 25px;
+  }
+  .flightDetailsAirlineName {
+    margin: 0rem 0 0 0;
+    font-size: 1.2rem;
+    width: 68%;
+  }
+  .comboTotal {
+    display: flex;
+    color: rgb(76, 192, 76);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: -0.8rem 0 0 11.5rem;
+  }
+  .layoverlocationAndTime {
+    display: flex;
+    margin: 0.4rem 0 0.5rem 0;
+  }
+  .layoverIcon {
+    margin: 0.15rem 0 0 0;
+    width: max-content;
+  }
+  .layoverIconImgTag {
+    width: 3.8rem;
+  }
+  .layoverlocationAndTimeText {
+    font-size: 0.8em;
+    margin: 0.2rem 0 0 0.5rem;
+  }
+  .flightDetailsItinerary {
+    display: flex;
+  }
+  .flightDetailsDepartureInfo {
+    width: 30%;
+  }
+  .departureFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .departureFlightLocation {
+    font-size: 0.8rem;
+    color: #878787;
+    width: max-content;
+  }
+  .departureFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsTimeLayoverInfo {
+    width: 30%;
+  }
+  .selectCheckBox {
+    background-color: white;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0.5rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-check {
+    color: #ffff;
+    margin: -0.2rem 0 0 0;
+  }
+
+  .selectCheckBox.Checked {
+    background-color: #60bde5;
+  }
+  .totalFlightTime {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: 5%;
+    left: 8%;
+  }
+  .totalFlightTime.selected {
+    color: black;
+  }
+  .numberOfLayovers {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: -5%;
+    left: 7.5%;
+    width: max-content;
+  }
+  .numberOfLayovers.selected {
+    color: black;
+  }
+  .flightDetailsDetinationInfo {
+    padding: 0 0 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 25%;
+  }
+  .destinationFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .destinationFlightLocation {
+    width: max-content;
+    font-size: 0.8rem;
+    color: #878787;
+  }
+  .destinationFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsPrice {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 18%;
+  }
+  .flightCurrencySymbol {
+    font-size: 1rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+  .flightCurrencySymbolCombo {
+    font-size: 1.4rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .flightDetailsContainer {
+    margin: 0.5rem 0.5rem 1rem 0rem;
+    padding: 1rem 0.8rem 0 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+  }
+  .flightDetailsContainer.selected {
+    background-color: #ffff;
+  }
+  .flightDetailsHeader {
+    display: flex;
+    width: 95%;
+    margin: 0.5rem 0 0.4rem 1.5rem;
+  }
+
+  .airlineLogo {
+    margin: 0 0.5rem 0 0;
+  }
+  .flightDetailsLogoImgTag {
+    border-radius: 0.4rem;
+    height: 25px;
+    width: 25px;
+  }
+  .flightDetailsAirlineName {
+    margin: 0rem 0 0 0;
+    font-size: 1.2rem;
+    width: 68%;
+  }
+  .comboTotal {
+    display: flex;
+    color: rgb(76, 192, 76);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: -0.8rem 0 0 11.5rem;
+  }
+  .layoverlocationAndTime {
+    display: flex;
+    margin: 0.4rem 0 0.5rem 0;
+  }
+  .layoverIcon {
+    margin: 0.15rem 0 0 0;
+    width: max-content;
+  }
+  .layoverIconImgTag {
+    width: 3.8rem;
+  }
+  .layoverlocationAndTimeText {
+    font-size: 0.8em;
+    margin: 0.2rem 0 0 0.5rem;
+  }
+  .flightDetailsItinerary {
+    display: flex;
+  }
+  .flightDetailsDepartureInfo {
+    width: 30%;
+  }
+  .departureFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .departureFlightLocation {
+    font-size: 0.8rem;
+    color: #878787;
+    width: max-content;
+  }
+  .departureFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsTimeLayoverInfo {
+    width: 30%;
+  }
+  .selectCheckBox {
+    background-color: white;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0.5rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-check {
+    color: #ffff;
+    margin: -0.2rem 0 0 0;
+  }
+
+  .selectCheckBox.Checked {
+    background-color: #60bde5;
+  }
+  .totalFlightTime {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: 5%;
+    left: 8%;
+  }
+  .totalFlightTime.selected {
+    color: black;
+  }
+  .numberOfLayovers {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: -5%;
+    left: 7.5%;
+    width: max-content;
+  }
+  .numberOfLayovers.selected {
+    color: black;
+  }
+  .flightDetailsDetinationInfo {
+    padding: 0 0 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 25%;
+  }
+  .destinationFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .destinationFlightLocation {
+    width: max-content;
+    font-size: 0.8rem;
+    color: #878787;
+  }
+  .destinationFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsPrice {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 18%;
+  }
+  .flightCurrencySymbol {
+    font-size: 1rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+  .flightCurrencySymbolCombo {
+    font-size: 1.4rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+}
+@media screen and (max-width: 840px) {
+  .flightDetailsContainer {
+    margin: 0.5rem 0.5rem 1rem 0rem;
+    padding: 1rem 0.8rem 0 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+  }
+  .flightDetailsContainer.selected {
+    background-color: #ffff;
+  }
+  .flightDetailsHeader {
+    display: flex;
+    width: 95%;
+    margin: 0.5rem 0 0.4rem 1.5rem;
+  }
+
+  .airlineLogo {
+    margin: 0 0.5rem 0 0;
+  }
+  .flightDetailsLogoImgTag {
+    border-radius: 0.4rem;
+    height: 25px;
+    width: 25px;
+  }
+  .flightDetailsAirlineName {
+    margin: 0rem 0 0 0;
+    font-size: 1.2rem;
+    width: 68%;
+  }
+  .comboTotal {
+    display: flex;
+    color: rgb(76, 192, 76);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: -0.8rem 0 0 11.5rem;
+  }
+  .layoverlocationAndTime {
+    display: flex;
+    margin: 0.4rem 0 0.5rem 0;
+  }
+  .layoverIcon {
+    margin: 0.15rem 0 0 0;
+    width: max-content;
+  }
+  .layoverIconImgTag {
+    width: 3.8rem;
+  }
+  .layoverlocationAndTimeText {
+    font-size: 0.8em;
+    margin: 0.2rem 0 0 0.5rem;
+  }
+  .flightDetailsItinerary {
+    display: flex;
+  }
+  .flightDetailsDepartureInfo {
+    width: 30%;
+  }
+  .departureFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .departureFlightLocation {
+    font-size: 0.8rem;
+    color: #878787;
+    width: max-content;
+  }
+  .departureFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsTimeLayoverInfo {
+    width: 30%;
+  }
+  .selectCheckBox {
+    background-color: white;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0.5rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-check {
+    color: #ffff;
+    margin: -0.2rem 0 0 0;
+  }
+
+  .selectCheckBox.Checked {
+    background-color: #60bde5;
+  }
+  .totalFlightTime {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: 5%;
+    left: 8%;
+  }
+  .totalFlightTime.selected {
+    color: black;
+  }
+  .numberOfLayovers {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: -5%;
+    left: 7.5%;
+    width: max-content;
+  }
+  .numberOfLayovers.selected {
+    color: black;
+  }
+  .flightDetailsDetinationInfo {
+    padding: 0 0 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 25%;
+  }
+  .destinationFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .destinationFlightLocation {
+    width: max-content;
+    font-size: 0.8rem;
+    color: #878787;
+  }
+  .destinationFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsPrice {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 18%;
+  }
+  .flightCurrencySymbol {
+    font-size: 1rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+  .flightCurrencySymbolCombo {
+    font-size: 1.4rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+}
+@media screen and (max-width: 770px) {
+  .flightDetailsContainer {
+    margin: 0.5rem 0.5rem 1rem 0rem;
+    padding: 1rem 0.8rem 0 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+  }
+  .flightDetailsContainer.selected {
+    background-color: #ffff;
+  }
+  .flightDetailsHeader {
+    display: flex;
+    width: 95%;
+    margin: 0.5rem 0 0.4rem 1.5rem;
+  }
+
+  .airlineLogo {
+    margin: 0 0.5rem 0 0;
+  }
+  .flightDetailsLogoImgTag {
+    border-radius: 0.4rem;
+    height: 25px;
+    width: 25px;
+  }
+  .flightDetailsAirlineName {
+    margin: 0rem 0 0 0;
+    font-size: 1.2rem;
+    width: 68%;
+  }
+  .comboTotal {
+    display: flex;
+    color: rgb(76, 192, 76);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: -0.8rem 0 0 11.5rem;
+  }
+  .layoverlocationAndTime {
+    display: flex;
+    margin: 0.4rem 0 0.5rem 0;
+  }
+  .layoverIcon {
+    margin: 0.15rem 0 0 0;
+    width: max-content;
+  }
+  .layoverIconImgTag {
+    width: 3.8rem;
+  }
+  .layoverlocationAndTimeText {
+    font-size: 0.8em;
+    margin: 0.2rem 0 0 0.5rem;
+  }
+  .flightDetailsItinerary {
+    display: flex;
+  }
+  .flightDetailsDepartureInfo {
+    width: 30%;
+  }
+  .departureFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .departureFlightLocation {
+    font-size: 0.8rem;
+    color: #878787;
+    width: max-content;
+  }
+  .departureFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsTimeLayoverInfo {
+    width: 30%;
+  }
+  .selectCheckBox {
+    background-color: white;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0.5rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-check {
+    color: #ffff;
+    margin: -0.2rem 0 0 0;
+  }
+
+  .selectCheckBox.Checked {
+    background-color: #60bde5;
+  }
+  .totalFlightTime {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: 5%;
+    left: 14%;
+  }
+  .totalFlightTime.selected {
+    color: black;
+  }
+  .numberOfLayovers {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: -5%;
+    left: 11.5%;
+    width: max-content;
+  }
+  .numberOfLayovers.selected {
+    color: black;
+  }
+  .flightDetailsDetinationInfo {
+    padding: 0 0 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 25%;
+  }
+  .destinationFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .destinationFlightLocation {
+    width: max-content;
+    font-size: 0.8rem;
+    color: #878787;
+  }
+  .destinationFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsPrice {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 18%;
+  }
+  .flightCurrencySymbol {
+    font-size: 1.2rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+  .flightCurrencySymbolCombo {
+    font-size: 1.4rem;
+    margin: 0rem 0.1rem 0 0;
+  }
+}
+@media screen and (max-width: 670px) {
+  .flightDetailsContainer {
+    margin: 0.5rem 0.5rem 1rem 0rem;
+    padding: 1rem 0.8rem 0 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+  }
+  .flightDetailsContainer.selected {
+    background-color: #ffff;
+  }
+  .flightDetailsHeader {
+    display: flex;
+    width: 95%;
+    margin: 0.5rem 0 0.4rem 1.5rem;
+  }
+
+  .airlineLogo {
+    margin: 0 0.5rem 0 0;
+  }
+  .flightDetailsLogoImgTag {
+    border-radius: 0.4rem;
+    height: 25px;
+    width: 25px;
+  }
+  .flightDetailsAirlineName {
+    margin: 0rem 0 0 0;
+    font-size: 1.2rem;
+    width: 68%;
+  }
+  .comboTotal {
+    display: flex;
+    color: rgb(76, 192, 76);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: -0.8rem 0 0 11.5rem;
+  }
+  .layoverlocationAndTime {
+    display: flex;
+    margin: 0.4rem 0 0.5rem 0;
+  }
+  .layoverIcon {
+    margin: 0.15rem 0 0 0;
+    width: max-content;
+  }
+  .layoverIconImgTag {
+    width: 3.8rem;
+  }
+  .layoverlocationAndTimeText {
+    font-size: 0.8em;
+    margin: 0.2rem 0 0 0.5rem;
+  }
+  .flightDetailsItinerary {
+    display: flex;
+  }
+  .flightDetailsDepartureInfo {
+    width: 30%;
+  }
+  .departureFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .departureFlightLocation {
+    font-size: 0.8rem;
+    color: #878787;
+    width: max-content;
+  }
+  .departureFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsTimeLayoverInfo {
+    width: 30%;
+  }
+  .selectCheckBox {
+    background-color: white;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0.5rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-check {
+    color: #ffff;
+    margin: -0.2rem 0 0 0;
+  }
+
+  .selectCheckBox.Checked {
+    background-color: #60bde5;
+  }
+  .totalFlightTime {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: 5%;
+    left: 14%;
+  }
+  .totalFlightTime.selected {
+    color: black;
+  }
+  .numberOfLayovers {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: -5%;
+    left: 11.5%;
+    width: max-content;
+  }
+  .numberOfLayovers.selected {
+    color: black;
+  }
+  .flightDetailsDetinationInfo {
+    padding: 0 0 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 25%;
+  }
+  .destinationFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .destinationFlightLocation {
+    width: max-content;
+    font-size: 0.8rem;
+    color: #878787;
+  }
+  .destinationFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsPrice {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 18%;
+  }
+  .flightCurrencySymbol {
+    font-size: 1.2rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+  .flightCurrencySymbolCombo {
+    font-size: 1.4rem;
+    margin: 0rem 0.1rem 0 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flightDetailsContainer {
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    padding: 1rem 0.8rem 0 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+  }
+  .flightDetailsContainer.selected {
+    background-color: #ffff;
+  }
+  .flightDetailsHeader {
+    display: flex;
+    width: 95%;
+    margin: -0.4rem 0 0.4rem 1rem;
+  }
+
+  .airlineLogo {
+    margin: 0 0.2rem 0 0;
+  }
+  .flightDetailsLogoImgTag {
+    border-radius: 0.4rem;
+    height: 25px;
+    width: 25px;
+  }
+  .flightDetailsAirlineName {
+    margin: 0rem 0 0 0;
+    font-size: 1.2rem;
+    width: 68%;
+  }
+  .comboTotal {
+    display: flex;
+    color: rgb(76, 192, 76);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0rem 0 0 1rem;
+    width: max-content;
+  }
+  .layoverlocationAndTime {
+    display: flex;
+    margin: 0.4rem 0 0.5rem 0;
+  }
+  .layoverIcon {
+    margin: 0.15rem 0 0 0;
+    width: max-content;
+  }
+  .layoverIconImgTag {
+    width: 3.8rem;
+  }
+  .layoverlocationAndTimeText {
+    font-size: 0.8em;
+    margin: 0.2rem 0 0 0.5rem;
+  }
+  .flightDetailsItinerary {
+    display: flex;
+    justify-content: space-around;
+  }
+  .flightDetailsDepartureInfo {
+    width: 30%;
+  }
+  .departureFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .departureFlightLocation {
+    font-size: 0.8rem;
+    color: #878787;
+    width: max-content;
+  }
+  .departureFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsTimeLayoverInfo {
+    width: 30%;
+  }
+  .selectCheckBox {
+    background-color: white;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0.5rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-check {
+    color: #ffff;
+    margin: 0.2rem 0 0 0;
+  }
+
+  .selectCheckBox.Checked {
+    background-color: #60bde5;
+  }
+  .totalFlightTime {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: 5%;
+    left: 30%;
+  }
+  .totalFlightTime.selected {
+    color: black;
+  }
+  .numberOfLayovers {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: -5%;
+    left: 22%;
+  }
+  .numberOfLayovers.selected {
+    color: black;
+  }
+  .flightDetailsDetinationInfo {
+    padding: 0 0 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 25%;
+  }
+  .destinationFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .destinationFlightLocation {
+    width: max-content;
+    font-size: 0.8rem;
+    color: #878787;
+  }
+  .destinationFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsPrice {
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: max-content;
+    height: max-content;
+    align-items: flex-end;
+  }
+  .flightCurrencySymbol {
+    font-size: 1rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+  .flightCurrencySymbolCombo {
+    font-size: 1.4rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  .flightDetailsContainer {
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    padding: 1rem 0.8rem 0 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+  }
+  .flightDetailsContainer.selected {
+    background-color: #ffff;
+  }
+  .flightDetailsHeader {
+    display: flex;
+    width: 95%;
+    margin: -0.4rem 0 0.4rem 1rem;
+  }
+
+  .flightDetailsAirlineName {
+    margin: 0 0.2rem 0 0;
+  }
+  .flightDetailsLogoImgTag {
+    border-radius: 0.4rem;
+    height: 25px;
+    width: 25px;
+  }
+  .airlineName {
+    margin: 0rem 0 0 0;
+    font-size: 1.2rem;
+    width: 68%;
+  }
+  .comboTotal {
+    display: flex;
+    color: rgb(76, 192, 76);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0rem 0 0 0;
+    width: max-content;
+  }
+  .layoverlocationAndTime {
+    display: flex;
+    margin: 0.4rem 0 0.5rem 0;
+  }
+  .layoverIcon {
+    margin: 0.15rem 0 0 0;
+    width: max-content;
+  }
+  .layoverIconImgTag {
+    width: 3.8rem;
+  }
+  .layoverlocationAndTimeText {
+    font-size: 0.8em;
+    margin: 0.2rem 0 0 0.5rem;
+  }
+  .flightDetailsItinerary {
+    display: flex;
+    justify-content: space-around;
+  }
+  .flightDetailsDepartureInfo {
+    width: 30%;
+  }
+  .departureFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .departureFlightLocation {
+    font-size: 0.8rem;
+    color: #878787;
+    width: max-content;
+  }
+  .departureFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsTimeLayoverInfo {
+    width: 30%;
+  }
+  .selectCheckBox {
+    background-color: white;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0.5rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-check {
+    color: #ffff;
+    margin: 0.2rem 0 0 0;
+  }
+
+  .selectCheckBox.Checked {
+    background-color: #60bde5;
+  }
+  .totalFlightTime {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: 5%;
+    left: 30%;
+  }
+  .totalFlightTime.selected {
+    color: black;
+  }
+  .numberOfLayovers {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: -5%;
+    left: 22%;
+  }
+  .numberOfLayovers.selected {
+    color: black;
+  }
+  .flightDetailsDetinationInfo {
+    padding: 0 0 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 25%;
+  }
+  .destinationFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .destinationFlightLocation {
+    width: max-content;
+    font-size: 0.8rem;
+    color: #878787;
+  }
+  .destinationFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsPrice {
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: max-content;
+    height: max-content;
+    align-items: flex-end;
+  }
+  .flightCurrencySymbol {
+    font-size: 1rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+  .flightCurrencySymbolCombo {
+    font-size: 1.4rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .flightDetailsContainer {
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    padding: 1rem 0.8rem 0 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background-color: #ffff;
+  }
+  .flightDetailsContainer.selected {
+    background-color: #ffff;
+  }
+  .flightDetailsHeader {
+    display: flex;
+    width: 95%;
+  }
+
+  .flightDetailsLogoImgTag {
+    margin: 0.2rem 0 0 0;
+    border-radius: 0.4rem;
+    height: 25px;
+    width: 25px;
+  }
+  .flightDetailsAirlineName {
+    margin: 0rem 0 0 0.2rem;
+    font-size: 1.2rem;
+    width: 68%;
+  }
+  .comboTotal {
+    display: flex;
+    color: rgb(76, 192, 76);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0rem 0 0 0;
+    width: max-content;
+  }
+  .layoverlocationAndTime {
+    display: flex;
+    margin: 0.4rem 0 0.5rem 0;
+  }
+  .layoverIcon {
+    margin: 0.15rem 0 0 0;
+    width: max-content;
+  }
+  .layoverIconImgTag {
+    width: 3.8rem;
+  }
+  .layoverlocationAndTimeText {
+    font-size: 0.8em;
+    margin: 0.2rem 0 0 0.5rem;
+  }
+  .flightDetailsItinerary {
+    display: flex;
+    justify-content: space-around;
+  }
+  .flightDetailsDepartureInfo {
+    width: 30%;
+  }
+  .departureFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .departureFlightLocation {
+    font-size: 0.8rem;
+    color: #878787;
+    width: max-content;
+  }
+  .departureFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsTimeLayoverInfo {
+    width: 30%;
+  }
+  .selectCheckBox {
+    background-color: white;
+    border: 0.1px solid black;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0.5rem 0 0;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-check {
+    color: #ffff;
+    margin: 0.2rem 0 0 0;
+  }
+
+  .selectCheckBox.Checked {
+    background-color: #60bde5;
+  }
+  .totalFlightTime {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: 5%;
+    left: 30%;
+  }
+  .totalFlightTime.selected {
+    color: black;
+  }
+  .numberOfLayovers {
+    font-size: 0.8rem;
+    color: #878787;
+    position: relative;
+    top: -5%;
+    left: 22%;
+  }
+  .numberOfLayovers.selected {
+    color: black;
+  }
+  .flightDetailsDetinationInfo {
+    padding: 0 0 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 25%;
+  }
+  .destinationFlightTime {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .destinationFlightLocation {
+    width: max-content;
+    font-size: 0.8rem;
+    color: #878787;
+  }
+  .destinationFlightLocation.selected {
+    color: black;
+  }
+  .flightDetailsPrice {
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: max-content;
+    height: max-content;
+    align-items: flex-end;
+  }
+  .flightCurrencySymbol {
+    font-size: 1rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+  .flightCurrencySymbolCombo {
+    font-size: 1.4rem;
+    margin: -0.1rem 0.1rem 0 0;
+  }
+}

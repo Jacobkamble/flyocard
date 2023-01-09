@@ -1,0 +1,61 @@
+@media screen and (max-width: 1370px) {
+  .filtersModalContainer {
+    position: fixed;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #eff3f8;
+    overflow-y: scroll;
+  }
+  .filtersModalHeader {
+    display: flex;
+    padding: 0 0 0 0;
+    height: 2.8rem;
+    background-color: #ffff;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .filtersModalBackIcon {
+    align-self: center;
+    width: 12%;
+    text-align: center;
+  }
+  .headerTitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 60%;
+    text-align: center;
+    align-self: center;
+    margin: 0 0 0 2.2rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .filtersModalContainer {
+    position: fixed;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #eff3f8;
+    overflow-y: scroll;
+  }
+  .filtersModalHeader {
+    display: flex;
+    padding: 0 0 0 0;
+    height: 2.8rem;
+    background-color: #ffff;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .filtersModalBackIcon {
+    align-self: center;
+    width: 12%;
+    text-align: center;
+  }
+  .headerTitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 60%;
+    text-align: center;
+    align-self: center;
+    margin: 0 0 0 2.2rem;
+  }
+}

@@ -1,0 +1,19 @@
+small > a, div >p >a{
+    color:rgb(21, 21, 175);
+}
+.privacy{
+    padding: 0 2%;
+    font-size: 12px;
+}
+.pay-btn{width:20em;
+padding:1rem;
+background-color: #46b2e0;
+border: none;
+border-radius: 2%;
+text-align: center;
+}
+.acceptionletter{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 13px;
+}

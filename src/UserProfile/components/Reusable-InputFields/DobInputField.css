@@ -1,0 +1,135 @@
+.dobInputWrapper {
+  width: 100%;
+}
+
+.dobInputContainer {
+  display: flex;
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 1px solid #bebdbd;
+  height: 2.5rem;
+}
+.dobInputLabel {
+  width: 30%;
+  padding: 0.5rem;
+  font-size: 13px;
+  text-align: center;
+  border-right: 1px solid #bebdbd;
+  background-color: #f2f2f2;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+.dobMonthSelect {
+  width: 25%;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-right: 1px solid #bebdbd;
+  user-select: none;
+}
+.dobMonthDisplay {
+  font-size: 13px;
+  display: flex;
+  text-align: center;
+}
+.dobMonthDisplayText {
+  width: 80%;
+  text-align: center;
+}
+.dobMonthDropDown {
+  position: relative;
+  top: 65%;
+  left: 0%;
+  width: 4rem;
+  height: 10rem;
+  font-size: 13px;
+  padding: 0.2rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #ffff;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  z-index: 100;
+}
+.dobMonthDropDownIcon .fa-caret-down {
+  font-size: 13px;
+}
+.dobMonthDropDownOption {
+  list-style: none;
+  width: 100%;
+  padding: 0.3rem;
+  transition: all 150ms ease;
+  cursor: pointer;
+}
+.dobMonthDropDownOption:hover {
+  background-color: #a4d3e7;
+  color: white;
+}
+.dobHtmlSelect {
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+.dobHtmlSelectption {
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+}
+.dobDaySelect {
+  position: relative;
+  width: 25%;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-right: 1px solid #bebdbd;
+  user-select: none;
+}
+.dobDayDisplay {
+  font-size: 13px;
+  display: flex;
+  text-align: center;
+}
+.dobDayDisplayText {
+  width: 80%;
+}
+.dobDayDropDown {
+  position: relative;
+  top: 110%;
+  left: -22.2%;
+  width: 4rem;
+  height: 10rem;
+  font-size: 13px;
+  padding: 0.2rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #ffff;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  z-index: 100;
+}
+.dobDayDropDownIcon .fa-caret-down {
+  font-size: 13px;
+}
+.dobDayDropDownOption {
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  padding: 0.3rem;
+  transition: all 150ms ease;
+  cursor: pointer;
+}
+.dobDayDropDownOption:hover {
+  background-color: #a4d3e7;
+  color: white;
+}
+.datePicker{
+ border: none;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  margin: 0.3rem 0 0 1rem;  
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding: 0.2rem;
+}

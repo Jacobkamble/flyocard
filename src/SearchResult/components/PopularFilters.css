@@ -1,0 +1,398 @@
+.popularFiltersWrapper {
+  height: 3.5rem;
+  width: 100%;
+}
+.popularFiltersBlock {
+  width: 100%;
+  display: flex;
+  width: max-content;
+  margin: 0 0 0 0.5rem;
+  background-color: #ffff;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.popularFiltersBox {
+  cursor: pointer;
+  margin: 0.2rem 0.25rem 0.2rem 0.25rem;
+  padding: 0.2rem 0 0 0;
+  border-bottom: 0.1rem solid transparent;
+  transition: all 200ms ease-in;
+}
+.popularFiltersBox:hover {
+  background-color: #bbe3f5;
+  border-radius: 0.2rem;
+}
+.popularFiltersBox.Selected {
+  border-bottom: 0.1rem solid #1a7195;
+  color: #1a7195;
+}
+
+.popularFilterTitle {
+  display: flex;
+  font-size: 0.9rem;
+  width: 12rem;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.popularFilterIcon {
+  font-size: 0.8rem;
+  margin: 0 0.4rem 0 0;
+}
+
+.fa-clock {
+  font-size: 0.8rem;
+}
+
+.popularFilterAvegragePrice {
+  font-size: 1rem;
+  font-weight: 600;
+  align-self: center;
+  text-align: center;
+}
+.popularFilterDivision {
+  background-color: #b4b2b2;
+  margin: 0.5rem 0 0 0;
+  height: 2.2rem;
+  width: 0.01rem;
+  border-radius: 0.4rem;
+}
+.popularFiltersBlock::-webkit-scrollbar {
+  height: 0rem;
+}
+@media screen and (max-width: 1370px) {
+  .popularFiltersWrapper {
+    height: 4rem;
+    width: 100%;
+  }
+  .popularFiltersBlock {
+    width: 98%;
+    display: flex;
+    overflow-x: scroll;
+    border-radius: 0.4rem;
+    margin: 0 0 0 0.8rem;
+  }
+  .popularFiltersBox {
+    padding: 0rem 0rem 0 0.2rem;
+    margin: 0 0.6rem 0 0.6rem;
+    width: 16rem;
+    border-bottom: 0.1rem solid #949697;
+  }
+
+  .popularFiltersBox.Selected {
+    border-bottom: 0.1rem solid #1a7195;
+    color: #1a7195;
+    border-radius: 0.4rem;
+  }
+
+  .popularFilterTitle {
+    font-size: 1rem;
+    width: 15rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .popularFilterIcon {
+    display: block;
+  }
+  .popularFilterAvegragePrice {
+    font-size: 1.2rem;
+    font-weight: 600;
+    align-self: center;
+    text-align: center;
+  }
+  .popularFiltersBlock::-webkit-scrollbar {
+    height: 0rem;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .popularFiltersWrapper {
+    height: 4rem;
+    width: 100%;
+  }
+  .popularFiltersBlock {
+    margin: 0 0 0 0.6rem;
+  }
+  .popularFiltersBox {
+    margin: 0 0.3rem 0 0.3rem;
+    width: 13rem;
+  }
+
+  .popularFilterTitle {
+    width: 12.5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .popularFiltersWrapper {
+    height: 3rem;
+    width: 100%;
+  }
+  .popularFiltersBlock {
+    margin: 0 0 0 0.6rem;
+  }
+  .popularFiltersBox {
+    margin: 0 0.3rem 0 0.3rem;
+    width: 12rem;
+  }
+
+  .popularFilterTitle {
+    width: 12rem;
+  }
+}
+@media screen and (max-width: 840px) {
+  .popularFiltersWrapper {
+    height: 4rem;
+    width: 100%;
+  }
+  .popularFiltersBlock {
+    margin: 0 0 0 0.6rem;
+  }
+  .popularFiltersBox {
+    margin: 0 0.3rem 0 0.3rem;
+    width: 9.5rem;
+  }
+
+  .popularFilterTitle {
+    width: 9rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .popularFiltersWrapper {
+    height: 4rem;
+    width: 100%;
+  }
+  .popularFiltersBlock {
+    margin: 0 0 0 0.6rem;
+  }
+  .popularFiltersBox {
+    margin: 0 0.3rem 0 0.3rem;
+    width: 8.8rem;
+  }
+
+  .popularFilterTitle {
+    display: flex;
+    font-size: 0.8rem;
+    width: 8rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .popularFiltersWrapper {
+    height: 2.8rem;
+    width: 100%;
+  }
+  .popularFiltersBlock {
+    width: 100%;
+    display: flex;
+    width: 96%;
+    overflow-x: scroll;
+    margin: 0 0 0 0.5rem;
+    background-color: #ffff;
+    border-radius: 0.4rem;
+  }
+  .popularFiltersBox {
+    padding: 0rem 0rem 0 0.2rem;
+    margin: 0 0.2rem 0 0;
+    width: 6.2rem;
+    border-bottom: 0.1rem solid #949697;
+  }
+
+  .popularFiltersBox.Selected {
+    border-bottom: 0.1rem solid #1a7195;
+    color: #1a7195;
+  }
+
+  .popularFilterTitle {
+    font-size: 0.67rem;
+    width: 6.2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .popularFilterIcon {
+    display: none;
+  }
+  .popularFilterAvegragePrice {
+    font-size: 0.8rem;
+    font-weight: 600;
+    align-self: center;
+    text-align: center;
+  }
+  .popularFiltersBlock::-webkit-scrollbar {
+    height: 0rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .popularFiltersWrapper {
+    height: 2.8rem;
+    width: 100%;
+  }
+  .popularFiltersBlock {
+    width: 100%;
+    display: flex;
+    width: 96%;
+    overflow-x: scroll;
+    margin: 0 0 0 0.5rem;
+    background-color: #ffff;
+    border-radius: 0.4rem;
+  }
+  .popularFiltersBox {
+    padding: 0rem 0rem 0 0.2rem;
+    margin: 0 0.2rem 0 0;
+    width: 6rem;
+    border-bottom: 0.1rem solid #949697;
+  }
+
+  .popularFiltersBox.Selected {
+    border-bottom: 0.1rem solid #1a7195;
+    color: #1a7195;
+  }
+
+  .popularFilterTitle {
+    font-size: 0.67rem;
+    width: 6rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .popularFilterIcon {
+    display: none;
+  }
+  .popularFilterAvegragePrice {
+    font-size: 0.8rem;
+    font-weight: 600;
+    align-self: center;
+    text-align: center;
+  }
+  .popularFiltersBlock::-webkit-scrollbar {
+    height: 0rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .popularFiltersWrapper {
+    height: 2.6rem;
+    width: 100%;
+  }
+  .popularFiltersBlock {
+    display: flex;
+    width: 96%;
+    overflow-x: scroll;
+    margin: 0 0 0 0.5rem;
+    background-color: #ffff;
+    border-radius: 0.4rem;
+  }
+  .popularFiltersBox {
+    padding: 0rem 0rem 0 0.2rem;
+    margin: 0 0.2rem 0 0;
+    width: 5.5rem;
+    border-bottom: 0.1rem solid #949697;
+  }
+
+  .popularFiltersBox.Selected {
+    border-bottom: 0.1rem solid #1a7195;
+    color: #1a7195;
+  }
+
+  .popularFilterTitle {
+    font-size: 0.6rem;
+    width: 5.2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .popularFilterIcon {
+    display: none;
+  }
+  .popularFilterAvegragePrice {
+    font-size: 0.7rem;
+    font-weight: 600;
+    align-self: center;
+    text-align: center;
+  }
+  .popularFiltersBlock::-webkit-scrollbar {
+    height: 0rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .popularFiltersWrapper {
+    height: 2.6rem;
+    width: 100%;
+  }
+  .popularFiltersBlock {
+    display: flex;
+    width: 96%;
+    overflow-x: scroll;
+    margin: 0 0 0 0.5rem;
+    background-color: #ffff;
+    border-radius: 0.4rem;
+  }
+  .popularFiltersBox {
+    padding: 0rem 0rem 0 0.2rem;
+    margin: 0 0.2rem 0 0;
+    width: 5.2rem;
+    border-bottom: 0.1rem solid #949697;
+  }
+
+  .popularFiltersBox.Selected {
+    border-bottom: 0.1rem solid #1a7195;
+    color: #1a7195;
+  }
+
+  .popularFilterTitle {
+    font-size: 0.6rem;
+    width: 5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .popularFilterIcon {
+    display: none;
+  }
+  .popularFilterAvegragePrice {
+    font-size: 0.7rem;
+    font-weight: 600;
+    align-self: center;
+    text-align: center;
+  }
+  .popularFiltersBlock::-webkit-scrollbar {
+    height: 0rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .popularFiltersWrapper {
+    height: 2.6rem;
+    width: 100%;
+  }
+  .popularFiltersBlock {
+    display: flex;
+    width: 96%;
+    overflow-x: scroll;
+    margin: 0 0 0 0.5rem;
+    background-color: #ffff;
+    border-radius: 0.4rem;
+  }
+  .popularFiltersBox {
+    padding: 0rem 0rem 0 0.2rem;
+    margin: 0 0.2rem 0 0;
+    width: 5.5rem;
+    border-bottom: 0.1rem solid #949697;
+  }
+
+  .popularFiltersBox.Selected {
+    border-bottom: 0.1rem solid #1a7195;
+    color: #1a7195;
+  }
+
+  .popularFilterTitle {
+    font-size: 0.6rem;
+    width: 5.2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .popularFilterIcon {
+    display: none;
+  }
+  .popularFilterAvegragePrice {
+    font-size: 0.7rem;
+    font-weight: 600;
+    align-self: center;
+    text-align: center;
+  }
+  .popularFiltersBlock::-webkit-scrollbar {
+    height: 0rem;
+  }
+}

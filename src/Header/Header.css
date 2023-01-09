@@ -1,0 +1,594 @@
+.headerContainer {
+  background-color: #ffff;
+  justify-content: space-between;
+  height: 60px;
+  display: flex;
+   
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.mobileMenuIcon {
+  display: none;
+}
+.logoborder{
+  border:1px solid #46b2e0;
+  border-radius: 20px;
+}
+.logoContainer {
+  width: max-content;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 6px;
+}
+.currencyConversionWrapper {
+  display: flex;
+  width: 50%;
+}
+
+.currencyConversionError {
+  background-color: #ffd3d4;
+  color: #df4042;
+  text-align: center;
+  padding: 0.2rem 0 0 0;
+  margin: 0.8rem;
+  height: 2rem;
+  width: 25rem;
+  border-radius: 0.4rem;
+  position: relative;
+  left: 30%;
+}
+.conversionBtn {
+  display: flex;
+  padding: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  left: 45%;
+  user-select: none;
+}
+.conversionBtn.withoutError {
+  display: flex;
+  padding: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  left: 99%;
+  width: max-content;
+}
+.currencyConversionModal {
+  margin: 1rem 1.5rem 0 0;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  top: 8%;
+  left: 38%;
+  z-index: 100;
+}
+.userProfileLink {
+  text-decoration: none;
+  font-style: none;
+}
+.dropDownIconCurrency {
+  width: max-content;
+}
+.fa-caret-down {
+  font-size: 1.2rem;
+  margin: 0.2rem 0 0 0.2rem;
+}
+
+.logoLink {
+  text-decoration: none;
+  color: black;
+}
+.logoImage {
+  width: 50px;
+  margin: 0.6rem 1rem 0 -0.8rem;
+}
+.logoText {
+  width: max-content;
+  margin: 0.4rem 0 0 1rem;
+}
+.logoH1 {
+  color: #0d3c6f;
+  margin: 0px;
+  font-size: 1.4rem;
+}
+.logoSvg {
+  height: 42px;
+  width: 55px;
+}
+.login {
+  display: flex;
+  justify-content: flex-end;
+  width: 15%;
+}
+.loginBtn {
+  height: 35px;
+  border-radius: 4px;
+  margin: 0.9rem 0.8rem 0 0;
+
+  cursor: pointer;
+}
+.loginBtnH3 {
+  margin: 0px;
+  font-size: 16px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.loginToast {
+  background-color: #fff;
+  color: #46b2e0;
+  position: absolute;
+  top: 50px;
+  right: 13rem;
+  z-index: 11;
+  padding: 10px 15px;
+  border-radius: 12px;
+  box-shadow: 0px 1px 4px 0px rgb(0 0 0 /25%);
+}
+
+.loginToast:after {
+  content: " ";
+  position: absolute;
+  right: 25px;
+  top: -10px;
+  border-top: none;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 15px solid #fff;
+}
+
+.loginToast.open {
+  display: block;
+}
+.loginToast.close {
+  display: none;
+}
+
+.contactUsBanner {
+  font-size: 0.8rem;
+  height: max-content;
+  justify-content: flex-end;
+  font-weight: 600;
+  margin: 0.5rem 1.2rem 0 0.5rem;
+}
+.cancellationContainer {
+  color: rgb(170, 149, 32);
+}
+.callUsIcon {
+  margin: 0 0.2rem 0 0;
+}
+.contactUsContainer {
+  display: flex;
+  color: rgb(6, 94, 28);
+}
+
+.verifiedUserWrapper {
+  display: flex;
+  padding: 0.4rem 0.5rem 0.5rem 0.6rem;
+  margin: 0.6rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  color: black;
+  user-select: none;
+}
+.verifiedUserWrapper .fa-sort-down {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.verifiedUserWrapper .fa-sort-up {
+  color: black;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0 0;
+}
+.verifiedUserTitle {
+  font-weight: 600;
+  padding: 0 0.2rem 0 0.5rem;
+}
+.verifiedUserDropDown {
+  background-color: #fff;
+  position: absolute;
+  padding: 1rem;
+  width: 10%;
+  top: 10%;
+  left: 75%;
+  border-radius: 0.4rem;
+  z-index: 100;
+  box-shadow: 0px 1px 4px 0px rgb(0 0 0 /20%);
+}
+.verifiedUserDropDown::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 12px solid #ffff;
+  border-right: 10px solid transparent;
+  left: 45%;
+  top: -20%;
+}
+.verifiedUserDDOption {
+  width: 100%;
+  text-align: center;
+  margin: 0rem 0 0.5rem 0;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+  transition: background-color 200ms ease-in;
+}
+.verifiedUserDDOption:hover {
+  background-color: #a4d3e7;
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+  .mobileMenuIcon {
+    margin-right:1em;
+    display: block;
+    float:right;
+  }
+  .conversionBtn {
+    display: none;
+  }
+  .currencyConversionModal {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .loginToast.open {
+    display: none;
+  }
+  .currencyConversionWrapper {
+    display: none;
+  }
+  .logoImage {
+    width: 40px;
+  }
+  .logoH1 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.3rem;
+  }
+
+  .contactUsBanner {
+    font-weight: 600;
+    margin: 0.8rem 0rem 0 0.5rem;
+     
+  }
+  .cancellationContainer {
+    font-size: 0.67rem;
+  }
+  .callUsIcon {
+    margin: 0 0.2rem 0 0;
+  }
+  .contactUsContainer {
+    font-size: 0.67rem;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .mobileMenuIcon {
+    margin-right:1em;
+    display: block;
+    float:right;
+  }
+  .conversionBtn {
+    display: none;
+  }
+  .currencyConversionModal {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .loginToast.open {
+    display: none;
+  }
+  .currencyConversionWrapper {
+    display: none;
+  }
+  .logoImage {
+    width: 40px;
+  }
+  .logoH1 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.3rem;
+  }
+
+  .contactUsBanner {
+    font-weight: 600;
+    margin: 0.8rem 0rem 0 0.5rem;
+     
+  }
+  .cancellationContainer {
+    font-size: 0.67rem;
+  }
+  .callUsIcon {
+    margin: 0 0.2rem 0 0;
+  }
+  .contactUsContainer {
+    font-size: 0.67rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .conversionBtn {
+    display: none;
+  }
+  .currencyConversionModal {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .loginToast.open {
+    display: none;
+  }
+  .currencyConversionWrapper {
+    display: none;
+  }
+  .logoImage {
+    width: 40px;
+  }
+  .logoH1 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.3rem;
+  }
+
+  .contactUsBanner {
+    font-weight: 600;
+    margin: 0.8rem 0rem 0 0.5rem;
+     
+  }
+  .cancellationContainer {
+    font-size: 0.67rem;
+  }
+  .callUsIcon {
+    margin: 0 0.2rem 0 0;
+  }
+  .contactUsContainer {
+    font-size: 0.67rem;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .conversionBtn {
+    display: none;
+  }
+  .currencyConversionModal {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .loginToast.open {
+    display: none;
+  }
+  .currencyConversionWrapper {
+    display: none;
+  }
+  .logoImage {
+    width: 40px;
+  }
+  .logoH1 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.3rem;
+  }
+
+  .contactUsBanner {
+    font-weight: 600;
+    margin: 0.8rem 0rem 0 0.5rem;
+     
+  }
+  .cancellationContainer {
+    font-size: 0.67rem;
+  }
+  .callUsIcon {
+    margin: 0 0.2rem 0 0;
+  }
+  .contactUsContainer {
+    font-size: 0.67rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .conversionBtn {
+    display: none;
+  }
+  .mobile-hidden{
+    display: none;
+  }
+  .currencyConversionModal {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .loginToast.open {
+    display: none;
+  }
+  .currencyConversionWrapper {
+    display: none;
+  }
+  .logoImage {
+    width: 40px;
+  }
+  .logoH1 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.3rem;
+  }
+
+  .contactUsBanner {
+    font-weight: 600;
+    margin: 0.8rem 0rem 0 0.5rem;
+     
+  }
+  .cancellationContainer {
+    font-size: 0.67rem;
+  }
+  .callUsIcon {
+    margin: 0 0.2rem 0 0;
+  }
+  .contactUsContainer {
+    font-size: 0.67rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .conversionBtn {
+    display: none;
+  }
+  .currencyConversionModal {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .loginToast.open {
+    display: none;
+  }
+  .currencyConversionWrapper {
+    display: none;
+  }
+  .logoImage {
+    width: 40px;
+  }
+  .logoH1 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.3rem;
+  }
+
+  .contactUsBanner {
+    font-weight: 600;
+    margin: 0.8rem 0rem 0 0.5rem;
+     
+  }
+  .cancellationContainer {
+    font-size: 0.67rem;
+  }
+  .callUsIcon {
+    margin: 0 0.2rem 0 0;
+  }
+  .contactUsContainer {
+    font-size: 0.67rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .conversionBtn {
+    display: none;
+  }
+  .mobileMenuIcon {
+    display: block;
+    margin-right:1em;
+    text-align: center;
+  }
+  .hamburgerMenu .fa-times {
+    margin: 0.9rem 1.2rem 0 0;
+    color: #0d3c6f;
+    font-size: 24px;
+    padding: 0;
+  }
+  .currencyConversionModal {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .loginToast.open {
+    display: none;
+  }
+  .currencyConversionWrapper {
+    display: none;
+  }
+  .logoImage {
+    width: 40px;
+  }
+  .logoH1 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.3rem;
+  }
+
+  .contactUsBanner {
+    display: none;
+  }
+  .cancellationContainer {
+    font-size: 0.67rem;
+  }
+  .callUsIcon {
+    margin: 0 0.2rem 0 0;
+  }
+  .contactUsContainer {
+    font-size: 0.67rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .logoImage {
+    width: 40px;
+  }
+
+  .logoH1 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.1rem;
+  }
+  .logoSvg {
+    height: 40px;
+    width: 50px;
+    padding-top: 3px;
+  }
+
+  .login {
+    display: none;
+  }
+  .loginToast.open {
+    display: none;
+  }
+  .contactUsBanner {
+    margin: 0.8rem 0rem 0 0.5rem;
+  }
+  .cancellationContainer {
+    font-size: 0.67rem;
+  }
+
+  .contactUsContainer {
+    font-size: 0.67rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .logoImage {
+    width: 40px;
+  }
+  .logoH1 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.1rem;
+  }
+  .contactUsBanner {
+    margin: 0.8rem 0rem 0 0.5rem;
+  }
+  .cancellationContainer {
+    font-size: 0.5rem;
+  }
+  .callUsIcon {
+    margin: 0 0.2rem 0 0;
+  }
+  .contactUsContainer {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .logoImage {
+    width: 40px;
+  }
+  .logoH1 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.1rem;
+  }
+  .contactUsBanner {
+    margin: 1rem 0rem 0 0.5rem;
+  }
+  .cancellationContainer {
+    font-size: 0.46rem;
+  }
+  .callUsIcon {
+    margin: 0 0.2rem 0 0;
+  }
+  .contactUsContainer {
+    font-size: 0.46rem;
+  }
+}

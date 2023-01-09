@@ -1,0 +1,49 @@
+.singleAirlineIfo {
+  width: 8.78rem;
+  height: 4.28rem;
+  text-align: center;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  transition: background-color 300ms ease-in;
+  cursor: pointer;
+}
+.singleAirlineIfo:hover {
+  background-color: #bbe3f5;
+}
+.singleAirlineLogo {
+  padding-top: 0.5rem;
+}
+.SingleAirlineName {
+  font-size: 0.8rem;
+  color: rgb(128, 128, 128);
+}
+.singleAirlineLogoImgTag {
+  height: 30px;
+  width: 30px;
+  border-radius: 0.4rem;
+}
+.nonStopPrice {
+  font-size: 0.8rem;
+  text-align: center;
+  height: 37px;
+  padding-top: 0.5rem;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+  transition: background-color 300ms ease-in;
+}
+.nonStopPrice:hover {
+  background-color: #bbe3f5;
+}
+.moreThen1StopsPrice {
+  font-size: 0.8rem;
+  text-align: center;
+  height: 36px;
+  padding-top: 0.5rem;
+  border-right: 1px solid grey;
+  cursor: pointer;
+  transition: background-color 300ms ease-in;
+}
+.moreThen1StopsPrice:hover {
+  background-color: #bbe3f5;
+}

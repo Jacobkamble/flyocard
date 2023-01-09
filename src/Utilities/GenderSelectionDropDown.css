@@ -1,0 +1,36 @@
+.travellerGenderContainer {
+  cursor: pointer;
+  background-color: #ffff;
+  border: 1px solid #46b2e0;
+  width: 8.8rem;
+  height: max-content;
+  border-radius: 0.3rem;
+  z-index: 100;
+  padding: 0.2rem;
+}
+
+.genderOption {
+  width: 99%;
+  font-size: 0.9rem;
+  color: black;
+  margin: 0.2rem 0 0.2rem 0;
+  padding: 0.2rem 0.4rem 0.2rem 0.2rem;
+  border-radius: 0.2rem;
+}
+.genderOption.selected {
+  background-color: #6dc5eb;
+}
+
+.genderOption:hover {
+  background-color: #6dc5eb;
+}
+@media screen and (max-width: 420px) {
+  .travellerGenderContainer {
+    width: 12rem;
+  }
+  .genderOption {
+    font-size: 1.4rem;
+    width: 99%;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  }
+}

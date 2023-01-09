@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.travellerInfoInputContainer {
+  border-bottom: 1.5px dotted black;
+  margin: 1%;
+}
+
+.travellerInfoInputHeaderContainer {
+  display: none;
+}
+.travellerInfoInputHeaderContainer.Primary {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+.travellerInfoInputHeader {
+  font-size: 1.3rem;
+  font-weight: 600;
+  width: 70%;
+}
+.travellerInfoInputSignin {
+  display: flex;
+  width: 26%;
+}
+
+.travellerInfoInputSigninTitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0 0.5rem 0 0;
+  text-align: center;
+  padding: 0.2rem 0 0 0;
+  width: 50%;
+}
+.travellerInfoInputSigninBtn {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #46b2e0;
+  width: 50%;
+}
+.travellerInfoInputSigninIcon {
+  margin: -0.1rem 0.4rem 0 0.2rem;
+}
+.fa-user-alt {
+  color: #46b2e0;
+  font-size: 1.2rem;
+}
+.fa-sort-down {
+  color: #46b2e0;
+  font-size: 1.2rem;
+}
+
+.travellerInfoInputDetailsInstruction {
+  display: none;
+}
+
+.travellerInfoInputDetailsInstruction.Primary {
+  display: block;
+  width: 94%;
+  font-size: 0.8rem;
+  padding: 0.6rem;
+  margin: 2%;
+  border: 2px solid #46b2e0;
+}
+
+.travellerEmailContainerDesktop {
+  display: none;
+}
+.travellerEmailContainerDesktop.Primary {
+  display: flex;
+  justify-content: space-between;
+}
+.travellerEmailWrapper {
+  width: 60%;
+  height: 4rem;
+}
+.travellerEmail {
+  width: 90%;
+  padding: 1%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  margin: 0% 0% 0% 2%;
+  transition: all 400ms ease;
+}
+.travellerEmail.check {
+  border-color: #46b2e0;
+}
+.travellerEmail.check.Error {
+  border-color: red;
+}
+.travellerEmail.Error {
+  border-color: red;
+}
+
+.travellerEmailPromoBanner {
+  width: 50%;
+  display: flex;
+  text-align: center;
+  padding: 1% 0 0 0;
+}
+.emailPromoBannerCheck {
+  height: 1.2rem;
+  width: 1.2rem;
+  border: 2px solid rgb(0 0 0 / 20%);
+  margin: 0.5% 1% 0 0;
+  border-radius: 0.3rem;
+}
+.emailPromoBannerCheck.Checked {
+  background-color: #46b2e0;
+}
+.emailPromoBannerCheckIcon {
+  margin: -0.3rem 0 0 0;
+}
+.fa-check {
+  font-size: 0.8rem;
+}
+
+.InfoInputContainer {
+  margin: 1%;
+  display: flex;
+  height: 5rem;
+}
+
+.travellerInfoInputField {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.travellerType {
+  width: 10%;
+  margin: 1% 0% 0% 0;
+  padding: 0.8rem 0 0 0;
+}
+
+.travellerTitleWrapper {
+  width: 8%;
+  height: 100%;
+  margin: 0.2% 1% 1% 0;
+}
+
+.travellerTitle {
+  width: 100%;
+  height: 55%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+  padding: 0.6rem 0 0 0.2rem;
+}
+
+.titleSelectionDropDown {
+  height: max-content;
+  width: 100%;
+  margin: 0% 0 0 0%;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  position: relative;
+}
+.travellerGenderWrapper {
+  width: 8%;
+  height: 100%;
+  margin: 0.2% 1% 1% 0;
+}
+
+.travellerGender {
+  width: 100%;
+  height: 55%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  padding: 0.6rem 0 0 0.2rem;
+  transition: all 400ms ease;
+}
+
+.genderSelectionDropDown {
+  height: max-content;
+  width: max-content;
+  margin: 0% 0 0 0%;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  position: relative;
+}
+.travellerNameWrapper {
+  width: 18%;
+  height: 55%;
+  margin: 2.5% 1% 1% 0;
+}
+.travellerFirstName {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+}
+.travellerFirstName.check {
+  border-color: #46b2e0;
+}
+.travellerFirstName.check.Error {
+  border-color: red;
+}
+.travellerFirstName.Error {
+  border-color: red;
+}
+.travellerMiddleName {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+}
+.travellerMiddleName.check {
+  border-color: #46b2e0;
+}
+.travellerLastName {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+}
+.travellerLastName.check {
+  border-color: #46b2e0;
+}
+.travellerLastName.check.Error {
+  border-color: red;
+}
+.travellerLastName.Error {
+  border-color: red;
+}
+.travellerDateOfBirthContainer {
+  width: 26%;
+}
+.travellerDateOfBirth {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  margin: 1% 1% 1% 0;
+  transition: border 400ms ease;
+}
+.travellerDateOfBirth.check {
+  border-color: #46b2e0;
+}
+.travellerInfoInputFieldDOB {
+  border: none;
+  outline: none;
+  height: 90%;
+  width: 100%;
+  padding: 0 0 0 0.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.monthDropDownWrapper {
+  height: max-content;
+  width: max-content;
+  margin: -2% 0 0 0%;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  position: relative;
+}
+
+.dateOfBirthMonth {
+  color: grey;
+  font-size: 0.8rem;
+  width: 45.8%;
+  padding: 0.5rem 0 0 0.1rem;
+}
+.dateOfBirthDay {
+  border-right: 2px solid rgb(0 0 0 / 20%);
+  border-left: 2px solid rgb(0 0 0 / 20%);
+  color: grey;
+  font-size: 0.9rem;
+  margin: 1.5% 1% 2.5% 1.5%;
+  width: 29%;
+}
+
+.dateOfBirthYear {
+  padding: 0.5%;
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  margin: 1.5% 1% 2.5% 1.5%;
+  width: 29%;
+}
+
+.travellerEmailContainerMedia {
+  display: none;
+}
+
+.travellerInfoerrMessage {
+  font-size: 0.7rem;
+  color: red;
+  margin: 0 0 0 2%;
+}
+.inputSectionHeader {
+  font-size: 0.9rem;
+  margin: 0 0 0 2%;
+  width: max-content;
+}

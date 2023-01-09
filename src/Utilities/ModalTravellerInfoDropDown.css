@@ -1,0 +1,426 @@
+.overlay-travellerClass {
+  background: rgba(158, 155, 155, 0.493);
+  height: 100%;
+  width: 100%;
+  top: 0rem;
+  position: fixed;
+  z-index: 10;
+}
+/*---------------------  TRAVELLER  DROP-DOWN---------------------*/
+.modalTravellerDropDownContainer {
+  margin: 0.5rem;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 1em 4em rgba(0, 0, 0, 0.07);
+  box-sizing: border-box;
+  border-radius: 16px;
+  top: 17rem;
+  left: 55rem;
+  overflow: hidden;
+  overflow-y: hidden;
+  width: 30%;
+  transition: margin-top ease-out 200ms;
+  z-index: 100;
+}
+
+.modalPassangerCountLabel {
+  margin: 0.5rem 0.5rem 0 0.6rem;
+  font-size: 0.89rem;
+  width: 45%;
+  font-weight: 600;
+}
+.modalPassangerParagraph {
+  margin: 0rem;
+  font-size: 0.7rem;
+  color: #9b9b9b;
+}
+.modalPassangerSelectContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+}
+.decrementCount {
+  width: 33%;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 200ms ease;
+}
+.decrementCount:hover,.incrementCount:hover {
+  background-color: #d3d1d1;
+  cursor: pointer;
+}
+.fa-minus,.fa-plus {
+  margin: 0.7rem 0 0 1.2rem;
+}
+.incrementCount {
+  width: 33%;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 200ms ease;
+}
+
+.countDisplay {
+  width: 30%;
+  text-align: center;
+}
+.countDisplayParagraph {
+  margin: 0rem;
+  margin: 0.45rem 0 0 0.5rem;
+  padding: 0rem 0 0 0.5rem;
+  height: max-content;
+  width: 40%;
+}
+.modalPassangerBlock {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 1rem 0;
+}
+.modalPassangerSelect {
+  display: flex;
+  width: 33%;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  height: 2.5rem;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+/*---------------------  TRAVELLER  DROP-DOWN END---------------------*/
+
+/*--------------------- CLASS SELECT---------------------*/
+
+.modalTravelClassSelectContainer {
+  margin: 1rem 0.3rem 0.6rem 0.3rem;
+}
+.modalTravellerDropDownLabel {
+  margin: 0.5rem 0.5rem 0 1rem;
+  font-size: 0.89rem;
+  width: 50ch;
+}
+.modalTravelClassList {
+  width: 99%;
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.travelClassLi {
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  height: 1.8rem;
+  width: 8rem;
+  margin: 1rem 0rem 0rem 0.1rem;
+  padding: 0.3rem 0 0 0;
+  font-size: 0.75rem;
+  text-align: center;
+  border-radius: 4px;
+  transition: background-color 200ms ease;
+}
+
+ul li.travelClassLi:hover {
+  background-color: #d3d1d1;
+  cursor: pointer;
+  font-weight: 600;
+}
+.selectedNoClass {
+  height: 1.8rem;
+  width: 8rem;
+  margin: 1rem 0rem 0rem 0.1rem;
+  padding: 0.3rem 0 0 0;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #91d1ec;
+  transition: background-color 200ms ease;
+  font-weight: 600;
+}
+/*--------------------- CLASS SELECT END---------------------*/
+
+/*--------------------- APPLY BUTTON-------------------------*/
+
+.btnTravellerClassSSelect {
+  height: max-content;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 0.8rem 0 0.8rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+/*--------------------- APPLY BUTTON END---------------------*/
+/*--------------------- TRAVEL CLASS ERRORS---------------------*/
+
+.modalTravellerClassError {
+  width: 18rem;
+  padding: 0.2rem;
+  margin: 1rem 0 0 5rem;
+  border-radius: 8px;
+  background: #ffd3d4;
+  box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalTravellerClassError.open {
+  visibility: visible;
+}
+.modalTravellerClassError.close {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 420px) {
+  .overlay-travellerClass {
+    background: rgba(158, 155, 155, 0.493);
+    height: 100%;
+    width: 100%;
+    top: 0rem;
+    position: fixed;
+  }
+  /*---------------------  TRAVELLER  DROP-DOWN---------------------*/
+  .modalTravellerDropDownContainer {
+    margin: 0.5rem;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 1em 4em rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    border-radius: 16px;
+    top: 15rem;
+    left: 0rem;
+    overflow: hidden;
+    overflow-y: hidden;
+    width: 96%;
+    transition: margin-top ease-out 200ms;
+    z-index: 100;
+  }
+
+  .modalPassangerCountLabel {
+    margin: 0.5rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 45%;
+    font-weight: 600;
+  }
+  .modalPassangerParagraph {
+    margin: 0rem;
+    font-size: 0.7rem;
+    color: #9b9b9b;
+  }
+  .modalPassangerSelectContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem 0 1rem 0;
+  }
+  .decrementCount {
+    width: 33%;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 200ms ease;
+  }
+  .decrementCount:hover {
+    background-color: #d3d1d1;
+    cursor: pointer;
+  }
+  .fa-minus {
+    margin: 0.7rem 0 0 0.8rem;
+  }
+  .incrementCount {
+    width: 33%;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 200ms ease;
+  }
+  .incrementCount:hover {
+    background-color: #d3d1d1;
+    cursor: pointer;
+  }
+  .fa-plus {
+    margin: 0.7rem 0 0 0.8rem;
+  }
+
+  .countDisplay {
+    width: 33.5%;
+  }
+  .countDisplayParagraph {
+    margin: 0rem;
+    margin: 0.45rem 0 0 0.5rem;
+    padding: 0rem 0 0 0.5rem;
+    height: max-content;
+    width: 40%;
+  }
+  .modalPassangerBlock {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 1rem 0;
+  }
+  .modalPassangerSelect {
+    display: flex;
+    width: 32%;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    height: 2.5rem;
+    border-radius: 5px;
+  }
+
+  /*---------------------  TRAVELLER  DROP-DOWN END---------------------*/
+
+  /*--------------------- CLASS SELECT---------------------*/
+
+  .modalTravelClassSelectContainer {
+    margin: 1rem 0.3rem 0.6rem 0.3rem;
+  }
+  .modalTravellerDropDownLabel {
+    margin: 0.5rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 50ch;
+  }
+  .modalTravelClassList {
+    width: 99%;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .travelClassLi {
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    height: 1.8rem;
+    width: 8rem;
+    margin: 2rem 0rem 0rem 0.1rem;
+    padding: 0.3rem 0 0 0;
+    font-size: 0.75rem;
+    text-align: center;
+    border-radius: 4px;
+    transition: background-color 200ms ease;
+  }
+
+  ul li.travelClassLi:hover {
+    background-color: #d3d1d1;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .selectedNoClass {
+    height: 1.8rem;
+    width: 8rem;
+    margin: 2rem 0rem 0rem 0.1rem;
+    padding: 0.3rem 0 0 0;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #91d1ec;
+    transition: background-color 200ms ease;
+    font-weight: 600;
+  }
+  /*--------------------- CLASS SELECT END---------------------*/
+
+  /*--------------------- APPLY BUTTON-------------------------*/
+
+  .btnTravellerClassSSelect {
+    height: max-content;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 0.8rem 0 0.8rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  /*--------------------- APPLY BUTTON END---------------------*/
+  /*--------------------- TRAVEL CLASS ERRORS---------------------*/
+
+  .modalTravellerClassError {
+    width: 18rem;
+    padding: 0.2rem;
+    margin: 1rem 0 0 3rem;
+    border-radius: 8px;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modalTravellerClassError.open {
+    visibility: visible;
+  }
+  .modalTravellerClassError.close {
+    visibility: hidden;
+  }
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+  .modalTravellerDropDownContainer {
+    top: 17rem;
+    left: 22rem;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .modalTravellerDropDownContainer {
+    top: 45rem;
+    left: 20rem;
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .modalTravellerDropDownContainer {
+    top: 42rem;
+    left: 18rem;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 840px) {
+  .modalTravellerDropDownContainer {
+    top: 38rem;
+    left: 14rem;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .modalTravellerDropDownContainer {
+    top: 34rem;
+    left: 14rem;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .modalTravellerDropDownContainer {
+    top: 34rem;
+    left: 12rem;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .modalTravellerDropDownContainer {
+    top: 34rem;
+    left: 14rem;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .modalTravellerDropDownContainer {
+    top: 10rem;
+    left: 0.2rem;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .modalTravellerDropDownContainer {
+    top: 42rem;
+    left: 0.1rem;
+    width: 94%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .modalTravellerDropDownContainer {
+    top: 18rem;
+    left: 0.1rem;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .modalTravellerDropDownContainer {
+    top: 42rem;
+    left: 0.1rem;
+    width: 94%;
+  }
+}

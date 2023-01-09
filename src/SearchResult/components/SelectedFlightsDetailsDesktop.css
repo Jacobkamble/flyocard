@@ -1,0 +1,110 @@
+.flightStatusDetailWrapperDesktop {
+  width: 100%;
+}
+.SelectedFlightPrompDesktop {
+  background-color: #0f8fc5;
+  text-align: left;
+  margin: -1.02rem 0 0 0rem;
+  padding: 0.2rem 0.8rem 0.2rem 0.2rem;
+  border-radius: 0.4rem 0.6rem 0.6rem 0;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  width: max-content;
+}
+.flightStatusDetailContainerDesktop {
+  display: flex;
+  flex-direction: column;
+  height: 8.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  background-color: #bbe3f5;
+  border-radius: 0.4rem;
+  border: 0.8px solid #03638b;
+  margin: 0rem 0 0 0rem;
+}
+.propmptDesktop {
+  width: 100%;
+}
+.SelectedFlightSummarycontainerDesktop {
+  width: 100%;
+  display: flex;
+  margin: 0 0 0 3rem;
+}
+.airlineInfoDesktop {
+  display: flex;
+}
+.flightStatusAirlineIconDesktop {
+  margin: 1rem 0 0 0.8rem;
+}
+.airlineNameDesktop {
+  font-size: 1.3rem;
+  padding: 1rem 0 0 0.5rem;
+}
+.flightStatusAirlineIconImgTagDesktop {
+  height: 40px;
+  width: 40px;
+  border-radius: 0.4rem;
+}
+.backToComboDesktop {
+  margin: 0 0 0.5rem -0.5rem;
+  text-align: left;
+  width: 10%;
+  cursor: pointer;
+  color: #03638b;
+}
+.checkBoxUncheck {
+  background-color: #0f8fc5;
+  border: 0.1px solid black;
+  border-radius: 0.4rem;
+  margin: 1.5rem 0.5rem 0 2rem;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.fa-check {
+  color: #ffff;
+}
+.itineraryDepInfo {
+  padding: 0.5rem 2rem 0.5rem 5.5rem;
+}
+.departureTime {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.departureAirport {
+  color: #8796b9;
+  font-weight: 600;
+}
+.layOverInfoDesktop {
+}
+.totalFlightHoursDesktop {
+  color: #8796b9;
+}
+.layOverSvgImgTagDesktop {
+  width: 200px;
+  height: 15px;
+}
+.NoOFStopsDesktop {
+  color: #8796b9;
+}
+.itineraryDesInfo {
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+}
+
+.destinationTime {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.destinationAirport {
+  color: #8796b9;
+  font-weight: 600;
+}
+.FlightPrice {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 2rem 0.5rem 8rem;
+  color: rgb(27, 175, 27);
+}
+.SelectSecondFlightPrompDesktop {
+  text-align: left;
+}

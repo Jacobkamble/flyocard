@@ -1,0 +1,48 @@
+.registerationFormWrapper {
+  height: 80%;
+}
+
+.registerationInputFieldWrapper {
+  height: 80%;
+  margin: -1.2rem 0 0rem 0;
+}
+.inputFieldBorder {
+  height: 16%;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #cccccc;
+  border-radius: 0.4rem;
+  margin: 1.2rem 0 1.2rem 0;
+}
+.registerationInputFields {
+  width: 98%;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-family: poppins;
+}
+.registerBtn {
+  margin: 0rem 0 0 0;
+}
+.registerIllustrationImgTag {
+  height: 280px;
+  width: 195px;
+}
+.registerMessageWrapper {
+  height: 72%;
+  display: flex;
+  margin: -2.2rem 0 0.2rem 0;
+}
+.registerMessageTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0e3d6f;
+  height: max-content;
+  margin: 15% 0 0 0;
+}
+.registerationFormContinueBtn {
+  margin: 0rem 0 0 0;
+}
+.registerIllustration {
+  height: max-content;
+}

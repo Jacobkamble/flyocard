@@ -1,0 +1,333 @@
+.cardInfoInputContainer {
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  margin: 1%;
+  border-radius: 0.4rem;
+  background-color: #ffff;
+  height: max-content;
+}
+.paybtn{
+  margin:0.5rem;
+  padding: 0.5rem;
+  background-color:#46b2e0;
+  text-align: center;
+  font-size: 16px;
+  border:0;
+  border-radius: 6px;
+}
+.img2{
+  margin:0 10px;
+}
+.pay{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.cardInfoInputHeader {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 2% 1% 1% 2%;
+  margin: 1% 1% 1% 1%;
+}
+.cardInfoInputOptionsBlock {
+  display: flex;
+}
+.acceptedCardsLogos {
+  display: flex;
+  height: max-content;
+  align-self: center;
+}
+.fa-cc-visa {
+  font-size: 2rem;
+  margin: 0rem 1rem 0rem 0.8rem;
+}
+.fa-cc-mastercard {
+  font-size: 2rem;
+  margin: 0rem 1rem 0rem 0.5rem;
+}
+.fa-cc-amex {
+  font-size: 2rem;
+  margin: 0rem 1rem 0rem 0.5rem;
+}
+.fa-cc-diners-club {
+  font-size: 2rem;
+  margin: 0rem 1rem 0rem 0.5rem;
+}
+.fa-cc-discover {
+  font-size: 2rem;
+  margin: 0rem 1rem 0rem 0.5rem;
+}
+
+.carteBlancheLogo {
+  height: 30px;
+  margin: 0 0.5rem 0 0;
+}
+.creditDebitOption {
+  display: flex;
+  width: max-content;
+  font-size: 1.2rem;
+  padding: 0.5% 0.5% 0.5% 1.8%;
+  margin: 0% 0% 0 1%;
+}
+.radioCreditDebitCard {
+  border: 1.5px solid black;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  margin: 4% 2% 0 0%;
+  background-color: #a4d3e7;
+}
+.radioTitle {
+  width: 11rem;
+}
+.creditDebitInputContainer {
+  margin: 1%;
+  height: auto;
+}
+.cardInfoInputField {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  /* padding: 0 0 0 0.2rem; */
+  padding: 2.5% 0% 2.5% 1%;
+  font-family: "Poppins", sans-serif;
+}
+.emptyFieldErrors {
+  color: red;
+  font-size: 0.7rem;
+}
+
+.cardNumberWrapper {
+  width: 50%;
+  height: 15%;
+  margin: 1.5% 1% 1% 2%;
+}
+.cardNumberContainer {
+  width: 100%;
+  height: 2.5em;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+  display: flex;
+}
+
+.cardNumberContainer.check {
+  border-color: #46b2e0;
+}
+.cardNumberContainer.check.Error {
+  border-color: red;
+}
+.cardNumberContainer.Error {
+  border-color: red;
+}
+.selectedCardLogo {
+  color: black;
+}
+.nameOnCardWrapper {
+  width: 50%;
+  height: 15%;
+  margin: 2% 1% 0% 2%;
+}
+.nameOnCardContainer {
+  width: 100%;
+  height: 2.5em;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+}
+.nameOnCardContainer.check {
+  border-color: #46b2e0;
+}
+.nameOnCardContainer.check.Error {
+  border-color: red;
+}
+.nameOnCardContainer.Error {
+  border-color: red;
+}
+.cardExpiryCvvContainer {
+  display: flex;
+}
+
+.cardExpiryContainer {
+  margin: 2%;
+  width: 25%;
+}
+
+.cardExpiryMonthYearContainer {
+  display: flex;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  width: 100%;
+
+  height: 70%;
+  justify-content: space-evenly;
+  transition: all 400ms ease;
+}
+.cardExpiryMonthYearContainer.check {
+  border-color: #46b2e0;
+}
+.cardExpiryMonthYearContainer.Error {
+  border-color: #e04646;
+}
+
+.cardExpiryMonthYear {
+  border: none;
+  outline: none;
+  color: grey;
+  padding: 0% 0% 2.5% 1%;
+  transition: all 400ms ease;
+}
+.expiryDateSlash {
+  color: grey;
+  margin-bottom: 1%;
+  font-weight: 400;
+  font-size: 2em;
+  height: max-content;
+}
+
+.cardExpiryMonthYearContainer.check {
+  border-color: #46b2e0;
+}
+.cardExpiryMonthYearContainer.check.Error {
+  border-color: red;
+}
+.cardExpiryMonthYearContainer.Error {
+  border-color: red;
+}
+
+.cardCvvWrapper {
+  margin: 2%;
+  width: 21%;
+}
+
+.cardCvvContainer {
+  width: 100%;
+  height: 2.5em;
+  border: 2px solid rgb(0 0 0 / 20%);
+  border-radius: 0.2rem;
+  color: grey;
+  font-size: 0.9rem;
+  transition: all 400ms ease;
+  display: flex;
+}
+
+.cardCvvContainer.check {
+  border-color: #46b2e0;
+}
+.cardCvvContainer.check.Error {
+  border-color: red;
+}
+.cardCvvContainer.Error {
+  border-color: red;
+}
+.cardCvvIconContainer {
+  width: 2rem;
+  padding: 2% 2% 0 0;
+}
+.fa-credit-card {
+  font-size: 1.5rem;
+  color: black;
+}
+@media screen and (max-width: 426px) {
+  .cardExpiryCvvContainer {
+    flex-direction: column;
+  }
+  .ci{
+    width:85px;
+  }
+  .cardExpiryContainer{
+    width: 100%;
+    height: 15%;
+  }
+  .cardInfoInputHeader {
+    padding: 4% 1% 1% 2%;
+  }
+  .cardInfoInputOptionsBlock {
+    display: block;
+    width: 95%;
+    margin: 0 0 0 2%;
+  }
+  .acceptedCardsLogos {
+    display: flex;
+    height: max-content;
+    align-self: center;
+    padding: 1% 0 0 0%;
+  }
+  .creditDebitOption {
+    padding: 0.5% 0.5% 0.5% 1.8%;
+    margin: 2% 1% 0 0%;
+  }
+  .radioCreditDebitCard {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin: 2.8% 2% 0 0.5%;
+  }
+  .creditDebitInputContainer {
+    margin: 1% 2% 0 2%;
+    height: auto;
+  }
+  .cardNumberWrapper {
+    width: 100%;
+    height: 15%;
+    margin: 3.5% 1% 1% 0;
+  }
+  .nameOnCardWrapper {
+    width: 100%;
+    height: 15%;
+    margin: 3.5% 1% 1% 0;
+  }
+  .cardExpiryContainer {
+    margin: 1.2% 1% -3% 0;
+  }
+  .cardExpiryMonthYearContainer {
+    width: 101%;
+  }
+  .cardCvvWrapper {
+    width: 100%;
+    height: 15%;
+    margin: 3% 1% 4% 0;
+  }
+  .cardCvvIconContainer {
+    margin: -2.5% 0 0 68%;
+    width: 20rem;
+  }
+  .fa-credit-card {
+    font-size: 1.5rem;
+    color: black;
+  }
+  .fa-cc-visa {
+    font-size: 1.5rem;
+    margin: 0rem 0.2rem 0rem 0.8rem;
+  }
+  .fa-cc-mastercard {
+    font-size: 1.5rem;
+    margin: 0rem 0.2rem 0rem 0.8rem;
+  }
+  .fa-cc-amex {
+    font-size: 1.5rem;
+    margin: 0rem 0.2rem 0rem 0.8rem;
+  }
+  .fa-cc-diners-club {
+    font-size: 1.5rem;
+    margin: 0rem 0.2rem 0rem 0.8rem;
+  }
+  .fa-cc-discover {
+    font-size: 1.5rem;
+    margin: 0rem 0.5rem 0rem 0.8rem;
+  }
+
+  .carteBlancheLogo {
+    height: 25px;
+    margin: 0 0.5rem 0 0;
+  }
+
+}
+@media screen and (max-width:321px) {
+  .cardCvvIconContainer {
+    margin: -2.5% 0 0 60%;
+  }
+}

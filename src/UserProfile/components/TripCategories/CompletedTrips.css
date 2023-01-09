@@ -1,0 +1,244 @@
+.completedTripsWrapper {
+  margin: 1rem 0 0 0;
+  padding: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  border-radius: 0.4rem;
+  height: 32rem;
+  height: max-content;
+}
+.completedTripsItinerary {
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0.5rem;
+  border: 2px solid #bebdbd;
+  border-radius: 0.4rem;
+}
+.completedTripImpInfo {
+  display: flex;
+}
+
+.completedTrips_tripType {
+  font-size: 14px;
+  background-color: #f1d559;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  width: max-content;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.completedTrips_tripStatus {
+  font-size: 14px;
+  background-color: #bff159;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  margin: 0 0 0 0.5rem;
+  width: max-content;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.ct_IMpInfoDesc {
+  font-weight: 600;
+}
+
+.completedTrips_trip1 {
+  padding: 0rem;
+}
+.completedTrips_trip2 {
+  margin: 0rem 0 0 0;
+  padding: 0.5rem 0 0 0;
+  border-top: 2px dashed #bebdbd;
+}
+.ct_itineraryDateAndCabinClass {
+  display: flex;
+  justify-content: space-between;
+}
+.ct_itineraryDetails {
+  display: flex;
+  width: 100%;
+  margin: 0rem 0 0.8rem 0;
+}
+.ct_itineraryAirlineLogoAndName {
+  display: flex;
+  width: 17%;
+  margin: 0.5rem 0 0 0;
+  padding: 0.2rem;
+}
+.completedTripsAirlineLogoImgTag {
+  height: 40px;
+  height: 40px;
+  border-radius: 0.4rem;
+}
+.completedTripsAirlineName {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0.2rem 0 0 0.5rem;
+}
+.ct_itineraryTakeOffDate {
+  display: block;
+  width: 17%;
+  text-align: center;
+  padding: 1.1rem 0.2rem 0.2rem 0.2rem;
+  margin: 0 0rem 0 0.5rem;
+}
+.ct_itineraryLandingDate {
+  display: block;
+  width: 17%;
+  padding: 1.1rem 0.2rem 0.2rem 0.2rem;
+  margin: 0 0rem 0 0rem;
+}
+.ct_itineraryTakeOffTimeAndAirportName {
+  text-align: center;
+  width: 17%;
+  margin: 0 0 0 0rem;
+  padding: 0.2rem;
+}
+.ct_itineraryDurationAndStops {
+  width: 17%;
+  text-align: center;
+  margin: 0 0rem 0 0;
+  padding: 0.2rem;
+}
+.ct_tripDuration {
+  font-size: 14px;
+}
+.ct_layOverInfo {
+  height: 20px;
+}
+.ct_layOverInfoImgTag {
+  width: 150px;
+}
+.ct_itineraryNoOfStops {
+  font-size: 14px;
+}
+.ct_itineraryLandingTimeAndAirportName {
+  text-align: center;
+  width: 17%;
+  margin: 0 0 0 0rem;
+  padding: 0.2rem;
+}
+
+.ct_flightTime {
+  font-weight: 600;
+  font-size: 18px;
+}
+.ct_flightAirport {
+  margin: 0 0 0 0.4rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: #978787;
+}
+
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .completedTripsWrapper {
+    padding: 0.2rem;
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    border-radius: 0.4rem;
+  }
+  .completedtripType {
+    font-size: 14px;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    width: max-content;
+    margin: 0 0 0.5rem 0;
+    background-color: #f6ad34;
+  }
+  .completedTripsItinerary {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem;
+  }
+  .completedTrips_trip1 {
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+  }
+  .completedTrips_trip2 {
+    margin: 0.5rem 0 0 0;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+  }
+  .ct_itineraryDateAndCabinClass {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ct_itineraryDetails {
+    display: flex;
+    width: 100%;
+    margin: 0.8rem 0 0.8rem 0;
+  }
+  .ct_itineraryAirlineLogoAndName {
+    display: flex;
+    width: 25%;
+    margin: 0.5rem 0 0 0;
+    padding: 0.2rem;
+  }
+  .completedTripsAirlineLogoImgTag {
+    height: 30px;
+    height: 30px;
+    border-radius: 0.4rem;
+  }
+  .completedTripsAirlineName {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 0 0.5rem;
+  }
+  .ct_itineraryTakeOffDate {
+    display: none;
+  }
+  .ct_itineraryLandingDate {
+    display: none;
+  }
+
+  .ct_itineraryTakeOffTimeAndAirportName {
+    width: 25%;
+    margin: 0 0 0 0.5rem;
+    padding: 0.2rem;
+  }
+  .ct_itineraryDurationAndStops {
+    width: 25%;
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 0.2rem;
+  }
+  .ct_tripDuration {
+    font-size: 14px;
+    padding: 0 0 0 1.7rem;
+  }
+  .ct_layOverInfo {
+    height: 20px;
+  }
+  .ct_layOverInfoImgTag {
+    width: 100px;
+  }
+  .ct_itineraryNoOfStops {
+    font-size: 14px;
+    padding: 0 0 0 1.8rem;
+  }
+  .ct_itineraryLandingTimeAndAirportName {
+    width: 25%;
+    margin: 0 0 0 0.5rem;
+    padding: 0.2rem;
+  }
+  .ct_takeOffTime {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .ct_takeOffAirport {
+    margin: 0 0 0 0.4rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: #978787;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+}

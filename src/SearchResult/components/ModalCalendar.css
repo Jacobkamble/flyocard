@@ -1,0 +1,381 @@
+@media screen and (max-width: 1370px) {
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 16px !important; /* default to 10px */
+  }
+  .DatePicker__input {
+    position: relative;
+    z-index: 0;
+  }
+
+  .modal-my-custom-input-class {
+    text-align: center;
+    outline: none;
+    width: 90.5%;
+    height: 2.7rem;
+    border: none;
+    padding: 0.8rem 0.4rem 0.4rem 0.4rem;
+    margin: 0 0 0.3rem 0rem;
+    transition: all 600ms ease;
+    border-radius: 0.5rem;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .modal-my-custom-input-class::placeholder {
+    font-size: 0.8rem;
+    color: #949494;
+  }
+  .modal-my-custom-input-class:hover {
+    background-color: #a4d3e7;
+  }
+  .modalLabelH3 {
+    margin: 0.5rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 10ch;
+  }
+
+  .modalReturnPlaceholder {
+    font-size: 0.68rem;
+    margin-top: 0.2rem;
+  }
+
+  .modalDateContainer {
+    margin-left: 1.2rem;
+  }
+
+  .modalDayOfWeekDisplay {
+    margin: 0px;
+    font-size: 1rem;
+    color: #818181;
+  }
+  .modalDepartureCalenderContainer {
+    margin-top: -8.5%;
+    margin-left: 45%;
+  }
+  .modalReturnCalenderContainer {
+    margin-left: -115%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 11px !important; /* default to 10px */
+  }
+  .DatePicker__input {
+    position: relative;
+    z-index: 0;
+  }
+
+  .modal-my-custom-input-class {
+    text-align: center;
+    outline: none;
+    width: 10rem;
+    height: 1.4rem;
+    border: none;
+    padding: 0.8rem 0.4rem 1.8rem 0.4rem;
+    margin: 0 0 0.3rem 0rem;
+    transition: all 600ms ease;
+    border-radius: 0.5rem;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .modal-my-custom-input-class::placeholder {
+    font-size: 0.8rem;
+    color: #949494;
+  }
+  .modal-my-custom-input-class:hover {
+    background-color: #a4d3e7;
+  }
+  .modalLabelH3 {
+    margin: 0.5rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 10ch;
+  }
+
+  .modalReturnPlaceholder {
+    font-size: 0.68rem;
+    margin-top: 0.2rem;
+  }
+
+  .modalDateContainer {
+    margin: 0 0 0 0.4rem;
+  }
+
+  .modalDayOfWeekDisplay {
+    margin: 0px;
+    font-size: 1rem;
+    color: #818181;
+  }
+  .modalDepartureCalenderContainer {
+    margin-top: -13%;
+    margin-left: -8%;
+  }
+  .modalReturnCalenderContainer {
+    margin-left: -115%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 11px !important; /* default to 10px */
+  }
+  .DatePicker__input {
+    position: relative;
+    z-index: 0;
+  }
+
+  .modal-my-custom-input-class {
+    text-align: center;
+    outline: none;
+    width: 10rem;
+    height: 1.4rem;
+    border: none;
+    padding: 0.8rem 0.4rem 1.8rem 0.4rem;
+    margin: 0 0 0.3rem 0rem;
+    transition: all 600ms ease;
+    border-radius: 0.5rem;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .modal-my-custom-input-class::placeholder {
+    font-size: 0.8rem;
+    color: #949494;
+  }
+  .modal-my-custom-input-class:hover {
+    background-color: #a4d3e7;
+  }
+  .modalLabelH3 {
+    margin: 0.5rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 10ch;
+  }
+
+  .modalReturnPlaceholder {
+    font-size: 0.68rem;
+    margin-top: 0.2rem;
+  }
+
+  .modalDateContainer {
+    margin: 0 0 0 0.4rem;
+  }
+
+  .modalDayOfWeekDisplay {
+    margin: 0px;
+    font-size: 1rem;
+    color: #818181;
+  }
+  .modalDepartureCalenderContainer {
+    margin-top: -13%;
+    margin-left: -8%;
+  }
+  .modalReturnCalenderContainer {
+    margin-left: -115%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 11px !important; /* default to 10px */
+  }
+  .DatePicker__input {
+    position: relative;
+    z-index: 0;
+  }
+
+  .modal-my-custom-input-class {
+    text-align: center;
+    outline: none;
+    width: 10rem;
+    height: 1.4rem;
+    border: none;
+    padding: 0.8rem 0.4rem 1.8rem 0.4rem;
+    margin: 0 0 0.3rem 0rem;
+    transition: all 600ms ease;
+    border-radius: 0.5rem;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .modal-my-custom-input-class::placeholder {
+    font-size: 0.8rem;
+    color: #949494;
+  }
+  .modal-my-custom-input-class:hover {
+    background-color: #a4d3e7;
+  }
+  .modalLabelH3 {
+    margin: 0.5rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 10ch;
+  }
+
+  .modalReturnPlaceholder {
+    font-size: 0.68rem;
+    margin-top: 0.2rem;
+  }
+
+  .modalDateContainer {
+    margin: 0 0 0 0.4rem;
+  }
+
+  .modalDayOfWeekDisplay {
+    margin: 0px;
+    font-size: 1rem;
+    color: #818181;
+  }
+  .modalDepartureCalenderContainer {
+    margin-top: -13%;
+    margin-left: -8%;
+  }
+  .modalReturnCalenderContainer {
+    margin-left: -115%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 11px !important; /* default to 10px */
+  }
+  .DatePicker__input {
+    position: relative;
+    z-index: 0;
+  }
+
+  .modal-my-custom-input-class {
+    text-align: center;
+    outline: none;
+    width: 9rem;
+    height: 1.4rem;
+    border: none;
+    padding: 0.8rem 0.4rem 1.8rem 0.4rem;
+    margin: 0 0 0.3rem 0rem;
+    transition: all 600ms ease;
+    border-radius: 0.5rem;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .modal-my-custom-input-class::placeholder {
+    font-size: 0.8rem;
+    color: #949494;
+  }
+  .modal-my-custom-input-class:hover {
+    background-color: #a4d3e7;
+  }
+  .modalLabelH3 {
+    margin: 0.5rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 10ch;
+  }
+
+  .modalReturnPlaceholder {
+    font-size: 0.68rem;
+    margin-top: 0.2rem;
+  }
+
+  .modalDateContainer {
+    margin: 0 0 0 0.4rem;
+  }
+
+  .modalDayOfWeekDisplay {
+    margin: 0px;
+    font-size: 1rem;
+    color: #818181;
+  }
+  .modalDepartureCalenderContainer {
+    margin-top: -13%;
+    margin-left: -8%;
+  }
+  .modalReturnCalenderContainer {
+    margin-left: -115%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .responsive-calendar {
+    /* by setting font-size, all the elements will correspond */
+    font-size: 11px !important; /* default to 10px */
+  }
+  .DatePicker__input {
+    position: relative;
+    z-index: 0;
+  }
+
+  .modal-my-custom-input-class {
+    text-align: center;
+    outline: none;
+    width: 8rem;
+    height: 1.4rem;
+    border: none;
+    padding: 0.8rem 0.4rem 1.8rem 0.4rem;
+    margin: 0 0 0.3rem 0rem;
+    transition: all 600ms ease;
+    border-radius: 0.5rem;
+    line-height: 1;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  }
+  .modal-my-custom-input-class::placeholder {
+    font-size: 0.8rem;
+    color: #949494;
+  }
+  .modal-my-custom-input-class:hover {
+    background-color: #a4d3e7;
+  }
+  .modalLabelH3 {
+    margin: 0.5rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 10ch;
+  }
+
+  .modalReturnPlaceholder {
+    font-size: 0.68rem;
+    margin-top: 0.2rem;
+  }
+
+  .modalDateContainer {
+    margin: 0 0 0 0.4rem;
+  }
+
+  .modalDayOfWeekDisplay {
+    margin: 0px;
+    font-size: 1rem;
+    color: #818181;
+  }
+  .modalDepartureCalenderContainer {
+    margin-top: -13%;
+    margin-left: -8%;
+  }
+  .modalReturnCalenderContainer {
+    margin-left: -115%;
+  }
+}

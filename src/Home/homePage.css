@@ -1,0 +1,1704 @@
+.searchFlightWrapper{
+  margin-top: 0;
+  /* border: 1px solid red; */
+}
+
+.home-container{
+  padding: 0;
+  margin: 0;
+  border:3px solid #a4d3e7;
+  /* background:url(flight.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+}
+
+.about-us{
+  background-color: #ffffff;
+}
+
+.homePageContainer {
+  /* height: max-content; */
+  /* background:url(flight.jpg); */
+  /* background: url(../images/bg1.jpeg); */
+  position: relative;
+  top: 0;
+  left: 0;
+  /* height: 115%; */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  /* opacity: 9.9; */
+  /* z-index: 5; */
+  border: .000001px solid white;
+  /* background-color: #182E4A; */
+  /* margin-top: 0; */
+  /* border: none; */
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+
+  /* margin: auto auto; */
+}
+
+.homePageContainer::before{
+  /* background-color: #182E4A; */
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  background: url(../images/bg1.jpeg);
+  /* background-color: red; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* height: max-content; */
+  /* height: 1700px; */
+  z-index: -1;
+  /* opacity: .5; */
+  /* opacity: .9; */
+  filter: brightness(60%);
+  /* margin-top: 0; */
+  /* margin-bottom: 0; */
+  /* border-radius: 1.8rem; */
+  /* border:4px solid yellowgreen; */
+  /* border: none; */
+}
+
+/* 2nd conatiner */
+
+.homePageContainer2 {
+  /* height: max-content; */
+  /* background:url(flight.jpg); */
+  /* background: url(../images/bg1.jpeg); */
+  position: relative;
+  height: 115%;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  opacity: 9.9;
+  /* z-index: 5; */
+  border: .000001px solid blue;
+  margin-top: 0;
+  /* border: none; */
+}
+
+.homePageContainer2::before{
+  /* background-color: #182E4A; */
+  background: url(../images/bg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 115%;
+  /* height: max-content; */
+  /* height: 1700px; */
+  z-index: -1;
+  /* opacity: .5; */
+  /* opacity: .9; */
+  filter: brightness(60%);
+  margin-top: 0;
+  margin-bottom: 0;
+  /* border-radius: 1.8rem; */
+  border: 0.000001px solid blue;
+  /* border: none; */
+}
+
+/* 3rd conatiner */
+
+.homePageContainer3 {
+  /* height: max-content; */
+  /* background:url(flight.jpg); */
+  /* background: url(../images/bg1.jpeg); */
+  position: relative;
+  height: 115%;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  opacity: 9.9;
+  /* z-index: 5; */
+  border: .000001px solid blue;
+  margin-top: 0;
+  /* border: none; */
+}
+
+.homePageContainer3::before{
+  /* background-color: #182E4A; */
+  background: url(../images/bg3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 115%;
+  /* height: max-content; */
+  /* height: 1700px; */
+  z-index: -1;
+  /* opacity: .5; */
+  /* opacity: .9; */
+  /* filter: brightness(60%); */
+  margin-top: 0;
+  margin-bottom: 0;
+  /* border-radius: 1.8rem; */
+  border: 0.000001px solid blue;
+  /* border: none; */
+}
+
+
+.contact-head{
+  display: flex;
+  justify-content: center;
+}
+.searchBlock .departurePopUpContainer,.destinationPopUpContainer
+  {
+  border-right:1px solid #e7e7e7!important;
+}
+.col-lg-4 {
+  width: 21%;
+  padding: 2%;
+  border: none;
+}
+.Aboutus p{
+padding:3em;
+}
+.servicestyling{
+  width: 40%;
+  margin: 2em 0;
+}
+ul{
+  list-style: none;
+}
+ul li::before{
+  content: "\2022";
+  color: blue;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.round {
+  border-radius: 1.25rem !important;
+}
+@media screen and (max-width: 1040px) {
+  .col-lg-4 {
+    width: 25%;
+    padding: 2%;
+    border: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .col-lg-4{
+    margin-bottom: 10%;
+    width: 60%;
+    margin-top: 5%;
+    padding: 10%;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    border: none;
+  }
+}
+.row{
+  justify-content: space-evenly;
+}
+.temporaryMultiCityContainer {
+  position: relative;
+  top: 30%;
+}
+.flightSearchContainer {
+  position: relative;
+  z-index: 3;
+  /* height: max-content; */
+  width: 84vw;
+  margin-top: 4rem;
+  margin-left: 7.5rem;
+  /* background-color: #182E4A; */
+  /* #ffff; */
+  border-radius: 1.8rem;
+  /* opacity: .5; */
+  /* box-shadow: 11px 11px 23px #d3d3d3, -11px -11px 23px #ededed; */
+}
+
+/* new class added by Jacob Kamble */
+.flightSearchContainer::before{
+  background-color: #182E4A;
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .5;
+  border-radius: 1.8rem;
+}
+.searchBlock {
+  position: relative;
+  border: 1px solid #e7e7e7;
+  border-radius: 1rem;
+  margin-top: 6vh;
+  display: flex;
+  margin-left: 0.6rem;
+  /*height: 20.5vh;*/
+}
+
+.searchBlockContainer {
+  width: max-content;
+  padding: 1rem 0 3rem 1rem;
+}
+
+.radioButtons {
+  position: absolute;
+  margin: 0.5rem 0 0 1rem;
+}
+
+.headingH3 {
+  margin: 0rem 0.5rem 0 0.6rem;
+  font-size: 0.89rem;
+  width: 18ch;
+  font-weight: 600;
+}
+
+.optionDisplay {
+  display: flex;
+  flex-direction: row;
+  width: 21ch;
+}
+.airportDescription {
+  margin: -4rem 0 0 1.3rem;
+  position: relative;
+}
+
+.AirportCodeDisplay {
+  margin: 0px;
+  font-size: 0.99rem;
+  color: #818181;
+}
+
+.AirportNameDisplay {
+  margin-left: 0.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.99rem;
+  color: #818181;
+}
+.popup {
+  height: 9.4rem;
+  width: 15.8rem;
+  /*border-right: 1px solid #e7e7e7;*/
+}
+
+.toggleSwitch {
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 1px solid #e7e7e7;
+  border-radius: 2rem;
+  margin-top: 2.5rem;
+  margin-left: -1.3rem;
+  background-color: white;
+  cursor: pointer;
+  z-index: 0;
+  transition: all 600ms ease;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.12);
+}
+.toggleSwitch:hover {
+  background-color: #a4d3e7;
+}
+.switchSvg {
+  height: 24px;
+  margin: 8px;
+  margin-left: 11px;
+}
+
+.departureDateContainer {
+  width: 14rem;
+  border-right: 1px solid #e7e7e7;
+}
+
+.returnDateContainer {
+  width: 14rem;
+  border-right: 1px solid #e7e7e7;
+}
+
+.btnSearch {
+  height: max-content;
+  margin: -1.5rem 0.5rem 0 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.errorContainerAirtports {
+  position: absolute;
+  width: 25rem;
+  top: 105%;
+  left: 9%;
+  border-radius: 8px;
+  padding: 0.1rem 0.4rem 0.1rem 0.4em;
+  background: #ffd3d4;
+  box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.errorContainerAirtports:after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 12px solid #ffd3d4;
+  border-right: 10px solid transparent;
+  left: 38%;
+  top: -40%;
+}
+
+.errorContainerAirtports.open {
+  visibility: visible;
+}
+
+.errorContainerReturnDate {
+  position: absolute;
+  width: 20rem;
+  top: 105%;
+  left: 48%;
+  border-radius: 8px;
+  padding: 0.1rem 0.4rem 0.1rem 0.4em;
+  background: #fff5b9;
+  box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+.errorContainerReturnDate:after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 12px solid #fff5b9;
+  border-right: 10px solid transparent;
+  left: 70%;
+  top: -75%;
+}
+.errorH4Return {
+  margin: 0px;
+  font-weight: 100;
+  color: rgb(0, 110, 255);
+}
+.errorH4 {
+  margin: 0px;
+  font-weight: 100;
+  color: red;
+}
+.errorContainerReturnDate.open {
+  visibility: visible;
+}
+
+.errorContainerTravelClass {
+  position: relative;
+  top: 0.2rem;
+  left: 58rem;
+  width: 17.2rem;
+  border-radius: 8px;
+  padding: 0.1rem 0.4rem 0.1rem 0.4em;
+  background: #ffd3d4;
+  box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.errorContainerTravelClass:after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 12px solid #ffd3d4;
+  border-right: 10px solid transparent;
+  left: 80%;
+  top: -40%;
+}
+
+.errorContainerTravelClass.open {
+  visibility: visible;
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 1370px) {
+  .homePageContainer {
+    height: max-content;
+  }
+  
+  .temporaryMultiCityContainer {
+    position: relative;
+    top: 30%;
+  }
+  .flightSearchContainer {
+    height: max-content;
+    width: auto;
+    margin: 4rem 1rem 1rem 1rem;
+    background-color: #ffff;
+    border-radius: 1.8rem;
+    box-shadow: 11px 11px 23px #d3d3d3, -11px -11px 23px #ededed;
+  }
+  .searchBlock {
+    position: relative;
+    border: 1px solid #e7e7e7;
+    border-radius: 1rem;
+    margin-top: 10vh;
+    display: flex;
+    margin-left: 0.6rem;
+    /*height: 20.5vh;*/
+  }
+  
+  .searchBlockContainer {
+    width: max-content;
+    padding: 1rem 0 5rem 1rem;
+  }
+  
+  .radioButtons {
+    position: absolute;
+    margin: 3.5rem 0 0 1rem;
+  }
+  
+  .headingH3 {
+    margin: 0rem 0.5rem 0 0.6rem;
+    font-size: 0.89rem;
+    width: 18ch;
+    font-weight: 600;
+  }
+  
+  .optionDisplay {
+    display: flex;
+    flex-direction: row;
+    width: 21ch;
+  }
+  .airportDescription {
+    margin: -4rem 0 0 1.3rem;
+    position: relative;
+  }
+  
+  .AirportCodeDisplay {
+    margin: 0px;
+    font-size: 0.99rem;
+    color: #818181;
+  }
+  
+  .AirportNameDisplay {
+    margin-left: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.99rem;
+    color: #818181;
+  }
+  .popup {
+    height: 9.4rem;
+    width: 15.8rem;
+    border-right: 1px solid #e7e7e7;
+  }
+  
+  .toggleSwitch {
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid #e7e7e7;
+    border-radius: 2rem;
+    margin-top: 2.5rem;
+    margin-left: -1.3rem;
+    background-color: white;
+    cursor: pointer;
+    z-index: 0;
+    transition: all 600ms ease;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.12);
+  }
+  .toggleSwitch:hover {
+    background-color: #a4d3e7;
+  }
+  .switchSvg {
+    height: 24px;
+    margin: 8px;
+    margin-left: 11px;
+  }
+  
+  .departureDateContainer {
+    width: 14rem;
+    border-right: 1px solid #e7e7e7;
+  }
+  
+  .returnDateContainer {
+    width: 14rem;
+    border-right: 1px solid #e7e7e7;
+  }
+  
+  .btnSearch {
+    height: max-content;
+    margin: -1.5rem 0.5rem 0 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .errorContainerAirtports {
+    position: absolute;
+    width: 25rem;
+    top: 105%;
+    left: 9%;
+    border-radius: 8px;
+    padding: 0.1rem 0.4rem 0.1rem 0.4em;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  
+  .errorContainerAirtports:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 38%;
+    top: -40%;
+  }
+  
+  .errorContainerAirtports.open {
+    visibility: visible;
+  }
+  
+  .errorContainerReturnDate {
+    position: absolute;
+    width: 20rem;
+    top: 105%;
+    left: 48%;
+    border-radius: 8px;
+    padding: 0.1rem 0.4rem 0.1rem 0.4em;
+    background: #fff5b9;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  .errorContainerReturnDate:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #fff5b9;
+    border-right: 10px solid transparent;
+    left: 70%;
+    top: -75%;
+  }
+  .errorH4Return {
+    margin: 0px;
+    font-weight: 100;
+    color: rgb(0, 110, 255);
+  }
+  .errorH4 {
+    margin: 0px;
+    font-weight: 100;
+    color: red;
+  }
+  .errorContainerReturnDate.open {
+    visibility: visible;
+  }
+  
+  .errorContainerTravelClass {
+    position: relative;
+    top: 0.2rem;
+    left: 58rem;
+    width: 17.2rem;
+    border-radius: 8px;
+    padding: 0.1rem 0.4rem 0.1rem 0.4em;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  
+  .errorContainerTravelClass:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -40%;
+  }
+  
+  .errorContainerTravelClass.open {
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 1024px) {
+
+  .headingH3Airport, .labelH3, .headingH3{
+    background-color: #0096d6;
+    border-radius: 2rem 0rem;
+    width: 250px;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+  }
+
+  .searchBlock {
+    position: relative;
+    border: none;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0rem;
+    width: 75vw;
+    height: max-content;
+  }
+  .searchBlockContainer {
+    width: 75vw;
+    padding: 1rem 0rem 0rem 0rem;
+    margin: 5rem 0 5rem 3.5rem;
+  }
+
+  .flightSearchContainer {
+    height: max-content;
+    width: 85vw;
+    margin: 0 0 0 5.5rem;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .radioButtons {
+    position: absolute;
+    margin: 2rem 0 0 16rem;
+    width: max-content;
+  }
+
+  .headingH3 {
+    margin: 0;
+    margin-left: 0.5rem;
+    margin-bottom: 0.1rem;
+    font-size: 0.89rem;
+    width: 250px;
+  }
+
+  .departurePopUpContainer,
+  .destinationPopUpContainer {
+    min-height: 6.4rem;
+    border-bottom: none;
+    border-right:1px solid #e7e7e7;
+    width: 50%;
+    /* background-color: white;
+    color: black; */
+  }
+  .destinationPopUpContainer {
+    margin-bottom: 0.8rem;
+  }
+
+  .popup {
+    height: 4.8rem;
+    border-right: none;
+    margin: 0rem 0 0rem 0.5rem;
+  }
+  .optionDisplay {
+    display: flex;
+    flex-direction: row;
+    width: 21ch;
+    margin-top: 1rem;
+  }
+
+  .airportDescription {
+    margin: 0 0 0 1rem;
+    position: relative;
+  }
+
+  .AirportCodeDisplay {
+    margin: 0px;
+    font-size: 0.99rem;
+    color: #818181;
+  }
+
+  .AirportNameDisplay {
+    margin-left: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    color: #818181;
+  }
+
+  .toggleSwitch {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid #e7e7e7;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-left: 18rem;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 600ms ease;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.12);
+  }
+  .toggleSwitch:hover {
+    background-color: #a4d3e7;
+  }
+  .switchSvg {
+    height: 24px;
+    margin: 8px;
+    margin-left: 11px;
+    transform: rotate(0deg);
+  }
+
+  .departureDateContainer,
+  .returnDateContainer {
+    min-height: 6.4rem;
+    height: 3rem;
+    width: 50%;
+    border-right: none;
+    border-bottom: none;
+    margin: 0.8rem 0 0.2rem 0;
+  }
+  .returnDateContainer {
+    margin-bottom: 0.8rem;
+  }
+
+  .btnSearch {
+    height: max-content;
+    top: -5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .TravellerInfoContainer {
+    width: 72vw;
+    height: 12rem;
+    margin-top: 1rem;
+  }
+  .errorContainerAirtports {
+    top: 6.5rem;
+    left: 8rem;
+  }
+
+  .errorContainerTravelClass {
+    top: -6rem;
+    left: 5.5rem;
+    width: 24rem;
+    border-radius: 8px;
+    padding: 0.1rem 0rem 0.1rem 0rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  .errorContainerTravelClass:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -78%;
+  }
+}
+@media screen and (max-width: 840px) {
+  .searchBlock {
+    position: relative;
+    border: none;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    width: 70vw;
+    height: max-content;
+  }
+  .searchBlockContainer {
+    width: 70vw;
+    padding: 1rem 0rem 0rem 0rem;
+    margin: 2rem 0 5rem 1.5rem;
+  }
+
+  .flightSearchContainer {
+    height: max-content;
+    width: 80vw;
+    margin-top: 4rem;
+    margin-left: 5.2rem;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .radioButtons {
+    position: absolute;
+    margin: 1rem 0 0 10rem;
+    width: max-content;
+  }
+
+  .headingH3 {
+    margin: 0;
+    margin-left: 0.5rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+
+  .departurePopUpContainer,
+  .destinationPopUpContainer {
+    min-height: 6.4rem;
+    border-bottom: none;
+    border-right:1px solid #e7e7e7;
+    width: 72vw;
+color: black;
+background-color: white;
+
+  }
+  .destinationPopUpContainer {
+    margin-bottom: 0.8rem;
+  }
+
+  .popup {
+    height: 4.8rem;
+    width: 65vw;
+    border-right: none;
+    margin: 0rem 0 0rem 0.5rem;
+  }
+  .optionDisplay {
+    display: flex;
+    flex-direction: row;
+    width: 21ch;
+  }
+
+  .airportDescription {
+    margin: 0 0 0 1rem;
+    position: relative;
+  }
+
+  .AirportCodeDisplay {
+    margin: 0px;
+    font-size: 0.99rem;
+    color: #818181;
+  }
+
+  .AirportNameDisplay {
+    margin-left: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    color: #818181;
+  }
+
+  .toggleSwitch {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid #e7e7e7;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    margin-left: 32rem;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 600ms ease;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.12);
+  }
+  .toggleSwitch:hover {
+    background-color: #a4d3e7;
+  }
+  .switchSvg {
+    height: 24px;
+    margin: 8px;
+    margin-left: 11px;
+    transform: rotate(90deg);
+  }
+
+  .departureDateContainer,
+  .returnDateContainer {
+    min-height: 6.4rem;
+    margin-bottom: 0.2rem;
+    height: 3rem;
+    width: 72vw;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 2rem;
+  }
+  .returnDateContainer {
+    margin-bottom: 0.8rem;
+  }
+
+  .btnSearch {
+    height: max-content;
+    top: -5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .TravellerInfoContainer {
+    width: 65vw;
+    height: 12rem;
+  }
+  .errorContainerAirtports {
+    top: 6.5rem;
+    left: 8rem;
+  }
+
+  .errorContainerTravelClass {
+    top: -6rem;
+    left: 5.5rem;
+    width: 24rem;
+    border-radius: 8px;
+    padding: 0.1rem 0rem 0.1rem 0rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  
+  .errorContainerTravelClass:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -78%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .searchBlock {
+    position: relative;
+    border: none;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    width: 70vw;
+    height: max-content;
+  }
+  .searchBlockContainer {
+    width: 70vw;
+    padding: 1rem 0rem 0rem 0rem;
+    margin: 2rem 0 5rem 2.5rem;
+  }
+
+  .flightSearchContainer {
+    height: max-content;
+    width: 80vw;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .radioButtons {
+    position: absolute;
+    margin: 1rem 0 0 8rem;
+    width: max-content;
+  }
+
+  .headingH3 {
+    margin: 0;
+    margin-left: 0.5rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+
+  .departurePopUpContainer,
+  .destinationPopUpContainer {
+    min-height: 6.4rem;
+    border-right:1px solid #e7e7e7;
+    border-bottom: none;
+  }
+
+  .destinationPopUpContainer {
+    margin-bottom: 0.8rem;
+  }
+
+  .popup {
+    height: 4.8rem;
+    width: 65vw;
+    border-right: none;
+    margin: 0 0 0 0.6rem;
+    /* background-color: white;
+    color: black; */
+  }
+  .optionDisplay {
+    display: flex;
+    flex-direction: row;
+    width: 21ch;
+  }
+
+  .airportDescription {
+    margin: 0 0 0 1rem;
+    position: relative;
+  }
+
+  .AirportCodeDisplay {
+    margin: 0px;
+    font-size: 0.99rem;
+    color: #818181;
+  }
+
+  .AirportNameDisplay {
+    margin-left: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    color: #818181;
+  }
+
+  .toggleSwitch {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid #e7e7e7;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    margin-left: 26rem;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 600ms ease;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.12);
+  }
+  .toggleSwitch:hover {
+    background-color: #a4d3e7;
+  }
+  .switchSvg {
+    height: 24px;
+    margin: 8px;
+    margin-left: 11px;
+    transform: rotate(90deg);
+  }
+
+  .departureDateContainer,
+  .returnDateContainer {
+    min-height: 6.4rem;
+    margin-bottom: 0.2rem;
+    height: 3rem;
+    width: 65vw;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 2rem;
+  }
+  .returnDateContainer {
+    margin-bottom: 0.8rem;
+  }
+
+  .btnSearch {
+    height: max-content;
+    top: -5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .TravellerInfoContainer {
+    width: 65vw;
+    height: 12rem;
+  }
+  .errorContainerAirtports {
+    top: 6.5rem;
+    left: 8rem;
+  }
+
+  .errorContainerTravelClass {
+    top: -6rem;
+    left: 5.5rem;
+    width: 24rem;
+    border-radius: 8px;
+    padding: 0.1rem 0rem 0.1rem 0rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  .errorContainerTravelClass:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -78%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .searchBlock {
+    position: relative;
+    border: none;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    width: 70vw;
+    height: max-content;
+  }
+
+  .searchBlockContainer {
+    width: 70vw;
+    padding: 1rem 0rem 0rem 0rem;
+    margin: 2rem 0 5rem 0.5rem;
+  }
+
+  .flightSearchContainer {
+    height: max-content;
+    width: 80vw;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .radioButtons {
+    position: absolute;
+    margin: 1rem 0 0 8rem;
+    width: max-content;
+  }
+
+  .headingH3 {
+    margin: 0;
+    margin-left: 0.5rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+    width: 18ch;
+  }
+
+  .departurePopUpContainer,
+  .destinationPopUpContainer {
+    min-height: 6.4rem;
+    border-right:1px solid #e7e7e7;
+    border-bottom: none;
+  }
+  .destinationPopUpContainer {
+    margin-bottom: 0.8rem;
+  }
+
+  .popup {
+    height: 4.8rem;
+    width: 65vw;
+    border-right: none;
+    margin: 0 0 0 0.6rem;
+  }
+  .optionDisplay {
+    display: flex;
+    flex-direction: row;
+    width: 21ch;
+  }
+
+  .airportDescription {
+    margin: 0 0 0 1rem;
+    position: relative;
+  }
+
+  .AirportCodeDisplay {
+    margin: 0px;
+    font-size: 0.99rem;
+    color: #818181;
+  }
+
+  .AirportNameDisplay {
+    margin-left: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    color: #818181;
+  }
+
+  .toggleSwitch {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid #e7e7e7;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    margin-left: 26rem;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 600ms ease;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.12);
+  }
+  .toggleSwitch:hover {
+    background-color: #a4d3e7;
+  }
+  .switchSvg {
+    height: 24px;
+    margin: 8px;
+    margin-left: 11px;
+    transform: rotate(90deg);
+  }
+
+  .departureDateContainer,
+  .returnDateContainer {
+    min-height: 6.4rem;
+    margin-bottom: 0.2rem;
+    height: 3rem;
+    width: 65vw;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 2rem;
+  }
+  .returnDateContainer {
+    margin-bottom: 0.8rem;
+  }
+
+  .btnSearch {
+    height: max-content;
+    top: -5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .TravellerInfoContainer {
+    width: 65vw;
+    height: 12rem;
+  }
+  .errorContainerAirtports {
+    top: 6.5rem;
+    left: 8rem;
+  }
+
+  .errorContainerTravelClass {
+    top: -6rem;
+    left: 5.5rem;
+    width: 24rem;
+    border-radius: 8px;
+    padding: 0.1rem 0rem 0.1rem 0rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  .errorContainerTravelClass:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -78%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .servicestyling{
+    width: 46%;
+    margin: 2em 0;
+  }
+  .homePageContainer {
+    height: max-content;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .departureDateContainer .labelH3, .departureDateContainer .my-custom-input-class, .departureDateContainer .dateContainer .dayOfWeekDisplay{
+    text-align: left;
+  }
+  .headingH3Airport, .labelH3, .headingH3 {
+    background-color: #fff;
+    color: #818181;
+    border-radius: 2rem 0rem;
+    width: auto;
+    padding: 0rem 0rem;
+    color: #818181;
+    text-align: right;
+}
+  .left > .selected-value > .headingH3Airport, .left > .cityname{
+    text-align: left;
+  }
+
+  .left > .selected-value > .headingH3Airport{
+    text-align: left;
+    padding-left: .5rem;
+  }
+
+  .CityName_Placeholder{
+    margin: 1rem 0;
+  }
+
+  .searchBlock {
+    position: relative;
+    border: none;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.3rem;
+    width: 90vw;
+    height: max-content;
+    flex-wrap: wrap;
+  }
+  .searchBlockContainer {
+    width: 94vw;
+    padding: 1rem 0rem 0rem 0rem;
+    margin: 0 0 5rem 0;
+  }
+
+  .flightSearchContainer {
+    height: max-content;
+    width: 100vw;
+    margin-top: 1rem;
+    margin-left: 0;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .radioButtons {
+    position: absolute;
+    margin: 1rem 0 0 2rem;
+    width: max-content;
+  }
+
+  .headingH3 {
+    margin: 0;
+    margin-left: 0;
+    margin-bottom: 0.1rem;
+    padding: 0;
+    font-size: .89rem;
+    width: 18ch;
+    text-align: left;
+  }
+
+  .departurePopUpContainer,
+  .destinationPopUpContainer {
+    min-height: 6.4rem;
+    border-bottom: none;
+    width: 50%;
+  }
+  .destinationPopUpContainer {
+    margin-bottom: 0.8rem;
+  }
+
+  .popup {
+    height: 4.8rem;
+    width: 90vw;
+    border-right: none;
+    margin: 0 0 0 0rem;
+  }
+  .optionDisplay {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0rem;
+  }
+
+  .airportDescription {
+    margin: 0rem;
+    width: 90%;
+    text-align: center;
+    position: relative;
+  }
+
+  .AirportCodeDisplay {
+    margin: 0px;
+    font-size: 0.99rem;
+    color: #818181;
+  }
+
+  .AirportNameDisplay {
+    margin-left: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    color: #818181;
+  }
+
+  .toggleSwitch {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid #e7e7e7;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 600ms ease;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.12);
+  }
+  .toggleSwitch:hover {
+    background-color: #a4d3e7;
+  }
+  .switchSvg {
+    height: 24px;
+    margin: 8px;
+    margin-left: 11px;
+    transform: rotate(0deg);
+  }
+
+  .departureDateContainer,
+  .returnDateContainer {
+    min-height: 6.4rem;
+    margin-bottom: 0.2rem;
+    height: 3rem;
+    width: 50%;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 2rem;
+  }
+
+  .labelH3{
+    font-size: .89rem;
+    margin: 1rem 0;
+  }
+
+  .departureDateContainer .left .labelH3{
+    text-align: left;
+    padding: 0rem;
+  }
+
+  .returnDateContainer {
+    margin-bottom: 0.8rem;
+  }
+
+  .btnSearch {
+    height: max-content;
+    top: -5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .TravellerInfoContainer {
+    width: 90vw;
+    height: auto;
+    margin-top: 2rem;
+  }
+  .errorContainerAirtports {
+    top: 30%;
+  }
+
+  .errorContainerTravelClass {
+    top: -7rem;
+    left: 1rem;
+    width: 25rem;
+    border-radius: 8px;
+    padding: 0.1rem 0rem 0.1rem 0rem;
+    background: #ffd3d4;
+    box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+  }
+  .errorContainerTravelClass:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 12px solid #ffd3d4;
+    border-right: 10px solid transparent;
+    left: 80%;
+    top: -78%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .searchBlock {
+    margin-left: 1rem;
+  }
+  .searchBlockContainer {
+    padding: 0.8rem 0rem 0rem 0rem;
+  }
+
+  .radioButtons {
+    margin: 0.8rem 0 0 1.2rem;
+  }
+
+  .toggleSwitch {
+    margin-top: 2rem;
+    z-index: 1;
+    margin-left: 10rem;
+  }
+  .errorContainerAirtports {
+    top: 11.6rem;
+    left: 1rem;
+    width: 20rem;
+  }
+  .errorContainerAirtports:after {
+    top: -1.4rem;
+    left: 8rem;
+  }
+  .errorContainerTravelClass {
+    top: -7rem;
+    left: 5rem;
+    padding: 0.1rem 0rem 0.1rem 0.3rem;
+    width: 15rem;
+  }
+  .errorContainerTravelClass:after {
+    top: -38%;
+  }
+  .errorContainerReturnDate {
+    top: 29rem;
+    left: 1rem;
+  }
+  .errorContainerReturnDate:after {
+    top: -1.3rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .searchBlock {
+    margin-left: 1rem;
+  }
+  .searchBlockContainer {
+    padding: 0.8rem 0rem 0rem 0rem;
+  }
+
+  .radioButtons {
+    margin: 0.8rem 0 0 1.2rem;
+  }
+
+  .toggleSwitch {
+    margin-left: 18rem;
+    z-index: 1;
+  }
+  .errorContainerTravelClass {
+    top: -7rem;
+    left: 5rem;
+    padding: 0.1rem 0rem 0.1rem 0.3rem;
+    width: 15rem;
+  }
+  .errorContainerTravelClass:after {
+    top: -38%;
+  }
+}
+@media screen and (max-width: 361px) {
+  .searchBlock {
+    margin-left: 1rem;
+    margin-top: 5.5rem;
+  }
+  .searchBlockContainer {
+    padding: 0.8rem 0rem 0rem 0rem;
+  }
+
+  .radioButtons {
+    margin: 0.8rem 0 0 2.2rem;
+    width: 80vw;
+  }
+
+  .toggleSwitch {
+    margin-left: 16rem;
+    z-index: 1;
+  }
+  .errorContainerTravelClass {
+    top: -7rem;
+    left: 4rem;
+    padding: 0.1rem 0rem 0.1rem 0.3rem;
+    width: 15rem;
+  }
+  .errorContainerTravelClass:after {
+    top: -38%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .searchBlock {
+    margin-left: 1rem;
+    margin-top: 6.5rem;
+  }
+  .searchBlockContainer {
+    padding: 0.8rem 0rem 0rem 0rem;
+  }
+
+  .radioButtons {
+    margin: 0.8rem 0 0 2.2rem;
+    width: 80vw;
+  }
+
+  .toggleSwitch {
+    margin-left: 15rem;
+    z-index: 1;
+  }
+
+  .errorContainerTravelClass {
+    left: 2.5rem;
+    width: 15rem;
+    padding: 0.1rem 0rem 0.1rem 0.3rem;
+  }
+ 
+  .errorContainerTravelClass:after {
+    top: -38%;
+  }
+ 
+  .btnSearch {
+    height: max-content;
+    top: -5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+}

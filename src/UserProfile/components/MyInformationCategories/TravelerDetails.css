@@ -1,0 +1,178 @@
+.myTravellersContainer {
+  padding: 1rem;
+}
+.myTravellersHeader {
+  display: flex;
+}
+.myTravellerHeaderText {
+  width: 85%;
+  font-size: 18px;
+  font-weight: 600;
+}
+.addTravellerBtn {
+  font-size: 13px;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid #0d3c86;
+  color: #0d3c86;
+  cursor: pointer;
+  transition: all 250ms ease-in;
+}
+.addTravellerBtn:hover {
+  background-color: #0d3c86;
+  color: #ffff;
+}
+
+.addTravelerWrapper {
+  padding: 1rem;
+}
+.td-inputFieldRow {
+  display: flex;
+  padding: 0 0rem 0 0;
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+.td-inputAndLabel {
+  display: flex;
+  width: 50%;
+  border: 1px solid #bebdbd;
+  border-radius: 0.4rem;
+  margin: 0rem 1rem 0rem 0rem;
+}
+.td-inputFieldRowGender {
+  display: flex;
+  padding: 0 0rem 0 0;
+  width: 50%;
+  margin: 0 0 1rem 0;
+}
+.inputAndLabelDob {
+  width: 50%;
+  margin-right: 1rem;
+}
+.TDlabel {
+  width: 30%;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  color: #565d63;
+  border-right: 1px solid #bebdbd;
+  font-size: 13px;
+  max-height: 3rem;
+}
+.TDInputField {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  margin: 0rem 0 0 0rem;
+  border: none;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  padding: 0.2rem;
+}
+.tDlabelExpiryDate {
+  width: 40%;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  color: #565d63;
+  border-right: 1px solid #bebdbd;
+  font-size: 13px;
+  max-height: 3rem;
+}
+.TDtext {
+  width: 80%;
+  padding: 0rem;
+  max-height: 3rem;
+}
+
+.td-actionBtn {
+  display: flex;
+  padding: 0 0 1rem 0;
+}
+.td-cancelBtn {
+  position: relative;
+  left: 55%;
+  width: 10%;
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: #46b2e0;
+  transition: all 250ms ease-in;
+}
+.td-cancelBtn:hover {
+  background-color: #a4d3e7;
+}
+
+.td-saveBtn {
+  position: relative;
+  left: 60%;
+  width: 20%;
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: #46b2e0;
+  transition: all 250ms ease-in;
+}
+.td-saveBtn:hover {
+  background-color: #a4d3e7;
+}
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .td-inputFieldRow {
+    flex-direction: column;
+  }
+  .td-inputAndLabel {
+    width: 100%;
+    margin: 1rem 0 0rem 0;
+  }
+  .inputAndLabelDob {
+    margin: 1rem 0 0rem 0;
+    width: 100%;
+  }
+  .TDlabel {
+    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+    font-size: 13px;
+  }
+  .tDlabelExpiryDate {
+    width: 48%;
+    font-size: 12px;
+    border-right: 1px solid #bebdbd;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
+  .TDtext {
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    font-size: 13px;
+  }
+
+  .td-cancelBtn {
+    left: 15%;
+    width: 30%;
+  }
+  .td-saveBtn {
+    left: 25%;
+    width: 30%;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+}
